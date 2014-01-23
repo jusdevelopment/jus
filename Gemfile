@@ -2,9 +2,8 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.2'
-
 gem 'bcrypt-ruby', '3.0.1'
-gem 'pg', '0.15.1'
+gem 'pg'
 gem 'jquery-rails', '3.0.4'
 gem 'turbolinks', '1.1.1'
 gem 'jbuilder', '1.0.2'
