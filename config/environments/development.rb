@@ -28,4 +28,6 @@ Coz::Application.configure do
   config.assets.debug = true
 
   config.assets.compress = false
+
+  config.serve_static_assets = true
 end

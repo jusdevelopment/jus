@@ -35,7 +35,8 @@
 			if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 
 			var container;
-
+			var time = 0;
+			var ORIGIN = new THREE.Vector3();
 			var camera, scene, renderer;
 			var cameraCube, sceneCube;
 
@@ -72,12 +73,14 @@
 
 				var geometry = new THREE.SphereGeometry( 100, 32, 16 );
 
-				var path = "";
-				var format = '.png';
+			
 				var urls = [
-					path + 'pos-x' + format, path + 'neg-x' + format,
-					path + 'pos-y' + format, path + 'neg-y' + format,
-					path + 'pos-z' + format, path + 'neg-z' + format
+					"<%= asset_path('pos-x.png') %>", 
+					"<%= asset_path('neg-x.png') %>",
+					"<%= asset_path('pos-y.png') %>", 
+					"<%= asset_path('neg-y.png') %>",
+					"<%= asset_path('pos-z.png') %>",
+					"<%= asset_path('neg-z.png') %>"
 				];
 
 				var textureCube = THREE.ImageUtils.loadTextureCube( urls, new THREE.CubeRefractionMapping() );
@@ -179,11 +182,22 @@
 
 				}
 
-				camera.position.x += ( mouseX - camera.position.x ) * .05;
+				/*camera.position.x += ( mouseX - camera.position.x ) * .05;
 				camera.position.y += ( - mouseY - camera.position.y ) * .05;
 				camera.position.z += ( mouseX - mouseY - camera.position.z ) * .005;
 
 				camera.lookAt( scene.position );
+				*/
+
+				time += 0.005;
+
+				camera.position.x = Math.sin(time) * 100;
+          		camera.position.z = Math.cos(time) * 100;
+          		camera.position.x += ( mouseX - camera.position.x ) * .05;
+				camera.position.y += ( - mouseY - camera.position.y ) * .0005;
+				
+          		camera.lookAt(ORIGIN);
+
 				cameraCube.rotation.copy( camera.rotation );
 
 				renderer.render( sceneCube, cameraCube );
