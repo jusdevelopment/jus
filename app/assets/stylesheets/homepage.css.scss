@@ -1,0 +1,30 @@
+@import 'variables.css.scss';
+
+html, body {
+	height: 100%;
+	margin: 0;
+	background-color: $main-background-color;
+}
+
+
+.parallax_frame {
+	position: relative;
+	float: left;
+	
+	text-align: center;
+
+}
+
+#welcome {
+	background-color: transparent;
+}
+
+#boarding {
+	background-color: transparent;
+}
+
+#trial {
+	background-color: transparent;
+}
+
+
