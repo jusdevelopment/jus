@@ -1,14 +1,13 @@
 @import 'variables.css.scss';
 
+/* General */
+
 html, body {
 	height: 100%;
 	margin: 0;
 	background-color: $main-background-color;
 	font-family: $main-font;
 }
-
-
-
 
 .parallax_frame {
 	position: relative;
@@ -73,4 +72,28 @@ html, body {
 	color: white;
 }
 
+/* Sections */
 
+#whatIsCoz {
+	background-color: red;
+}
+
+#valueProposition {
+	background-color: red;
+}
+
+#customerSegments {
+	background-color: red;
+}
+
+#services {
+	background-color: red;
+}
+
+#people {
+	background-color: red;
+}
+
+#contact {
+	background-color: red;
+}
