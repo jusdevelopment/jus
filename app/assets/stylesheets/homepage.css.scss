@@ -1,18 +1,26 @@
 @import 'variables.css.scss';
 
 /* General */
+body {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
 
 html, body {
 	height: 100%;
 	margin: 0;
 	background-color: $main-background-color;
 	font-family: $main-font;
+
 }
 
 .parallax_frame {
 	position: relative;
 	float: left;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	
 	
