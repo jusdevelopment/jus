@@ -173,7 +173,7 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (1.1.1)
+    turbolinks (2.2.2)
       coffee-rails
     tzinfo (0.3.41)
     uglifier (1.2.3)
@@ -191,7 +191,6 @@ DEPENDENCIES
   bcrypt-ruby (= 3.0.1)
   capybara (= 2.1.0)
   childprocess (= 0.3.6)
-  coffee-rails
   factory_girl_rails (= 4.1.0)
   growl (= 1.0.3)
   guard-rspec
@@ -205,5 +204,5 @@ DEPENDENCIES
   sass-rails
   selenium-webdriver (= 2.35.1)
   spork-rails (= 4.0.0)
-  turbolinks (= 1.1.1)
+  turbolinks
   uglifier (= 1.2.3)

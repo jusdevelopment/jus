@@ -5,7 +5,7 @@ gem 'rails', '4.0.2'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'pg'
 gem 'jquery-rails', '3.0.4'
-gem 'turbolinks', '1.1.1'
+gem 'turbolinks'
 gem 'jbuilder', '1.0.2'
 
 
@@ -31,7 +31,6 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'coffee-rails'
   gem 'uglifier', '1.2.3'
 end
 
