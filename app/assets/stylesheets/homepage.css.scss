@@ -7,6 +7,9 @@ body {
 	bottom: 0;
 	left: 0;
 	right: 0;
+
+	color: $font-color;
+
 }
 
 html, body {
@@ -45,22 +48,6 @@ html, body {
 	opacity: 0.75;
 }
 
-#coz_logo_frame {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 2em;
-	margin: auto;
-	width: 15em;
-	height: 6em;
-	display: block;
-}
-
-#coz_logo {
-	height: 100%;
-	width: 100%;
-}
 
 #webglbg_frame {
 	position: absolute;
@@ -81,30 +68,76 @@ html, body {
 
 /* Sections */
 
+.LeftColumn {
+	
+	position: relative;
+	width: 30%;
+	float: left;
+	text-align: left;
+	
+}
+
+.RightColumn {
+	
+	position: relative;
+	width: 69%;
+	float: left;
+	;	
+}
+
+.RightColumnInnerFrame {
+	text-align: left;
+	position: absolute;
+	top: 0;
+	left: 2em;
+	bottom: 0;
+	right: 2em;
+	margin: 0;
+
+}
+
 #information {
-	background-color: purple;
+	
+}
+
+#coz_logo {
+	margin-top: 2em;
+	margin-left: 2em;
+	padding-bottom: 10%;
+	height: auto;
+	width: 75%;
 }
 
 #whatIsCoz {
-	background-color: red;
+	margin-top: 2.2em;
+
+
 }
 
 #valueProposition {
-	background-color: red;
+
 }
 
 #customerSegments {
-	background-color: red;
+
+}
+
+.SubContent {
+	border: 0px solid red;
+	
+	margin-bottom: 1em;
+	
+	font-size: 110%;
 }
 
 #services {
-	background-color: blue;
+	
 }
 
 #team {
-	background-color: green;
+	
 }
 
 #contact {
-	background-color: #555555;
+	
 }
