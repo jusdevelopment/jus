@@ -97,7 +97,8 @@ html, body {
 }
 
 #information {
-	
+
+	border-bottom: 5px dashed #ffffff
 }
 
 #coz_logo {
@@ -109,7 +110,7 @@ html, body {
 }
 
 #whatIsCoz {
-	margin-top: 2.2em;
+	margin-top: 2em;
 
 
 }
@@ -123,21 +124,19 @@ html, body {
 }
 
 .SubContent {
-	border: 0px solid red;
-	
+	border: 0px solid red;	
 	margin-bottom: 1em;
-	
 	font-size: 110%;
 }
 
 #services {
-	
+	color: $main-background-color;
 }
 
 #team {
-	
+	color: $main-background-color;	
 }
 
 #contact {
-	
+	color: $main-background-color;
 }
