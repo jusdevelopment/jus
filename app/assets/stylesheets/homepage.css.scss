@@ -99,7 +99,6 @@ html, body {
 #information {
 
 	border-bottom: 5px dashed #ffffff
-
 }
 
 #coz_logo_frame {
@@ -171,6 +170,10 @@ html, body {
 #team {
 	border-bottom: 5px dashed #ffffff;
 	padding-bottom: 0em;
+
+	.LeftColumn {
+		top: -0.1em;		
+	}
 }
 
 .ProfileColumn {
@@ -195,6 +198,7 @@ html, body {
 	position: absolute;
 	width: 100%;
 	z-index: 2;
+	top: -0.2em;
 }
 
 .ProfileHover {
