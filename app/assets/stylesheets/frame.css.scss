@@ -23,6 +23,106 @@
 	background-color: transparent;
 }
 
+@media screen and (orientation:portrait) {
+	.RightColumn{
+		padding-left: 10%;
+		width: 80%;
+	}
+	#services {
+		.RightColumn{ 
+			width:90%; 
+		}
+	}
+	.LeftColumn{
+		padding-left: 25%;
+		width: 50%;
+	}
+	#coz_logo {
+		padding-left: 10%;
+		padding-top: 0.2em;
+	}
+
+	.LeftLabel {
+		font-size: 2em;
+		display: inline-block;
+	}
+
+	.SubColumn {
+		font-size: 0.9em;
+		margin-right: 8vw;
+	}
+	.ProfileColumn{
+		width: 20vw;
+		height: 20vw;
+	}
+	#contact{
+		
+		height: 32em;
+	}
+	#contact_bg {
+		height: 35em;
+	}
+	#contact_centered_frame {
+		top: 0;
+	}
+	#portraitDummyFill{
+		margin-top: 0.4em;
+		height: 3em;
+		background-color: #FFFFFF;
+	}
+}
+
+@media screen and (orientation:landscape) {
+	#portraitDummyFill{
+		margin-top: 0.4em;
+		height: 0em;
+		background-color: #FFFFFF;
+	}
+	#contact_centered_frame {
+		top: 5em;
+	}
+	#contact{
+		height: 43em;
+	} 
+	#contact_bg {
+		height: 50em;
+	}
+	.ProfileColumn{
+		width: 13vw;
+		height: 13vw;
+	}
+	.SubColumn {
+		font-size: 2.6vw;
+		margin-right: 4vw;
+	}
+
+	.LeftLabel {
+		
+		display: block;
+		padding-left: 21%;
+		font-size: 4.6vw;
+	}
+
+	#coz_logo {
+		padding-top: 1.1em;
+		padding-left: 10%;
+		margin-left: 10%;
+		margin-top: -2vw;
+	}
+	.RightColumn {
+		padding-left: 7%;
+		width: 55%;
+	}
+	#services {
+		.RightColumn{ 
+			width:60%; 
+		}
+	}
+	.LeftColumn {
+		padding-left: 0%;
+		width: 30%;
+	}
+}
 
 @media all and (min-width: 50px) and (min-height: 50px) {
 	html { font-size: 2px; }
