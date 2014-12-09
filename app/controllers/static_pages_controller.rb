@@ -1,7 +1,19 @@
 class StaticPagesController < ApplicationController
 
-	def home
+	def splash
 
 	end
+
+  def home
+  end
+
+  def products
+  end
+
+  def about
+  end
+
+  def blog
+  end
 
 end
