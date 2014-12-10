@@ -5,3 +5,52 @@ body {
     background-position: center; 
  background-size: cover;
 }
+
+
+#splash_frame {
+
+}
+
+#splash_logo {
+	
+	float: left;
+	padding: 5vw;
+	height: 30vw;
+	width: auto;
+}
+
+#social_links {
+	
+	float: right;
+	padding: 5vw;
+}
+
+.social_link {
+	text-align: right;
+	vertical-align: middle;
+	font-family: "Simplifica Regular";
+	color: #666666;
+}
+
+.social_icon {
+	height: 5.5vw;
+	padding-top: 1vw;
+}
+
+a {text-decoration: none !important; }
+
+#facebook_link { }
+#facebook_icon { }
+
+#instagram_link { }
+#instagram_icon { }
+
+#twitter_link { }
+#twitter_icon { }
+
+#mail_link { margin-top: -2vw;}
+#mail_icon { 
+	padding-top: 6vw;
+	margin-bottom: -1.5vw;
+	padding-left: 0.5vw;
+}

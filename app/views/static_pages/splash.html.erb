@@ -1,24 +1,35 @@
 <div id="splash_frame">
-	<div id="splash_logo">
-		
-	</div>
+	
+	<%= image_tag "jus-logo-splash.png", id: "splash_logo" %>
+	
 
 	<div id="social_links">
+
+		<%= link_to(@album, target: "_blank") do %>
 		<div class="social_link" id="facebook_link">
-			<div class="social_icon" id="facebook_icon">
-			</div>
+				<%= image_tag "facebookicon.png", class: "social_icon", id: "facebook_icon" %>
 		</div>	
+		<% end %>
+		
+		<%= link_to("http://instagram.com/jusistanbul", target: "_blank") do %>
 		<div class="social_link" id="instagram_link">
-			<div class="social_icon" id="instagram_icon">
-			</div>
+			<%= image_tag "instagramicon.png", class: "social_icon", id: "instagram_icon" %>
 		</div>	
+		<% end %>
+
+		<%= link_to(@album, target: "_blank") do %>
 		<div class="social_link" id="twitter_link">
-			<div class="social_icon" id="twitter_icon">
-			</div>
+			<%= image_tag "twittericon.png", class: "social_icon", id: "twitter_icon" %>
 		</div>	
+		<% end %>
+		
+		<%= link_to(@album, target: "_blank") do %>
 		<div class="social_link" id="mail_link">
-			<div class="social_icon" id="mail_icon">
-			</div>
+			info@jusistanbul.com
+			<%= image_tag "mailicon.png", class: "social_icon", id: "mail_icon" %>
 		</div>	
+		<% end %>
+
+
 	</div>
 </div>
