@@ -14,15 +14,16 @@ body {
 #splash_logo {
 	
 	float: left;
-	padding: 5vw;
-	height: 25vw;
+	padding: 1em;
+	height: 10em;
+	min-height: 150px;
 	width: auto;
 }
 
 #social_links {
 	
 	float: right;
-	padding: 5vw;
+	padding: 1em;
 }
 
 .social_link {
@@ -30,14 +31,20 @@ body {
 	vertical-align: middle;
 	font-family: "Simplifica Regular";
 	color: #666666;
+
 }
 
 .social_icon {
-	height: 4.5vw;
-	padding-top: 1vw;
+	height: 2em;
+	min-height: 30px;
+	padding-top: 0.5em;
+
 }
 
-a {text-decoration: none !important; }
+a {
+	text-decoration: none !important; 
+
+}
 
 #facebook_link { }
 #facebook_icon { }
@@ -48,9 +55,23 @@ a {text-decoration: none !important; }
 #twitter_link { }
 #twitter_icon { }
 
-#mail_link { margin-top: -2vw;}
+#mail_link { 
+	margin-top: -1em;
+	
+	position: relative;
+}
+
+#mail_link_caption {
+	
+	position: absolute;
+	bottom: 0;
+	right: 100%;
+	font-size: 100%;
+	min-height: 14px;
+}
+
 #mail_icon { 
-	padding-top: 6vw;
-	margin-bottom: -1.5vw;
-	padding-left: 0.5vw;
+	padding-top: 2em;
+	margin-bottom: -0.5em;
+	padding-left: 0.25em;
 }
