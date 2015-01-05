@@ -20,7 +20,7 @@
 		<% end %>
 
 		<%= link_to home_path(:anchor => 'section1') do %>
-			<div class="nav_link">
+			<div class="nav_link permanent_selected">
 				<div class="bullet_drop"></div>
 				<div class="nav_label">Home</div>
 			</div>
@@ -150,31 +150,33 @@ function reportPosition() {
 
     	console.log(i + " " + anchorPosition);
 
-    	if (anchorPosition < getPosition() + 30)
+    	if (anchorPosition < getPosition() + 70)
     	{
     		link_position = i + 1;
     	}	
 	}
 
-	console.log("currently " + anchors[link_position ].innerHTML);
+	if(link_position > 0) {
 
-	var navLinks = $(".nav_link, .nav_sublink");
+		console.log("currently " + anchors[link_position ].innerHTML);
 
-	var link_text = anchors[link_position -1 ].innerHTML;
+		var navLinks = $(".nav_link, .nav_sublink");
 
-	console.log("link text " + link_text);
-	
-	var label_selected = $('.nav_label:contains('+ link_text +')')[0];
-	var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_link");
+		var link_text = anchors[link_position -1 ].innerHTML;
 
-	console.log("link selected " + label_selected.innerHTML);
+		console.log("link text " + link_text);
+		
+		var label_selected = $('.nav_label:contains('+ link_text +')')[0];
+		var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_link");
 
-	var link_selected = $('.nav_label:contains('+ link_text +')')[0].parentNode;
+		console.log("link selected " + label_selected.innerHTML);
 
-	link_selected.className += " selected";
+		var link_selected = $('.nav_label:contains('+ link_text +')')[0].parentNode;
 
-	main_link.className += " selected";
+		link_selected.className += " selected";
 
+		main_link.className += " selected";
+	}
 
 }
 
