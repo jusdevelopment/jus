@@ -16,7 +16,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	background-color: $main-background-color;
-	font-family: "Raleway Medium";
+	font-family: "Trade Regular";
 
 }
 
@@ -25,40 +25,11 @@ html, body {
 	
 	text-align: left;
 	display: block;
-	padding-top: 2.5em;
-	padding-bottom: 3em;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
 }
 
 
-#webglbg {
-	background-color: blue;
-}
-
-#webglbg_foreground {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	margin: 0;
-	width: auto;
-	height: auto;
-	background-color: #ffffff;
-	opacity: 0.75;
-}
-
-
-#webglbg_frame {
-	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	margin: 0;
-	width: auto;
-	height: auto;
-
-}
 
 #description {
 	background-color: black;
@@ -96,23 +67,11 @@ html, body {
 	
 }
 
+
+
 #information {
 
 	border-bottom: 5px dashed #ffffff
-}
-
-#coz_logo_frame {
-	padding-bottom: 1em;
-}
-
-#coz_logo {
-	
-	
-	
-	height: auto;
-	width: 80%;
-	display: block;
-
 }
 
 .fifty {
@@ -124,25 +83,10 @@ html, body {
 
 }
 
-#whatIsCoz {
-	margin-top: 1em;
-
-
-}
-
-#valueProposition {
-
-}
-
-#customerSegments {
-
-}
-
 .SubRow {
 	
 	margin-bottom: 1.25em;
-	font-size: 110%;
-	font-size: 0.8em
+	
 }
 
 .LastRow {
@@ -165,53 +109,6 @@ html, body {
 
 #services {
 	border-bottom: 5px dashed #ffffff;
-}
-
-#team {
-	border-bottom: 5px dashed #ffffff;
-	padding-bottom: 0em;
-
-	.LeftColumn {
-		top: -0.1em;		
-	}
-}
-
-.ProfileColumn {
-	
-
-	margin-left: 0;
-	margin-right: 0;
-	
-	display: inline-block;
-	
-	overflow: visible;
-	position: relative;
-	cursor: pointer;
-	&:hover{
-		.ProfileHover {
-			background-color: #FFFFFF;
-		}
-	}
-}
-
-.ProfilePicture {
-	position: absolute;
-	width: 100%;
-	z-index: 2;
-	top: -0.2em;
-}
-
-.ProfileHover {
-	position: absolute;
-	top: -1em;
-	height: 0.3em;
-	width: 0.3em;
-	left: -0.2em;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 0.2em;
-	background-color: $main-background-color;
 }
 
 
@@ -240,11 +137,7 @@ html, body {
 	top: 0.8em;
 }
 
-#contact_cloud {
-	width: 100%;
-	position: absolute;
-	top: 0;
-}
+
 
 #contact_centered_frame {
 	position: absolute;
@@ -258,15 +151,6 @@ html, body {
 	
 }
 
-#watermark_logo {
-	position: absolute;
-	height: 8em;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	top: 0;
-}
 
 #contact_info {
 	color: #505050;
@@ -280,5 +164,72 @@ html, body {
 	top: 9.5em;
 
 }
+
+
+
+
+#philosophy_area {
+	margin-top: 0.5em;
+	
+	width: 110%;
+}
+
+.philosophy_frame {
+
+	
+	float: left;
+	width: 43%;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-top: 1.5em;
+
+
+}
+
+.left_p_frame {
+	margin-right: 1.5em;
+}
+
+.philosophy_label {
+
+	float: left;
+	width: 66%;
+	height: 1em;
+	font-size: 2vw;
+	margin-bottom: 0.7em;
+}
+
+.philosophy_desc {
+
+	float: left;
+	font-size: 1.4vw;
+	width: 60%;
+	height: 4em;
+}
+
+.philosophy_symbol {
+
+	width: 22%;
+	height: auto;
+	padding-bottom: 1em;
+	float: left;
+	margin-right: 2vw;
+}
+
+#coldpressed_chart {
+	text-align: left;
+	width: 80%;
+	padding-right: 20%;
+	height: auto;
+}
+
+
+
+
+
+
+
+
+
 
 

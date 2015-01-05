@@ -1,0 +1,330 @@
+@import 'variables.css.scss';
+
+#jus_header {
+	position: relative;
+	width: 100%;
+	height: $header-height;
+	background-color: #FFFFFF;
+
+	z-index: 10;
+
+	font-family: "Trade Gothic Condensed Bold";
+}
+
+#jus_logo {
+	height: $header-height - 1.5em;
+	padding: 0.625em;
+	padding-top: 0.625em;
+	padding-bottom: 0.625em;
+	width: auto;
+	float: left;
+	clear: both;
+
+}
+
+#ruler {
+	position: fixed;
+	top: 0em;
+	left: 0;
+	width: 10.975em;
+	height: 13.75em;
+	background-color: transparent;
+	opacity: 0.5;
+	z-index: 10000;
+	display: none;
+}
+
+
+#droplets {
+	position: absolute;
+	left: 4em;
+	top: 3em;
+	height: 0.45em;
+	width: auto;
+	z-index: 20;
+}
+
+#slogan {
+	position: absolute;
+	left: 4em;
+	top: 2.1em;
+	height: 0.65em;
+	width: auto;
+	z-index: 20;
+}
+
+#links {
+	position: fixed;
+	
+	padding-bottom: 0.5em;
+	padding-right: 0.25em;
+
+}
+
+.hidden { 
+	height: 0;
+	width: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+
+.nav_link {
+
+	.nav_label {
+	float: left;
+	position: relative;
+	top: 0.28em;
+	font-size: 0.45em;
+	
+	padding-right: 0.75em;
+
+	cursor: pointer;
+	color: #AAAAAA;
+}
+
+
+	margin-top: 0.05em;
+	margin-bottom: 0.05em;
+	padding-top: 0.125em;
+	padding-bottom: 0.125em;
+	padding-right: 0.25em;
+	
+	font-size: 1.35em;	
+	top:0.2em;
+	position: relative;
+	float: left;
+	clear: both;
+	background-color: transparent;
+	font-family: "Trade Bold" ;
+
+	&:hover {
+		background-color: rgba(150, 150, 150, 0.25);
+
+		.bullet_dot {
+			background-image: url('bullet-dot-hover.png');
+		}
+
+		.bullet_drop {
+			background-image: url('bullet-drop-hover.png');
+		}
+
+		.nav_label {
+			color: #C60F47;
+		}
+
+	}
+}
+
+.selected {
+
+	cursor: normal!important;
+	background-color: rgba(150, 150, 150, 0.25)!important;
+
+	.bullet_dot {
+		background-image: url('bullet-dot-hover.png');
+	}
+
+	.bullet_drop {
+		background-image: url('bullet-drop-hover.png');
+	}
+
+	.nav_label {
+		color: #C60F47 !important;
+	}
+
+}
+
+
+.nav_sublink {
+
+	.nav_label {
+	float: left;
+	position: relative;
+	top: 0.35em;
+	font-size: 0.45em;
+	
+	padding-right: 0.75em;
+
+	cursor: pointer;
+	color: #AAAAAA;
+}
+
+
+
+	font-size: 1.25em;
+
+	top:0.18em;
+	padding-top: 0.0125em;
+	padding-bottom: 0.0125em;
+	padding-right: 0.25em;
+	
+	background-color: transparent;
+	position: relative;
+	float: left;
+	clear: both;
+
+	font-family: "Trade Regular";
+
+	&:hover {
+		background-color: rgba(150, 150, 150, 0.25);
+
+		.bullet_dot {
+			background-image: url('bullet-dot-hover.png');
+		}
+
+		.bullet_drop {
+			background-image: url('bullet-drop-hover.png');
+		}
+
+		.nav_label {
+			color: #C60F47;
+		}
+
+	}
+}
+
+
+
+.bullet_drop {
+	float: left;
+	margin: 0.25em;
+	margin-top: 0.16em;
+	margin-bottom: 0.20em;
+	margin-left: 1.3em;
+	margin-right: 0.75em;
+	background-image: url('bullet-drop.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+ 	background-size: contain;
+ 	position: relative;
+ 	width: 0.325em;
+ 	height: 0.45em;
+
+
+	&:hover {
+		
+		background-image: url('bullet-drop-hover.png');
+
+	}
+}
+
+
+
+.bullet_dot {
+	float: left;
+	margin: 0.25em;
+	margin-right: 0.9em;
+	margin-left: 1.47em;
+	background-image: url('bullet-dot.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+ 	background-size: contain;
+ 	position: relative;
+ 	width: 0.2em;
+ 	height: 0.2em;
+
+	&:hover {
+		
+		background-image: url('bullet-dot-hover.png');
+	}
+}
+
+
+
+
+#social {
+	position: absolute;
+	right: 1em;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 1.35em;
+	
+}
+
+.social_icon {
+	height: 0.75em;
+	margin-right: 0.1em;
+
+	&:hover {
+
+	filter:  invert(25%);
+     -webkit-filter:  invert(25%);
+     -moz-filter: invert(25%);
+     -ms-filter: invert(25%);
+     -o-filter: invert(25%);
+	}
+}
+
+#header_mail {
+	
+	position: absolute;
+	top: 2.75em;
+	right: 0.2em;
+	font-size: 0.475em;
+	font-family: "Trade Regular";
+	color: #141414;
+
+	&:hover {
+		color: #666666;
+	}
+}
+
+
+#footer_mail {
+	position: absolute;
+	top: 2.75em;
+	right: 0.2em;
+	font-size: 0.475em;
+	font-family: "Helvetica";
+	color: #141414;
+
+	&:hover {
+		color: #666666;
+	}
+
+	filter:  invert(25%);
+     -webkit-filter:  invert(25%);
+     -moz-filter: invert(25%);
+     -ms-filter: invert(25%);
+     -o-filter: invert(25%);
+}
+
+
+/* FOOTER */
+
+#footer_logo {
+	height: $header-height - 3em;
+	padding: 1.2em;
+	padding-top: 1.5em;
+	padding-bottom: 1.375em;
+	width: auto;
+	float: left;
+	clear: both;
+
+	filter:  invert(100%);
+     -webkit-filter:  invert(100%);
+     -moz-filter: invert(100%);
+     -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+}
+
+.footer_icon {
+
+	filter:  invert(100%);
+     -webkit-filter:  invert(100%);
+     -moz-filter: invert(100%);
+     -ms-filter: invert(100%);
+     -o-filter: invert(100%);
+}
+
+#jus_footer {
+	position: relative;
+	width: 100%;
+	height: $header-height;
+	background-color: #282828;
+	color: #B3B3B3;
+
+	z-index: 10;
+}

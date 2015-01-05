@@ -1,0 +1,51 @@
+#carousel_frame { 
+    background-image: url('jusmainbg.jpg');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center; 
+ 	background-size: cover; 
+ 	
+ 	width: 100%;
+ 	height: 25em;
+
+}
+
+#products_frame { 
+    background-image: url('products3.jpg	');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: bottom; 
+ 	background-size: cover; 
+ 	
+ 	width: 100%;
+ 	height: 20em;
+
+}
+
+.ColumnTitle {
+	font-family: "Trade Bold";
+	font-size: 2.5vw !important; 
+}
+
+body {
+	overflow-x: hidden;	
+}
+
+
+.RightColumn {
+	overflow-x: hidden;	
+
+}
+
+.section_seperator {
+	position: relative;
+	font-size: 0.4em;
+	margin-top: 3em;
+	color: #CCCCCC;
+	margin-bottom: 3em;
+	overflow: hidden;
+	width: 120%;
+
+	font-style: italic;
+	font-family: "Helvetica"; 
+}

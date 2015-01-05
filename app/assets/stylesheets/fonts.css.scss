@@ -1,6 +1,29 @@
 @font-face {
   font-family: 'Simplifica Regular';
-  src: font-url("simplifica.ttf");
+  src: font-url('simplifica.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Awesome Regular';
+  src: font-url('Awesome.ttf') format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@font-face {
+  font-family: 'Trade Bold';
+  src: font-url('trade-gothic-bold.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trade Regular';
+  src: font-url('TradeGothicLTStd-Cn18.woff') format("woff");
   font-weight: normal;
   font-style: normal;
 }

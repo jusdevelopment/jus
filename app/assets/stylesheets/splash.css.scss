@@ -1,0 +1,87 @@
+#splash_frame { 
+    background-image: url('jus-splash-bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+ background-size: cover;
+ 	width: 100%;
+ 	height: 100%;
+
+}
+
+
+#splash_frame {
+
+}
+
+#splash_logo {
+	
+	float: left;
+	padding: 1em;
+	height: 10em;
+	min-height: 100px;
+	max-height: 294px;
+	width: auto;
+}
+
+#social_links {
+	
+	float: right;
+	padding: 1em;
+}
+
+.social_link {
+	text-align: right;
+	vertical-align: middle;
+	font-family: "Simplifica Regular";
+	color: #666666;
+	position: relative;
+	margin-top: -0.5em;
+	padding-top: 1em;
+}
+
+.splash_social_icon {
+	height: 2em;
+	min-height: 25px;
+	max-height: 38px;
+	padding-top: 0.5em;
+	margin-bottom: -0.5em;
+
+}
+
+a {
+	text-decoration: none !important; 
+
+}
+
+#facebook_link { 
+	white-space: nowrap;
+}
+#facebook_icon { }
+
+#instagram_link { }
+#instagram_icon { }
+
+#twitter_link { }
+#twitter_icon { }
+
+#mail_link { 
+	
+	
+	
+}
+
+#mail_link_caption {
+	
+	position: absolute;
+	bottom: 0;
+	right: 100%;
+	font-size: 100%;
+	min-height: 14px;
+}
+
+#mail_icon { 
+	padding-top: 2em;
+	margin-bottom: -0.5em;
+	padding-left: 0.25em;
+}

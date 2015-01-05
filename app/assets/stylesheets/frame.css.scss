@@ -24,9 +24,35 @@
 }
 
 @media screen and (orientation:portrait) {
+	#links {
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.9);
+			.nav_label{
+				display: block;
+
+			}
+		}
+
+		.nav_link{
+
+			.nav_label{
+				color: #141414;
+			}
+
+			&:hover {
+				.nav_label {
+					color: #C60F47 !important;
+				}
+			}
+		}
+	}
+	.nav_label {
+		display: none;
+	}
 	.RightColumn{
-		padding-left: 10%;
-		width: 80%;
+		padding-left: 17%;
+		width: 78%;
+		padding-right: 5%;
 	}
 	#services {
 		.RightColumn{ 
@@ -36,6 +62,7 @@
 	.LeftColumn{
 		padding-left: 25%;
 		width: 50%;
+		display: none !important;
 	}
 	#coz_logo {
 		padding-left: 10%;
@@ -70,9 +97,18 @@
 		height: 3em;
 		background-color: #FFFFFF;
 	}
+	.SubRow {
+		font-size: 3vw !important;
+	}
 }
 
 @media screen and (orientation:landscape) {
+	#links {
+		background-color: rgba(255, 255, 255, 0.75);
+	}
+	.SubRow {
+		font-size: 2vw !important;
+	}
 	#portraitDummyFill{
 		margin-top: 0.2em;
 		height: 0em;
@@ -110,8 +146,9 @@
 		margin-top: -2vw;
 	}
 	.RightColumn {
-		padding-left: 7%;
-		width: 55%;
+		padding-left: 12%;
+		width: 60%;
+		padding-right: 9.1%
 	}
 	#services {
 		.RightColumn{ 
@@ -120,7 +157,7 @@
 	}
 	.LeftColumn {
 		padding-left: 0%;
-		width: 30%;
+		width: 18%;
 	}
 }
 
