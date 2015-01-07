@@ -120,18 +120,18 @@
 .selected, .permanent_selected {
 
 	cursor: normal!important;
-	background-color: rgba(150, 150, 150, 0.25)!important;
+	background-color: rgba(100, 100, 100, 0.75)!important;
 
 	.bullet_dot {
-		background-image: url('bullet-dot-hover.png');
+		background-image: url('bullet-dot-selected.png');
 	}
 
 	.bullet_drop {
-		background-image: url('bullet-drop-hover.png');
+		background-image: url('bullet-drop-selected.png');
 	}
 
 	.nav_label {
-		color: #C60F47 !important;
+		color: #FFFFFF !important;
 	}
 
 }

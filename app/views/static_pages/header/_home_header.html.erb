@@ -1,0 +1,88 @@
+
+	<div id="ruler">
+
+	</div>
+
+<div id="jus_header">
+
+	<div id="header_bg">
+		<div id="logo_ornament">
+			<%= image_tag "color-droplets.png", id: "droplets" %>
+			<%= image_tag "organic-cold-pressed-juice.png", id: "slogan" %>
+		</div>
+	</div>
+
+
+
+	<div id="links">
+		<%= link_to home_path do %>
+			<%= image_tag "jus-header-logo.png", id: "jus_logo" %>
+		<% end %>
+
+		<%= link_to home_path(:anchor => 'section1') do %>
+			<div class="nav_link permanent_selected">
+				<div class="bullet_drop"></div>
+				<div class="nav_label">Home</div>
+			</div>
+		<% end %>
+
+		<%= link_to home_path(:anchor => 'section2') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">The JÜS Philosophy</div>
+			</div>
+		<% end %>		
+
+		<%= link_to home_path(:anchor => 'section3') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Why JÜS?</div>
+			</div>
+		<% end %>		
+
+		<%= link_to home_path(:anchor => 'section4') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Juices</div>
+
+			</div>
+		<% end %>		
+
+		<%= link_to home_path(:anchor => 'section5') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Cleanses</div>
+
+			</div>
+		<% end %>
+
+		<%= link_to shop_path do %>
+			<div class="nav_link">
+				<div class="bullet_drop"></div>
+				<div class="nav_label">Shop</div>
+			</div>
+		<% end %>
+
+		<%= link_to faq_path do %>
+			<div class="nav_link">
+				<div class="bullet_drop"></div>
+				<div class="nav_label">FAQ</div>
+			</div>
+		<% end %>
+		
+		<%= link_to "http://www.google.com", :target => "_blank" do %>	
+			<div class="nav_link">
+				<div class="bullet_drop"></div>
+				<div class="nav_label">Blog</div>
+			</div>
+		<% end %>
+
+	</div>
+
+	<%= render "static_pages/header/header_social" %>
+
+	
+
+</div>
+
+<%= render "static_pages/header/header_script" %>

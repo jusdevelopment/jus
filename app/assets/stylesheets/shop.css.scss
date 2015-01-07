@@ -1,0 +1,100 @@
+.JuiceFrame {
+	
+	position: relative;
+
+}
+
+.JuiceHeader {
+	float: left;
+	clear: both;
+	position: relative;
+	font-family: "Trade Bold";
+	margin-bottom: 0.75em;
+}
+
+.JuiceGlyph {
+	margin-left: 0.4em;
+	position: relative;
+	float: left;
+	width: 1.25em;
+	height: auto;
+	
+}
+
+.JuiceTitle {
+	margin-top: 0.25em;
+	margin-left: 1.75em;
+	position: relative;
+	float: left;
+	
+}
+
+.JuiceContent {
+	position: relative;
+	clear: left;
+	
+}
+
+.JuiceBottle {
+	
+	position: relative;
+	float: left;
+	height: auto;
+	width: 2em;
+	padding-bottom: 3em;
+	margin-right: 0.75em;
+}
+
+.JuiceIngredients{
+	
+	position: relative;
+	float: left;
+	padding-bottom: 3em;
+	margin-left: 0.5em;
+}
+
+.Ingredient{
+	position: relative;
+	clear: both;
+}
+
+.IngredientIconFrame {
+	position: relative;
+	width: 100%;
+	
+	float: left;
+	height: 1em;
+	width: 1em;
+	margin: 0.25em;
+	margin-bottom: 0em;
+	margin-top: 0.15em;
+	text-align: center;
+}
+
+.IngredientIcon {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto; 
+	max-width:100%;
+	max-height:100%;
+}
+
+.IngredientLabel{
+	float: left;
+	font-size: 0.65em;
+	padding-top: 0.25em;
+}
+
+.JuiceDescription {
+	
+	position: absolute;
+	left: 18em;
+	right: 0;
+	font-size: 0.7em; 
+	padding-top: 0.175em;
+	padding-bottom: 4.3em;
+
+}

@@ -1,0 +1,83 @@
+
+<script type="text/javascript">
+
+//Smooth scrolling
+
+$(function() {
+ 	window.onscroll = reportPosition;	
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+function getPosition() {
+
+	var position = $(document).scrollTop();
+	console.log("position: " + position );
+	return position;
+};
+
+function reportPosition() {
+
+	$(".selected").removeClass("selected");
+
+	var anchors = $(".anchorLink");
+	var link_position = 0;
+	console.log(anchors.length);
+	
+	for (i = 0; i < anchors.length; i++) { 
+    	anchor = anchors[i];
+    	anchorPosition = $( anchor ).offset().top;
+
+    	console.log(i + " " + anchorPosition);
+
+    	if (anchorPosition < getPosition() + 70)
+    	{
+    		link_position = i + 1;
+    	}	
+	}
+
+	if($(window).height() + getPosition() + 20 > $(document).height()){
+		link_position = anchors.length;
+	}
+
+	if(link_position > 0) 
+	{
+		
+
+			console.log("currently " + anchors[link_position -1].innerHTML);
+
+			var navLinks = $(".nav_link, .nav_sublink");
+
+			var link_text = anchors[link_position -1 ].innerHTML;
+
+			console.log("link text " + link_text);
+			
+			var label_selected = $('.nav_label:contains('+ link_text +')')[0];
+			var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_link");
+
+			console.log("link selected " + label_selected.innerHTML);
+
+			var link_selected = $('.nav_label:contains('+ link_text +')')[0].parentNode;
+
+			link_selected.className += " selected";
+
+			main_link.className += " selected";
+
+
+	}
+
+}
+
+
+
+</script>

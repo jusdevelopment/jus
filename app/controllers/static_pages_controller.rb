@@ -7,10 +7,10 @@ class StaticPagesController < ApplicationController
   def home
   end
 
-  def products
+  def shop
   end
 
-  def about
+  def faq
   end
 
   def blog

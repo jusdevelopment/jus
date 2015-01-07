@@ -6,9 +6,9 @@ Coz::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#splash'
   get '/home', to: 'static_pages#home'
-  get '/products', to: 'static_pages#products'
+  get '/shop', to: 'static_pages#shop'
   get '/blog', to: 'static_pages#blog'
-  get '/about', to: 'static_pages#about'
+  get '/faq', to: 'static_pages#faq'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
