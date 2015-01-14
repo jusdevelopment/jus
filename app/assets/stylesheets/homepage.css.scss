@@ -86,7 +86,11 @@ html, body {
 .SubRow {
 	
 	margin-bottom: 0em;
-	
+	a {
+		color: black;
+		font-family: "Trade Bold";
+
+	}
 }
 
 .LastRow {
@@ -181,7 +185,7 @@ html, body {
 	width: 43%;
 	text-align: left;
 	margin-top: 0.5em;
-	margin-top: 1.5em;
+	margin-bottom: 1em;
 
 
 }
@@ -221,6 +225,8 @@ html, body {
 	width: 80%;
 	padding-right: 20%;
 	height: auto;
+	padding-top: 1em;
+	padding-bottom: 0.75em;
 	margin-bottom: 1em;
 }
 

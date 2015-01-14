@@ -298,7 +298,7 @@
 #footer_logo {
 	height: $header-height - 3em;
 	padding: 1.2em;
-	padding-top: 1.5em;
+	padding-top: 1em;
 	padding-bottom: 1.375em;
 	width: auto;
 	float: left;
@@ -312,7 +312,7 @@
 }
 
 .footer_icon {
-
+	opacity: 0.5;
 	filter:  invert(100%);
      -webkit-filter:  invert(100%);
      -moz-filter: invert(100%);
@@ -323,9 +323,27 @@
 #jus_footer {
 	position: relative;
 	width: 100%;
-	height: $header-height;
+	height: $header-height - 1em;
 	background-color: #282828;
 	color: #B3B3B3;
 
 	z-index: 10;
+}
+
+#company_contact {
+	position: absolute;
+	font-size: 0.5em;
+	left: 25.5em;
+	top: 2.75em;
+	line-height: 1.5em;
+	color: #AAAAAA;
+}
+
+#company_info {
+	position: absolute;
+	font-size: 0.5em;
+	left: 7.5em;
+	top: 2.75em;
+	line-height: 1.5em;
+	color: #AAAAAA;;
 }

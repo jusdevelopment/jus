@@ -7,6 +7,7 @@ Coz::Application.routes.draw do
   root 'static_pages#splash'
   get '/home', to: 'static_pages#home'
   get '/shop', to: 'static_pages#shop'
+  get '/cleanses', to: 'static_pages#cleanses'
   get '/blog', to: 'static_pages#blog'
   get '/faq', to: 'static_pages#faq'
 

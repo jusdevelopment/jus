@@ -10,6 +10,9 @@ class StaticPagesController < ApplicationController
   def shop
   end
 
+  def cleanses
+  end
+
   def faq
   end
 

@@ -29,7 +29,14 @@
 		<%= link_to shop_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Shop</div>
+				<div class="nav_label">Menu</div>
+			</div>
+		<% end %>
+
+		<%= link_to cleanses_path do %>
+			<div class="nav_link">
+				<div class="bullet_drop"></div>
+				<div class="nav_label">Cleanses</div>
 			</div>
 		<% end %>
 
@@ -39,6 +46,27 @@
 				<div class="nav_label">FAQ</div>
 			</div>
 		<% end %>
+
+		<%= link_to faq_path(:anchor => 'section1') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Juices</div>
+			</div>
+		<% end %>		
+
+		<%= link_to faq_path(:anchor => 'section2') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Cleansing</div>
+			</div>
+		<% end %>
+
+			<%= link_to faq_path(:anchor => 'section2') do %>
+			<div class="nav_sublink">
+				<div class="bullet_dot"></div>
+				<div class="nav_label">Delivery and Packaging</div>
+			</div>
+		<% end %>		
 		
 		<%= link_to "http://www.google.com", :target => "_blank" do %>	
 			<div class="nav_link">
