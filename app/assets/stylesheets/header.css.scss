@@ -240,7 +240,7 @@
 	top: 0;
 	bottom: 0;
 	margin: auto;
-	height: 1.35em;
+	height: 1em;
 	
 }
 
@@ -275,14 +275,12 @@
 
 #footer_mail {
 	position: absolute;
-	top: 2.75em;
-	right: 0.2em;
-	font-size: 0.475em;
-	font-family: "Helvetica";
-	color: #141414;
+	
+	
+	color: #888888;
 
 	&:hover {
-		color: #666666;
+		color: #B3B3B3;
 	}
 
 	filter:  invert(25%);
@@ -325,7 +323,7 @@
 	width: 100%;
 	height: $header-height - 1em;
 	background-color: #282828;
-	color: #B3B3B3;
+	color: #666666;
 
 	z-index: 10;
 }
@@ -336,7 +334,7 @@
 	left: 25.5em;
 	top: 2.75em;
 	line-height: 1.5em;
-	color: #AAAAAA;
+	color: #888888;
 }
 
 #company_info {
@@ -345,5 +343,5 @@
 	left: 7.5em;
 	top: 2.75em;
 	line-height: 1.5em;
-	color: #AAAAAA;;
+	color: #888888;;
 }

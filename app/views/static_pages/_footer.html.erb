@@ -11,17 +11,14 @@
 	</div>
 
 	<div id="company_contact">
-		info@jusistanbul.com</br>
+		<%= link_to("mailto:info@jusistanbul.com",id: "footer_mail", target: "_blank") do %>
+			info@jusistanbul.com
+		<% end %>
+		</br>
 		0.536.775.2674
 	</div>
 
 	<div id="social">
-	
-
-
-	<%= link_to("mailto:info@jusistanbul.com",id: "footer_mail", target: "_blank") do %>
-		info@jusistanbul.com
-	<% end %>
 
 	<%= link_to("https://www.facebook.com/pages/J%C3%9CS/1533804996877958", target: "_blank") do %>
 		  <%= image_tag "facebook-transparent-icon.png", class: "footer_icon social_icon" %>
