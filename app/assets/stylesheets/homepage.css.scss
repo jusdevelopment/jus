@@ -17,6 +17,8 @@ html, body {
 	margin: 0;
 	background-color: $main-background-color;
 	font-family: "Trade Regular";
+	padding-bottom: 0;
+	margin-bottom: 0;
 
 }
 
@@ -84,7 +86,7 @@ html, body {
 }
 
 .SubRow {
-	
+	clear: both;
 	margin-bottom: 0em;
 	a {
 		color: black;
@@ -170,19 +172,43 @@ html, body {
 }
 
 
-
-
-#philosophy_area {
-	margin-top: 0.5em;
-	
-	width: 110%;
+#last_philosophy
+{
+	margin-bottom: 1.75em;
 }
+
+#philosophy_area2{
+	padding-top: 1em;
+	display: inline-block;
+	position: relative;
+	margin-top: 1em;
+	color: #FFFFFF;
+	text-shadow: none;
+	padding-bottom: 0.5em;
+}
+
+#coldPressed {
+	padding-top: 1.5em;
+}
+
+#philosophy_background {
+	background-color: #486468;	
+	position: absolute;
+	top: 0;
+	
+	bottom: 0;
+	right: -1000px;
+	left: -1000px;
+
+	z-index: -200;
+}
+
 
 .philosophy_frame {
 
 	
 	float: left;
-	width: 43%;
+	width: 41%;
 	text-align: left;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
@@ -191,15 +217,16 @@ html, body {
 }
 
 .left_p_frame {
-	margin-right: 1.5em;
+	margin-right: 2.5em;
 }
 
 .philosophy_label {
 
 	float: left;
-	width: 66%;
 	height: 1em;
+	width: 55%;
 	font-size: 2vw;
+	font-family: "Trade Bold";
 	margin-bottom: 0.7em;
 }
 
@@ -207,7 +234,7 @@ html, body {
 
 	float: left;
 	font-size: 1.4vw;
-	width: 60%;
+	width: 55%;
 	height: 4em;
 }
 
@@ -219,6 +246,30 @@ html, body {
 	float: left;
 	margin-right: 2vw;
 }
+
+.philosophy_symbol_frame {
+	position: relative;
+	height: 2em;
+	width: 2em;
+	padding-right: auto;
+	
+	float: left;
+	margin-right: 2vw;
+
+}
+
+
+.philosophy_symbol2 {
+	position: absolute;
+	height: 2em;
+	width: auto;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
 
 #coldpressed_chart {
 	text-align: left;

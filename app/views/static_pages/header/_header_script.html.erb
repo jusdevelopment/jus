@@ -40,7 +40,7 @@ function reportPosition() {
 
     	console.log(i + " " + anchorPosition);
 
-    	if (anchorPosition < getPosition() + 70)
+    	if (anchorPosition < getPosition() + 150)
     	{
     		link_position = i + 1;
     	}	
@@ -63,15 +63,15 @@ function reportPosition() {
 			console.log("link text " + link_text);
 			
 			var label_selected = $('.nav_label:contains('+ link_text +')')[0];
-			var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_link");
+			var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_sublink");
 
 			console.log("link selected " + label_selected.innerHTML);
 
-			var link_selected = $('.nav_label:contains('+ link_text +')')[0].parentNode;
+			var link_selected = $('.nav_sublink .nav_label:contains('+ link_text +')')[0].parentNode;
 
 			link_selected.className += " selected";
 
-			main_link.className += " selected";
+			//main_link.className += " selected";
 
 
 	}

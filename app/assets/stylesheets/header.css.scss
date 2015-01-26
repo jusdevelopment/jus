@@ -136,15 +136,15 @@
 
 }
 
-
 .nav_sublink {
+
+	margin-top: 0.07em;
 
 	.nav_label {
 	float: left;
 	position: relative;
 	top: 0.35em;
 	font-size: 0.45em;
-	
 	padding-right: 0.75em;
 
 	cursor: pointer;
@@ -191,9 +191,9 @@
 	float: left;
 	margin: 0.25em;
 	margin-top: 0.16em;
-	margin-bottom: 0.20em;
+	margin-bottom: 0.22em;
 	margin-left: 1.3em;
-	margin-right: 0.75em;
+	margin-right: 0.74em;
 	background-image: url('bullet-drop.png');
     background-repeat: no-repeat;
     background-position: center; 
@@ -297,7 +297,7 @@
 	height: $header-height - 3em;
 	padding: 1.2em;
 	padding-top: 1em;
-	padding-bottom: 1.375em;
+	padding-bottom: 0em;
 	width: auto;
 	float: left;
 	clear: both;
