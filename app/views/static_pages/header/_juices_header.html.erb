@@ -20,40 +20,20 @@
 		<% end %>
 
 		<%= link_to home_path(:anchor => 'section1') do %>
-			<div class="nav_link permanent_selected">
+			<div class="nav_link">
 				<div class="bullet_drop"></div>
 				<div class="nav_label">Home</div>
 			</div>
 		<% end %>
 
-		<%= link_to home_path(:anchor => 'section2') do %>
-			<div class="nav_sublink">
-				<div class="bullet_dot"></div>
-				<div class="nav_label">The JÜS Promise</div>
-			</div>
-		<% end %>		
-
-		<%= link_to home_path(:anchor => 'section3') do %>
-			<div class="nav_sublink">
-				<div class="bullet_dot"></div>
-				<div class="nav_label">Why JÜS?</div>
-			</div>
-		<% end %>		
-
-		<%= link_to home_path(:anchor => 'section4') do %>
-			<div class="nav_sublink">
-				<div class="bullet_dot"></div>
-				<div class="nav_label">Get Started</div>
-
-			</div>
-		<% end %>		
 
 		<%= link_to juices_path do %>
-			<div class="nav_link">
+			<div class="nav_link permanent_selected">
 				<div class="bullet_drop"></div>
 				<div class="nav_label">Juices</div>
 			</div>
 		<% end %>
+
 
 		<%= link_to cleanses_path do %>
 			<div class="nav_link">
@@ -73,8 +53,6 @@
 	</div>
 
 	<%= render "static_pages/header/header_social" %>
-
-	
 
 </div>
 

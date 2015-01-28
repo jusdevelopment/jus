@@ -4,9 +4,9 @@ Coz::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'static_pages#splash'
+  root 'static_pages#home'
   get '/home', to: 'static_pages#home'
-  get '/shop', to: 'static_pages#shop'
+  get '/juices', to: 'static_pages#juices'
   get '/cleanses', to: 'static_pages#cleanses'
   get '/blog', to: 'static_pages#blog'
   get '/faq', to: 'static_pages#faq'
