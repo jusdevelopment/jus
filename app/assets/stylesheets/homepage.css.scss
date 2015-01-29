@@ -174,11 +174,11 @@ html, body {
 #home_bottle {
 	position: relative;
 	float: left;
-	left: -0.5em;
+	left: -0.75em;
 	top: 0;
-	height: 39vw;
-	padding-right: 2em;
-	width: auto;
+	height: auto;
+	
+	width: 25%;
 	padding-bottom: 2em;
 }
 
@@ -192,21 +192,22 @@ html, body {
 	position: absolute;
 	
 	right: 0;
-	padding-left: 26%;
+	padding-left: 28%;
 	left: 30%; 
 	
 	
 }
 
 #philosophy_area2{
-	padding-top: 1.25em;
+	padding-top: 1em;
 	display: inline-block;
 	position: relative;
 	margin-top: 1em;
 	color: #3a3a3a;
 	text-shadow: none;
-	padding-bottom: 0.5em;
+	padding-bottom: 0em;
 }
+
 
 #coldPressed {
 	padding-top: 1.5em;
@@ -229,10 +230,24 @@ html, body {
 
 	
 	float: left;
-	width: 44%;
+	width: 46%;
 	text-align: left;
 	margin-top: 0.5em;
 	margin-bottom: 1em;
+	
+
+}
+
+
+
+.philosophy_frame2 {
+
+	
+	float: left;
+	width: 44%;
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
 	
 
 }

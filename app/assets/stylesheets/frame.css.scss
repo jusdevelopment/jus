@@ -28,11 +28,29 @@
 		font-size: 2.5vw !important;
 	}
 
-	.philosophy_desc {
+	.philosophy_desc, .philosophy_desc2, {
 		font-size: 2vw !important;	
 	}
 
+	#philosophy_area {
+		padding-left: 0% !important;
+		left: 37% !important;
+	}
 
+	#philosophy_area2 {
+		padding-bottom: 0.5em !important;
+	}
+
+
+	.philosophy_frame {
+		width: 47% !important;
+
+	}
+
+
+	.left_p_frame {
+		margin-right: 1vw !important;
+	}
 
 	#links {
 		&:hover {
@@ -117,6 +135,14 @@
 		margin-right: 0.75em !important;
 		
 
+	}
+	#philosophy_area2{
+		padding-top: 1.5em !important;
+		padding-bottom: 1.5vw !important;
+	}
+
+	.philosophy_frame2 {
+		margin-bottom: 2.5vw !important;
 	}
 
 	#links {
