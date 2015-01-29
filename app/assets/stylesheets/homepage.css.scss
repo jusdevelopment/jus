@@ -175,7 +175,7 @@ html, body {
 	position: relative;
 	float: left;
 	left: -0.5em;
-	top: -0.5vw;
+	top: 0;
 	height: 39vw;
 	padding-right: 2em;
 	width: auto;
@@ -190,9 +190,9 @@ html, body {
 #philosophy_area {
 	margin-top:2vw; 
 	position: absolute;
-	height: 20em;
+	
 	right: 0;
-	padding-left: 27%;
+	padding-left: 26%;
 	left: 30%; 
 	
 	
@@ -238,7 +238,7 @@ html, body {
 }
 
 .left_p_frame {
-	margin-right: 3%;
+	margin-right: 2vw;
 }
 
 .left_p_frame2 {
