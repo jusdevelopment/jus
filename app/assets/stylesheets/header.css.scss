@@ -72,6 +72,13 @@
 
 .nav_link {
 
+	-webkit-border-top-right-radius: 5em;
+	-webkit-border-bottom-right-radius: 5em;
+	-moz-border-radius-topright: 5em;
+	-moz-border-radius-bottomright: 5em;
+	border-top-right-radius: 5em;
+	border-bottom-right-radius: 5em;
+
 	.nav_label {
 	float: left;
 	position: relative;
