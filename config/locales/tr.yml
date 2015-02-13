@@ -19,16 +19,16 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+tr:
   navigation:
-    home: "Home"
-    promise: "The JÜS Promise"
-    why: "Why JÜS?"
+    home: "Anasayfa"
+    promise: "JÜS Felsefesi"
+    why: "Neden JÜS?"
     getstarted: "Get Started"
     juices: "Juices"
     cleanses: "Cleanses"
     faq: "FAQ"
     faqjuices: "Juices"
-    faqcleansing: "Cleansing"
+    faqcleanses: "Cleansing"
     faqdelivery: "Delivery"
 

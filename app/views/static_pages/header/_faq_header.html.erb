@@ -23,49 +23,49 @@
 		<%= link_to home_path(:anchor => 'section1') do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Home</div>
+				<div class="nav_label"><%= t 'navigation.home' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to juices_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Juices</div>
+				<div class="nav_label"><%= t 'navigation.juices' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to cleanses_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Cleanses</div>
+				<div class="nav_label"><%= t 'navigation.cleanses' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to faq_path do %>
 			<div class="nav_link permanent_selected">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">FAQ</div>
+				<div class="nav_label"><%= t 'navigation.faq' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to faq_path(:anchor => 'section1') do %>
 			<div class="nav_sublink selected">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">Juices</div>
+				<div class="nav_label"><%= t 'navigation.faqjuices' %></div>
 			</div>
 		<% end %>		
 
 		<%= link_to faq_path(:anchor => 'section2') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">Cleansing</div>
+				<div class="nav_label"><%= t 'navigation.faqcleanses' %></div>
 			</div>
 		<% end %>
 
 			<%= link_to faq_path(:anchor => 'section3') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">Delivery</div>
+				<div class="nav_label"><%= t 'navigation.faqdelivery' %></div>
 			</div>
 		<% end %>		
 

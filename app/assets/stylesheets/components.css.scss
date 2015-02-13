@@ -1,16 +1,23 @@
 
 
-#carousel_frame { 
-    background-image: url('jusmainbg.jpg');
+.carousel_frame { 
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-position: center; 
  	background-size: cover; 
  	
  	width: 100%;
- 	height: 25em;
-
+ 	height: 21em;
 }
+
+#carousel_frame1 { 
+	 background-image: url('jus-1202-slider-1b.jpg');
+}
+
+#carousel_frame2 { 
+	 background-image: url('jus-1202-slider-2b.jpg');
+}
+
 
 #products_frame { 
     background-image: url('juices-home.jpg');

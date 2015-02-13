@@ -15,35 +15,35 @@
 
 
 	<div id="links">
-		<%= link_to home_path do %>
+		<%= link_to home_path(:anchor => 'section1')  do %>
 			<%= image_tag "jus-header-logo.png", id: "jus_logo" %>
 		<% end %>
 
 		<%= link_to home_path(:anchor => 'section1') do %>
 			<div class="nav_link permanent_selected">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Home</div>
+				<div class="nav_label"><%= t 'navigation.home' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to home_path(:anchor => 'section2') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">The JÜS Promise</div>
+				<div class="nav_label"><%= t 'navigation.promise' %></div>
 			</div>
 		<% end %>		
 
 		<%= link_to home_path(:anchor => 'section3') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">Why JÜS?</div>
+				<div class="nav_label"><%= t 'navigation.why' %></div>
 			</div>
 		<% end %>		
 
 		<%= link_to home_path(:anchor => 'section4') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
-				<div class="nav_label">Get Started</div>
+				<div class="nav_label"><%= t 'navigation.getstarted' %></div>
 
 			</div>
 		<% end %>		
@@ -51,21 +51,21 @@
 		<%= link_to juices_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Juices</div>
+				<div class="nav_label"><%= t 'navigation.juices' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to cleanses_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">Cleanses</div>
+				<div class="nav_label"><%= t 'navigation.cleanses' %></div>
 			</div>
 		<% end %>
 
 		<%= link_to faq_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
-				<div class="nav_label">FAQ</div>
+				<div class="nav_label"><%= t 'navigation.faq' %></div>
 			</div>
 		<% end %>
 
