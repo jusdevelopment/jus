@@ -144,7 +144,7 @@
 	.nav_label {
 	float: left;
 	position: relative;
-	top: 0.35em;
+	top: 0.25em;
 	font-size: 0.45em;
 	padding-right: 0.75em;
 
@@ -246,7 +246,7 @@
 }
 
 .social_icon {
-	height: 0.75em;
+	height: 0.88em;
 	margin-right: 0.1em;
 
 	&:hover {
@@ -263,7 +263,7 @@
 	
 	position: absolute;
 	top: 2.75em;
-	right: 0.2em;
+	right: 0.22em;
 	font-size: 0.475em;
 	font-family: "Trade Regular";
 	color: #141414;
@@ -346,3 +346,60 @@
 	line-height: 1.5em;
 	color: #888888;;
 }
+
+#language {
+	position: absolute;
+	right: 1.15em;
+	top: 1em;
+	height: 1em;
+	
+	width: 4em;
+	text-align: right;
+}
+
+.language_selection {
+	float: right;
+	margin-left: 0.75em;
+	cursor: pointer;
+	&:hover {
+		.language_bullet {
+			background-color: #C60F47;
+		}
+	}
+}
+
+.language_name {
+	font-size: 0.55em;
+	font-family: "Trade Regular";
+	float: left;
+	color: #1d1d1b;
+	position: relative;
+}
+
+.language_bullet {
+	position: absolute;
+	top: -0.2em;
+	bottom: 0;
+	left: -0.7em;
+	height: 0.4em;
+	width: 0.4em;
+	
+	
+	margin-top: auto;
+	margin-bottom: auto;
+
+	-webkit-border-radius: 1em;
+	-moz-border-radius: 1em;
+	border-radius: 1em;
+
+	background-color: #d1d1d1;
+}
+
+.active_language {
+	cursor: normal;
+	.language_bullet {
+		background-color: #1d1d1b !important;		
+	}
+}
+
+

@@ -15,5 +15,11 @@
 
 <body >
 	<%= yield %>
+
+	<script>
+		$(".language_selection").removeClass("active_language");
+		
+		$(".language_name:contains(<%= escape_javascript(params[:locale].upcase) %>)").parent().addClass("active_language");
+	</script>
 </body>
 </html>

@@ -1,16 +1,20 @@
 Coz::Application.routes.draw do
   
+  get "set_language/english"
+  get "set_language/turkish"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'static_pages#home'
-  get '/home', to: 'static_pages#home'
-  get '/juices', to: 'static_pages#juices'
-  get '/cleanses', to: 'static_pages#cleanses'
-  get '/blog', to: 'static_pages#blog'
-  get '/faq', to: 'static_pages#faq'
-
+  
+  scope "(:locale)", locale: /en|tr/ do
+    root 'static_pages#home'
+    get '/home', to: 'static_pages#home'
+    get '/juices', to: 'static_pages#juices'
+    get '/cleanses', to: 'static_pages#cleanses'
+    get '/blog', to: 'static_pages#blog'
+    get '/faq', to: 'static_pages#faq'
+  end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

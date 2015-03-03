@@ -32,3 +32,212 @@ en:
     faqcleanses: "Cleansing"
     faqdelivery: "Delivery"
 
+  homepage:
+    slogan: "Get back to your roots."
+    section1:
+      title: "The JÜS Promise"
+      bullet1:
+        label: "Organic."
+        description: "We use all the organic produce we can get our hands on."
+      bullet2:
+        label: "Unprocessed."
+        description: "Philosophy icon 2Unprocessed.Fruits and vegetables are pressed. That's it."
+      bullet3:
+        label: "Unpasteurized."
+        description: "Juices are never heated, thereby preserving their nutritional integrity."
+      bullet4:
+        label: "Raw."
+        description: "The life-force energy of fresh fruits and vegetables are intact. Juices are alive!"
+      bullet5:
+        label: "Cold pressed."
+        description: "We use the renowned Norwalk Juice Press to safely extract juices from produce."
+      bullet6:
+        label: "Animal friendly."
+        description: "No animal by products are used in the creation of our juices."
+      description: "From the source of the ingredients up to the packaging, we are committed to offering you the most delicious and environmentally conscious cold­-pressed juice product in Istanbul. We don’t use hidden ingredients or processes to preserve or enhance our juices. No matter your taste preferences or health goals, we have something for you."
+    section2:
+      title: "Why JÜS?"
+      subsection1:
+        title: "Taste the difference"
+        bullet1:
+          label: "Undiluted"
+          description: "100% raw fruit and vegetable juices, no water added."
+        bullet2:
+          label: "Glass"
+          description: "Our juices taste better in our eco­-friendly glass bottles."
+        bullet3:
+          label: "Knowledge"
+          description: "Our experienced raw food chef is a certified clinical nutritionist."
+        bullet4:
+          label: "Delicious"
+          description: "We taste the best, bottom line."
+      subsection2:
+        title: "Why cold pressed matters"
+        description: "Cold­-pressed juices are superior to any other juice found at supermarkets or those made with a regular juicer. We use state­-of-­the-­art juicing technology to retain the integrity of the vitamins, minerals and living enzymes inherent in fresh fruits and vegetables that other juicing processes generally destroy. With JÜS, they become an accessible part of your daily nutrition. Read more about our cold­-pressed juicing process in "
+        link-text: "our FAQ section."
+    section3:
+      title: "Get Started"
+      description1: "We offer a diverse lineup of living, high­-frequency fruit and vegetable juices and mindfully press, bottle and sell a truly raw and unpasteurized product. All of our juices are handmade in Istanbul, unconcentrated, undiluted and free of additives, preservatives, flavoring or sugars. View all the juices we offer on "
+      link-text1: "our Juices page. "
+      description2: "Let your body do what it does best: heal and renew. Our JÜS cleanses support a fresh start in your approach to diet and health – there’s one fit for every lifestyle. Find them on "
+      link-text2: "our Cleanses page."
+
+  juices:
+    title: "Juices"
+    juice1:
+      title: "The Source"
+      description: "Life is tough and things don’t always go as planned, but I’m here for you. Each and every morning, I am your constant, filling your empty tummy up with joy. I jumpstart digestive processes, boost immunity, promote a robust heart, detoxify the liver and remind you that today may be the best day ever."
+    juice2:
+      title: "Lean Green"
+      description: "You stay active and I’m protein-rich - how about we go out sometime? Drink me after a tough workout, for a midday pick-me-up or first thing in the morning. I’m grounded but still a showoff and I’ll give you glowing skin, suppress your hunger, cleanse your blood and give you that twinkle in the eyes you’ve always wanted."
+    juice3:
+      title: "Taste of Paradise"
+      description: "Close your eyes. Guess where we are. Or rather, where we could be. You’ll be body ready for the Summer with me by your side. I’ll nourish your skin, from head to toe, improve your digestion to keep your tummy flat, keep your joints lithe and painless and get rid of bad breathe, so you can lean in as close to paradise as possible."
+    juice4:
+      title: "Perfect Pear"
+      description: "You’re sweet and spicy, just like me. But that’s because you want it all - clean cells, radiant skin and a body free of aches, pains and illness. I fight inflammation, increase your sex drive, take down harmful bacteria in your gut and boost your immunity. "
+    juice5:
+      title: "Uprooted"
+      description: "Yesterday evening was fun, but now it’s time to take out the trash. I’m always ready to do some damage control. I’ll detox your liver, purify your blood and get your stamina up in no time. "
+    juice6:
+      title: "Down Easy"
+      description: "Brains and beauty do co-exist! I’m testament to that. I boost brain function and help you to stay slim and radiant. I’m also quite the handyman - if you feel pain in the stomach, gut or head, I’m your one-stop-shop for a natural remedy. "
+    juice7:
+      title: "Morning Glory"
+      description: "Need some help getting out of bed and being ready to conquer the day with a smile? All you need is a whiplash of sunshine. I’ll start your morning off right with increased immunity, clear skin and eyes and a metabolism on high-gear."
+    juice8:
+      title: "Glow Getter"
+      description: "I’m smooth and sexy, so don’t be surprised if we’re soon attached the hip. I prevent weight gain and bloating, increase circulation, keep you looking and feeling young and fight colds, flus and viruses."
+    juice9:
+      title: "Limonata"
+      description: "I tread lightly but carry a tangy punch, boosting your energy instantly and alkalizing your blood. Balancing the body’s pH and jumpstarting digestive processes with the tartness of lemon and lime, my flavors are piqued with just a touch of all­-natural, blood­ sugar­ friendly, zero­ calorie stevia leaf sweetener.  "
+    juice10:
+      title: "Hazelnut Mylk"
+      description: "It’s time to say moo’ve over to regular cow’s milk, because I’m in town to pick up the pieces where dairy left them. I boost your heart health and provide you with good fats that the body recognizes and doesn’t send straight to your love handles, thighs or tummy. I go down easy with a touch of vanilla bean and naturally sweet dates. Pour me into cereal or coffee, warm me up in your morning oats or drink me straight, sending you to decadent hazelnut mylk heaven."
+
+  ingredients:
+    apple: "apple"
+    cucumber: "cucumber"
+    parsley: "parsley"
+    rocket: "rocket"
+    spinach: "spinach"
+    romaine: "romaine"  
+    lemon: "lemon"
+    ginger: "ginger"
+    carrot: "carrot"
+    spirulina: "spirulina"
+    pineapple: "pineapple"
+    mint: "mint"
+    pear: "pear"
+    cardamom: "cardamom"
+    cinnamon: "cinnamon"
+    beet: "beet"
+    grape: "grape"
+    cabbage: "cabbage"
+    orange: "orange"
+    grapefruit: "grapefruit"
+    turmeric: "turmeric"
+    cayenne: "cayenne"
+    redpepper: "red pepper"
+    water: "water"
+    lime: "lime"
+    stevia: "stevia"
+    hazelnut: "hazelnut"
+    dates: "dates"
+    vanillabean: "vanilla bean"
+
+  cleanses:
+    title: "Cleanses"
+    description: "To order a cleanse, please contact us: "
+    link-text: "info@jusistanbul.com."
+    cleanse1:
+     title: "Fresh Start "
+     price: "- 92₺"
+     description: "Whether you are a first-time juice cleanser or fresh off a time period of indulgence or debauchery, our Fresh Start cleanse is the perfect juice protocol for you to get your body back on a healthier track. "
+    cleanse2:
+     title: "Standard "
+     price: "- 92₺"
+     description: "The Standard cleanse is fit for those who try their best to avoid unhealthy foods, but still indulge on occasion and live a life of moderation. If you are looking for a straightforward juice detox that is simple but a bit more challenging than the Fresh Start cleanse, our Standard cleanse is the way to bring yourself back to the basics of life and to the basics of food – incorporating easily-digested, nutrient-dense juices into your daily routine in the most convenient way possible. The Standard cleanse also makes for a first-time cleanse for vegetarians, vegans, non-smokers or those with an already active lifestyle. "
+    cleanse3:
+     title: "Dig Deep "
+     price: "- 92₺"
+     description: "The Dig Deep cleanse is tailored to the seasoned juicers among us who are looking to re-energize their bodies in the purest way possible. Our Dig Deep cleanse is the perfect way to benefit from the world’s healthiest foods and actually experience their medicinal healing properties."
+    cleanse4:
+     title: "Custom "
+     price: "- Price depends on the quantity ordered."
+     description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0.536.775.2674 or e-mail us at "   
+     link-text: "info@jusistanbul.com "
+     description2: "for more information about Custom cleanse options. "
+
+  faq:
+    section1:
+      title: "Juices"
+      question1: "I’m still confused about “cold-pressed” versus traditional juicing processes. Can you explain more?"
+      answer1-section1: "Traditional (centrifugal) juicing processes involve extensive friction (heat), which destroys the enzymes and nutrients within the fruits and vegetables. "
+      answer1-section2: "Our juices are cold­-pressed. Using a Norwalk Juice Press (the premier juice press on the market), fresh fruits and vegetables are slowly broken down and then pressed so that they never endure heat. Cold­-pressed juices are better for your health and have a longer shelf life than those made using traditional juicers. "
+      question2: "Pressed juices don’t contain fiber, but isn’t it important for my health and detoxing?"
+      answer2-section1: "First, let’s distinguish between a juice and smoothie."
+      answer2-section2: "Smoothies are blended fruits and vegetables – the fiber remains intact. Because smoothies are fiber containing, they aid in digestion and help lightly detoxify your body. Juices are the nectar of fruits and vegetables, separated from the pulp (fiber). Juices are highly detoxifying and don’t require digestion – their nutrition quickly enters into your bloodstream, offering you almost instant benefits. "
+      answer2-section3: "The key difference between juices and smoothies is that juices give your body a break from the exhaustive digestion process. In doing so, your body can focus on repairing and healing – improving your complexion, reducing bloat, clearing mind fog, strengthening your hair and nails, supporting regularity, helping you to lose unwanted weight and so much more. "
+      answer2-section4: "Fiber is important, but juices are not meant to be the source – you can get plenty of fiber from a healthy diet full of fresh greens, vegetables, fruits, nuts, seeds and legumes. Cold­-pressed juices are invaluable tools that are highly medicinal and cleansing. Without a doubt, we could all use cold-­pressed juices in our lives. "
+      question3: "Does JÜS use organic ingredients?"
+      answer3: "What we’ve learned living in Istanbul and exploring the organic scene is that the label “organic” on certain products often holds little weight or is simply false advertising. For us, a cold­-pressed juice is not “organic” if it contains 1 organic apple and 8 other conventional ingredients. We at JÜS strive to be as organic as possible, and we don’t take that responsibility lightly. Unfortunately, the reality in Istanbul is that both a lack of access, unjustifiable prices and seasonal restraints make it difficult to offer a completely organic product year­-round. However, we are happy to work closely with organic farmers so that we can supply you with juices that are mostly organic, 100% of the time. If you have questions about the organic ingredients used in your JÜS juice, please contact us to ask: "
+      question4: "Does JÜS use sweeteners?"
+      answer4-section1: "The JÜS team is well­ aware of buzz­worthy superfoods and miracle sweeteners on the market. However, we’ve done our research and are equipped with a resident certified nutritionist to tell us like it is. "
+      answer4-section2: "We depend on the natural sweetness of raw fruits and starchy vegetables to complement our juices. Our choice is stevia. Stevia derives from the stevia leaf and has been used medicinally for centuries. It is 300­-times sweeter than regular sugar, so a little goes a long way. We use liquid stevia, a clear, non­bitter form of stevia that adds that extra sweet deliciousness. "
+      answer4-section3: "From years of personal experience, extensive research and taste, we have determined stevia to be the downright best choice when it comes to your well­being. "
+      answer4-section4: "The popular, so­called “healthy” sweeteners such as agave are often marketing ploys. Agave is a heavily-processed syrup (despite claims, it is never truly “raw”). It was once touted as a low­-glycemic sweetener, meaning it won’t cause spikes in your blood sugar levels like regular white sugar. However, what’s more important than the glycemic index is the level of fructose in it. Agave contains more fructose than any other common sweetener, including high­-fructose corn syrup. Fructose converts to fat more easily than glucose and poses a danger to your cardiovascular system. It’s safe to say that agave has and never will be on our menu. "
+      answer4-section5: "Now, don’t let this “fructose” talk get you scared of fruit juices. Remember, fruits are the unprocessed, untainted products of Mother Nature. Our juices are thoughtfully balanced between with vegetable juices so you never have to worry. "
+      answer4-section6: "Honey, in its raw state, is a superfood that has incredible medicinal force. However, it has a high­-glycemic index and will cause spikes in your blood­ sugar levels. Additionally, it is not animal­-friendly. "
+      question5: "I’m not used to the taste of green juice. Now what?"
+      answer5: "Fake it ‘til you make it! Seriously. Not that it has to taste bad, but green juice shouldn’t taste like a fruity cocktail – it should taste mostly like greens and veggies with a bit of lemon and apple to cut any bitterness. You may not be familiar with the taste of green juice at first, but trust us, it’s a slippery slope to green juice obsession ­ soon enough, you won’t be able to live without it. We have traversed the globe in search of cold­-pressed green juices and use the knowledge we developed to properly pair taste with green leaf nutrition. Let us know what you think about our green (and other) juices: "
+      question6: "Why doesn’t JÜS list calories?"
+      answer6-section1: "The produce we use is fresh, raw and mostly organic, complementing a healthy lifestyle and infusing you with living enzymes and unmatched energy. The calorie system can never do justice to our juices, which are full of Mother Nature’s finest creations. "
+      answer6-section2: "The calorie system is antiquated, restrictive and misleading. Using calories as a measurement of health or true, lasting weight loss would show a lack of understanding of the variety in our lives. Each calorie is different, with some easier for the body to process than others. Calories, large or small, are not trustworthy indicators of whether or not a food or drink is healthy and meaningful for our diet. Shed the belief that “zero calories”, “fat­-free” and “carb­-free” are desirable features of food and drinks. Do not let false marketing control your dietary needs. "
+      answer6-section3: "However, if you are absolutely keen on knowing the caloric content of our juices, please contact us for more information: "
+      question7: "How long do the juices stay fresh?"
+      answer7: "The juices last 3 days from delivery and require refrigeration. "
+    section2:
+      title: "Cleansing"
+      question1: "Why do I need to cleanse – isn’t that too extreme?"
+      answer1-section1: "No, it is not. Cleansing is an ancient practice used by many cultures and religions for thousands of years. The terms \"cleanse\" and \"detox\" have been picking up steam in recent times, but don't let that lead you to believe that cleansing is simply a trend or something too extreme to ever commit to more than once. Yes, some people can take it to the extreme by cleansing for too long and without respect to their body's readiness to do so, but that is not what juice JÜS supports. If administered properly, a cleanse can be a great way to reset your body. On a day-to-day basis, cleansing can be a way of life - nothing extreme at all. Incorporating cold-pressed juices - especially green ones - into your morning routine is a great way to set yourself up for a day of high energy and light detoxification, leaving your cells happy from the start. "
+      answer1-section2: "We offer a range of cleanses in order to complement every kind of lifestyle. We often eat more than we actually realize or need, and much of what we consume includes simple starches, white sugars and flours, processed foods, additives, stabilizers, preservatives, hydrogenated oils, overcooked oils, trans fats, wheat, gluten, animal protein and other animal byproducts. Sometimes it’s helpful to take a break from your regular diet, letting your body do what it does best: repair itself without distraction. "
+      answer1-section3: "A juice cleanse is when you subsist entirely on raw fruit and vegetable juices for a certain amount of time. It is a great way to give your digestive system a break, so that you body can work on other bodily processes, like clearing up skin, healing organs and repairing tissue. "
+      question2: "How long should I cleanse for?"
+      answer2: "We suggest taking part in a 1­-day cleanse each month for consistent benefits. If you would like to cleanse less often, but still see results, we suggest a 3­-day long cleanse each turn of the season. For more intense cleansing, please consult our resident nutritional expert for a consultation: "
+      question3: "How do I prepare for a cleanse?"
+      answer3-section1:
+        bullet1: "Before (1­2 days prior)"
+        bullet2: "∙ Eat plenty of raw fruits and vegetables"
+        bullet3: "∙ Do not consume animal protein"
+        bullet4: "∙ Chew your food well"
+        bullet5: "∙ Avoid starches (bread, rice, potatoes)"
+        bullet6: "∙ Drink lots of water"
+        bullet7: "∙ Avoid caffeine and alcohol"
+        bullet8: "∙ Don’t consume anything except water at least 3 hours before bed."
+      answer3-section2: 
+        bullet1: "During:"
+        bullet2: "∙ The numbers circled on the lids of our bottles guide you through the cleanse follow them in order, from 1 to 6."
+        bullet3: "∙ Consume the first juice of your cleanse when you start to feel hungry. Take note of your body’s “true” hunger signals."
+        bullet4: "∙ Aside from the juices provided, you may only consume water and herbal tea."
+        bullet5: "∙ It is okay to exercise moderately, but try to do so in the morning."
+        bullet6: "∙ Occupy your day with your usual matters so that the cleanse is not the center of your focus. Enjoy the juices and stay positive. You are doing your body the greatest of favors!"
+      answer3-section3: 
+        bullet1: "After (1­2 days)"
+        bullet2: "∙ Continue to enjoy cold­-pressed juices as part of your new lifestyle, drinking them on an empty stomach in the morning."
+        bullet3: "∙ Eat lightly – focus on fresh fruits, vegetables, nuts, seed and legumes."
+        bullet4: "∙ Avoid excessive oils, animal protein, rice, bread and potatoes."
+        bullet5: "∙ If you’d like to eat dessert, opt for dark chocolate."
+      answer3-section4: "Disclaimer: It is important to consult a doctor and do your own personal research about the risks involved with cleansing. We are not meant to replace professional medical advice and can only speak from our own experiences and those of others. Please consult a doctor with any questions or symptoms you may feel before, during, or after a cleanse. "
+    section3:
+      title: "Delivery"
+      question1: "Why does JÜS use glass bottles?"
+      answer1-section1: "The decision to use glass bottles is part of the broader mission at JÜS to provide you with the healthiest and most delicious product possible."
+      answer1-section2: "To us, the decision is easy – only glass could bring our high­-caliber juices to you in the safest way possible, preserving the nutritional integrity of the juices while bolstering your lifestyle and dietary goals. Cold­-pressed juice is produced in a process that requires focus, detail and labor. A lot of intention goes into each drop, so if we are going as far to offer you juice of such quality, why stop there? "
+      answer1-section3: "We took into consideration the realities of plastic waste management in Istanbul and both the known and unknown harms associated with plastic, which is made from petroleum byproducts, and went with what we felt would be best for both our customers and the environment’s well­being. We decided on glass. "
+      answer1-section4: "We are proud of our 100% recyclable glass bottles. They are strong, bold and beautiful. Our customers often tell us that the glass bottles even make our cold­-pressed juice taste better! We have also set up a glass bottle return and rewards program. For every 12 bottles returned, clients are rewarded with a 500ml cold­-pressed juice of their choice. We take used bottles, clean and sanitize them and then fill them with more amazing juice. For us, this program offsets the resources used to create the glass bottles and helps instill a value of reusing. "
+      question2: "What neighborhoods do you deliver to, and when?"
+      answer2: "For delivery questions, please contact us: "
+
+
+

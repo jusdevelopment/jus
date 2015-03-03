@@ -5,7 +5,7 @@
     
     <div class="RightColumn">
 
-		<div class="ColumnTitle anchorLink">Get Started</div>
+		<div class="ColumnTitle anchorLink"><%= t 'homepage.section3.title' %></div>
 
 		<%= render "section_seperator" %>
 
@@ -29,10 +29,10 @@
 
 			<%= image_tag "juices-home.jpg", id: "juices_graphic" %>
 
-			We offer a diverse lineup of living, high­-frequency fruit and vegetable juices and mindfully press, bottle and sell a truly raw and unpasteurized product. All of our juices are handmade in Istanbul, unconcentrated, undiluted and free of additives, preservatives, flavoring or sugars. View all the juices we offer on <b><%= link_to "our Juices page." , juices_path %></b>
+			<%= t 'homepage.section3.description1' %> <b><%= link_to (t 'homepage.section3.link-text1') , juices_path %></b>
 		</br></br>
 
-			Let your body do what it does best: heal and renew. Our JÜS cleanses support a fresh start in your approach to diet and health – there’s one fit for every lifestyle. Find them on <b><%= link_to "our Cleanses page." , cleanses_path %></b>
+			<%= t 'homepage.section3.description2' %><b><%= link_to (t 'homepage.section3.link-text2') , cleanses_path %></b>
 			
 		</div>
 	</div>

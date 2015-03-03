@@ -3,7 +3,7 @@
 <div class="JuiceFrame">
     <div class="JuiceHeader">
     	<div class="JuiceGlyph">500 ml</div>
-    	<div class="JuiceTitle">Taste of Paradise</div>
+    	<div class="JuiceTitle"><%= t 'juices.juice3.title' %></div>
     </div>
 
     <div class="JuiceContent">
@@ -15,15 +15,15 @@
 			</div>
 			<div class="Ingredient">
 				<div class="IngredientIconFrame"><%= image_tag "pineapple.png", class: "IngredientIcon" %></div>
-				<div class="IngredientLabel">pineapple</div>
+				<div class="IngredientLabel"><%= t 'ingredients.pineapple' %></div>
 			</div>
 			<div class="Ingredient">
 				<div class="IngredientIconFrame"><%= image_tag "cucumber.png", class: "IngredientIcon" %></div>
-				<div class="IngredientLabel">cucumber</div>
+				<div class="IngredientLabel"><%= t 'ingredients.cucumber' %></div>
 			</div>
 			<div class="Ingredient">
 				<div class="IngredientIconFrame"><%= image_tag "mint.png", class: "IngredientIcon" %></div>
-				<div class="IngredientLabel">mint</div>
+				<div class="IngredientLabel"><%= t 'ingredients.mint' %></div>
 			</div>
 			<div class="Ingredient">
 				<div class="IngredientIconFrame"><div class="IngredientIcon"></div></div>
@@ -31,7 +31,7 @@
 			</div>
 		</div> 
 		<div class="JuiceDescription">
-			Close your eyes. Guess where we are. Or rather, where we could be. You’ll be body ready for the Summer with me by your side. I’ll nourish your skin, from head to toe, improve your digestion to keep your tummy flat, keep your joints lithe and painless and get rid of bad breathe, so you can lean in as close to paradise as possible. 
+			<%= t 'juices.juice3.description' %>
 		</div>
     </div>
 </div>

@@ -3,10 +3,10 @@
 <div id="information" class="parallax first_parallax slogan_parallax">
   
     <div class="RightColumn">
-        <div id="HookSlogan">Get back to your roots.</div>
+        <div id="HookSlogan"><%= t 'homepage.slogan' %></div>
         
 
-    	<div class="ColumnTitle anchorLink">The JÜS Promise</div>
+    	<div class="ColumnTitle anchorLink"><%= t 'homepage.section1.title' %></div>
 
     	<%= render "section_seperator" %>
         
@@ -18,44 +18,44 @@
 
             <div class="philosophy_frame left_p_frame">
             	<%= image_tag "philosophy-icon-1.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label">Organic.</div>
-                <div class="philosophy_desc">We use all the organic produce we can get our hands on.</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet1.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet1.description' %></div>
             </div>
 
             <div class="philosophy_frame">
         		<%= image_tag "philosophy-icon-2.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label">Unprocessed.</div>
-                <div class="philosophy_desc">Fruits and vegetables are pressed. That's it.</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet2.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet2.description' %></div>
         	</div>
 
         	<div class="philosophy_frame left_p_frame">
         		<%= image_tag "philosophy-icon-3.jpg", class: " philosophy_symbol" %>
-                <div class="philosophy_label">Unpasteurized.</div>
-                <div class="philosophy_desc">Juices are never heated, thereby preserving their nutritional integrity.</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet3.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet3.description' %></div>
         	</div>
 
         	<div class="philosophy_frame">
             	<%= image_tag "philosophy-icon-4.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label">Raw.</div>
-                <div class="philosophy_desc">The life-force energy of fresh fruits and vegetables are intact. Juices are alive!</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet4.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet4.description' %></div>
             </div>
 
             <div class="philosophy_frame left_p_frame" id="last_philosophy">	
         		<%= image_tag "philosophy-icon-5.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label">Cold pressed.</div>
-                <div class="philosophy_desc">We use the renowned Norwalk Juice Press to safely extract juices from produce.</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet5.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet5.description' %></div>
         	</div>
 
         	<div class="philosophy_frame">	
         		<%= image_tag "philosophy-icon-6.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label">Animal friendly.</div>
-                <div class="philosophy_desc">No animal by products are used in the creation of our juices.</div>
+                <div class="philosophy_label"><%= t 'homepage.section1.bullet6.label' %></div>
+                <div class="philosophy_desc"><%= t 'homepage.section1.bullet6.description' %></div>
         	</div>
 
         </div>
 
         <div id="whatIsJus" class="SubRow">
-             From the source of the ingredients up to the packaging, we are committed to offering you the most delicious and environmentally conscious cold­-pressed juice product in Istanbul. We don’t use hidden ingredients or processes to preserve or enhance our juices. No matter your taste preferences or health goals, we have something for you.
+            <%= t 'homepage.section1.description' %>
         </div>
 
 	</div>

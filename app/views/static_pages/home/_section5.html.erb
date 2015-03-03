@@ -4,7 +4,7 @@
     
     <div class="RightColumn">
 
-	<div class="ColumnTitle anchorLink">Cleanses</div>
+	<div class="ColumnTitle anchorLink"><%= t 'cleanses.title' %></div>
 
 	<%= render "section_seperator" %>
 
@@ -12,44 +12,42 @@
 
 
 		<div id="" class="SubRow ">
-			To order a cleanse, please contact us: 
-			<b><%= link_to "info@jusistanbul.com" , "mailto:info@jusistanbul.com", target: "_blank" %></b>.</br>
+			<%= t 'cleanses.description' %>
+			<b><%= link_to (t 'cleanses.link-text') , "mailto:info@jusistanbul.com", target: "_blank" %></b>.</br>
 			</br>
-			<%= image_tag "cleanses-1.png", class: "cleanse-glyph" %><div class="GlyphTitle">Fresh Start <font class="cleansePrice">- 92₺</font></font></div>
+			<%= image_tag "cleanses-1.png", class: "cleanse-glyph" %><div class="GlyphTitle"><%= t 'cleanses.cleanse1.title' %><font class="cleansePrice"><%= t 'cleanses.cleanse1.price' %></font></font></div>
 			</br>
 			<%= image_tag "cleanse-1.jpg", class: "cleanse-graphic" %>
 			</br>
-			Whether you are a first-time juice cleanser or fresh off a time period of indulgence or debauchery, our <b>Fresh Start</b> cleanse is the perfect juice protocol for you to get your body back on a healthier track. 
+			<%= t 'cleanses.cleanse1.description' %>
 			</br></br></br>
 		</div>
 
 		<div id="" class="SubRow ">
-			<%= image_tag "cleanses-2.png", class: "cleanse-glyph" %><div class="GlyphTitle">Standard <font class="cleansePrice">- 92₺</font></div>
+			<%= image_tag "cleanses-2.png", class: "cleanse-glyph" %><div class="GlyphTitle"><%= t 'cleanses.cleanse2.title' %><font class="cleansePrice"><%= t 'cleanses.cleanse2.price' %></font></div>
 			</br>
 			<%= image_tag "cleanse-2.jpg", class: "cleanse-graphic" %>
 			</br>
-
-			The Standard cleanse is fit for those who try their best to avoid unhealthy foods, but still indulge on occasion and live a life of moderation. If you are looking for a straightforward juice detox that is simple but a bit more challenging than the <b>Fresh Start</b> cleanse, our <b>Standard</b> cleanse is the way to bring yourself back to the basics of life and to the basics of food – incorporating easily-digested, nutrient-dense juices into your daily routine in the most convenient way possible. The <b>Standard</b> cleanse also makes for a first-time cleanse for vegetarians, vegans, non-smokers or those with an already active lifestyle.
+			<%= t 'cleanses.cleanse2.description' %>
 			</br></br></br>
 		</div>
 
 		<div id="" class="SubRow ">
-			<%= image_tag "cleanses-3.png", class: "cleanse-glyph" %><div class="GlyphTitle">Dig Deep <font class="cleansePrice">- 92₺</font></div>
+			<%= image_tag "cleanses-3.png", class: "cleanse-glyph" %><div class="GlyphTitle"><%= t 'cleanses.cleanse3.title' %><font class="cleansePrice"><%= t 'cleanses.cleanse3.price' %></font></div>
 			</br>
 			<%= image_tag "cleanse-3.jpg", class: "cleanse-graphic" %>
 			</br>
-
-			The Dig Deep cleanse is tailored to the seasoned juicers among us who are looking to re-energize their bodies in the purest way possible. Our <b>Dig Deep</b> cleanse is the perfect way to benefit from the world’s healthiest foods and actually experience their medicinal healing properties.
+			<%= t 'cleanses.cleanse3.description' %>
 			</br></br></br>
 		</div>
 
 		<div id="" class="SubRow ">
-			<%= image_tag "cleanses-4.png", class: "cleanse-glyph" %><div class="GlyphTitle">Custom <font class="cleansePrice">- Price depends on the quantity ordered.</font></div>
+			<%= image_tag "cleanses-4.png", class: "cleanse-glyph" %><div class="GlyphTitle"><%= t 'cleanses.cleanse4.title' %><font class="cleansePrice"><%= t 'cleanses.cleanse4.price' %></font></div>
 			</br>
 			<%= image_tag "cleanse-4.jpg", class: "cleanse-graphic" %>
 			</br>
-
-			Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at <b style="font-family:'Trade Bold'">0.536.775.2674</b> or e-mail us at <b><%= link_to "info@jusistanbul.com" , "mailto:info@jusistanbul.com", target: "_blank" %></b> for more information about Custom cleanse options.
+			<%= t 'cleanses.cleanse4.description1' %>
+			<b><%= link_to (t 'cleanses.cleanse4.link-text') , "mailto:info@jusistanbul.com", target: "_blank" %></b> <%= t 'cleanses.cleanse4.description2' %>
 			</br></br></br></br>
 		</div>
 

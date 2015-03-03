@@ -24,11 +24,227 @@ tr:
     home: "Anasayfa"
     promise: "JÜS Felsefesi"
     why: "Neden JÜS?"
-    getstarted: "Get Started"
-    juices: "Juices"
-    cleanses: "Cleanses"
-    faq: "FAQ"
-    faqjuices: "Juices"
-    faqcleanses: "Cleansing"
-    faqdelivery: "Delivery"
+    getstarted: "Başlangıç"
+    juices: "Juice'lar"
+    cleanses: "Detokslar"
+    faq: "SSS"
+    faqjuices: "Juice'lar"
+    faqcleanses: "Detokslar"
+    faqdelivery: "Teslimat"
+
+  homepage:
+    slogan: "Get back to your roots."
+    section1:
+      title: "JÜS Felsefesi"
+      bullet1:
+        label: "Organik."
+        description: "Kullandığımız ürünlerin hepsi organiktir."
+      bullet2:
+        label: "İşlenmemiş."
+        description: "Meyve ve sebzelerimiz sadece preslenir. Başka hiçbir işlemden geçmez."
+      bullet3:
+        label: "Pastörize edilmemiş."
+        description: "İçeceklerimiz asla ısıtılmaz, böylece besleyici bütünlükleri korunmuş olur."
+      bullet4:
+        label: "Çiğ."
+        description: "İçeceklerimizi hazırlarken, taze meyve ve sebzelerin bizi canlandıran özelliğini koruyoruz!"
+      bullet5:
+        label: "Soğuk preslenmiş."
+        description: "Meyve ve sebzelerimizin suyunu sıkmak için dünyaca ünlü Norwalk Juice Press’i kullanıyoruz."
+      bullet6:
+        label: "Hayvan dostu."
+        description: "Hiçbir hayvansal yan ürün kullanmıyoruz. İçeceklerimizin %100 vegan olduğundan emin olabilirsiniz."
+      description: "Sizlere, İstanbul’daki en lezzetli ve en çevre dostu soğuk preslenmiş sebze/meyve suyunu sunduğumuzdan emin olmak için kullandığımız ürünlerin toplanıp şişelenmelerine kadar giden aşamaları titizlikle izliyoruz. İçeceklerimizi korumak ya da daha lezzetli hale getirmek için gizli ürünler veya yöntemler kullanmıyoruz. Her damak zevkine uygun içeceklerimizle ideal sağlığınıza kavuşmanıza katkıda bulunmaya çalışıyoruz."
+    section2:
+      title: "Neden JÜS?"
+      subsection1:
+        title: "Farkın tadına bakın"
+        bullet1:
+          label: "Su katılmamış"
+          description: "Şişelerimizde %100 çiğ meyve ve sebze suyu vardır. Kesinlikle su katılmamıştır."
+        bullet2:
+          label: "Cam"
+          description: "Çevre dostu cam şişelerimizde içeceklerimiz daha lezzetli."
+        bullet3:
+          label: "Deneyim"
+          description: "Deneyimli çiğ yemek şefimiz sertifikalı bir klinik beslenme uzmanı."
+        bullet4:
+          label: "Lezzet"
+          description: "Lezzet bizden sorulur."
+      subsection2:
+        title: "Soğuk presin önemi"
+        description: "Soğuk preslenmiş meyve ve sebze suları, süpermarketlerdekine ya da normal bir sıkacakla yapılanlara kıyasla daha sağlıklı ve faydalıdır. Son teknoloji ürünü sıkacağımızla hazırladığımız içeceklerimiz içerdiği vitamin, mineral ve canlı enzimler bakımından sıradan sıkma yöntemleriyle hazırlanmış içeceklere göre çok daha zengindir. Soğuk presli sıkma işlemiyle ilgili daha fazla bilgi edinmek için "
+        link-text: "Sıkca Sorulan Sorulara göz atabilirsiniz."
+    section3:
+      title: "Başlangıç"
+      description1: "JÜS olarak, sizlere yaşam kalitenizi yükseltecek, özenle preslenmiş, şişelenmiş, tamamen çiğ ve pastörize edilmemiş içeceklerimizi sunabildiğimiz için çok mutluyuz. İçeceklerimizi İstanbul’da hazırlıyoruz. İçeceklerimizden hiçbiri konsantreden elde edilmemiş, sulandırılmamış, katkı maddesi ve koruyucu içermemektedir. Ayrıca içeceklerimizin yapımında aroma veya şeker kullanılmamaktadır. Size sunduğumuz tüm meyve/sebze sularımızı görmek için lütfen "
+      link-text1: "Juice'lar bölümüne göz atın. "
+      description2: "Bırakın vücudunuz en iyi yaptığı şeyi yapsın: Yenilensin ve iyileşsin. JÜS detokslarımız beslenme alışkanlığınızda yapacağınız değişiklerle sağlığınıza olan katkınızın başlangıç noktası olacaktır. Size uygun olan detokslarımızı "
+      link-text2: "Detokslar bölümünde bulabilirsiniz."
+
+  juices:
+    title: "Juices"
+    juice1:
+      title: "The Source"
+      description: "Biliyorum, hayat bazen zordur ve her şey planladığın gibi gitmeyebilir. Bu zor zamanlarında seni anlayacak bir içecek arıyorsan, The Source hep yanında. The Source sindirim sistemini çalıştırır, bağışıklığını güçlendirir, kalbini sağlamlaştırır, karaciğerini toksinlerden arındırır ve güne yepyeni bir pencereden bakmanı sağlar. Artık güne bomba gibi başlamaya ne dersin? "
+    juice2:
+      title: "Lean Green"
+      description: "Spor yapmayı seviyorsun fakat “tavuk, tavuk nereye kadar?” mı? Buraya kadar! Proteince zengin Lean Green’i vücut çalıştıktan sonra, gün ortasında ya da güne başlarken kullanabilirsin. Şişede durduğuna bakma, yapabildikleri yarım litrenin çok ötesinde. Cildini parlatır, açlığını bastırır, kanını temizler ve seni gün boyu canlı tutar."
+    juice3:
+      title: "Taste of Paradise"
+      description: "Gözlerini kapat… Sıcacık bir kumsalda, denizden gelen hafif dalgalarla güneşin tadını çıkardığını hayal et. Biliyorum, sen yaza şimdiden hazırsın. Taste of Paradise’la vücudun da yaza hazır! Baştan aşağı cildini yenilemek, sindirim istemini geliştirerek dümdüz bir karna sahip olmak, eklemlerini ağrılardan kurtarıp esnek tutmak ve kötü ağız kokusundan kurtulmak Taste of Paradise’la artık mümkün!"
+    juice4:
+      title: "Perfect Pear"
+      description: "Tatlıyı sevdiği kadar baharata da hayır diyemeyenlerden misin? O zaman bu mükemmel ikilinin buluştuğu Perfect Pear’i kesinlikle denemelisin! Perfect Pear hücreleri temizler, sivilce ve siyah noktaları yok ederek cildine parlak bir görünüm kazandırır. Cilt hastalıklarından arınmak, iltihaplanmalardan kurtulmak, midedeki zararlı bakterileri yok etmek, bağışıklık sistemini güçlendirmek ve cinsel dürtüyü arttırmak Perfect Pear’la sana sadece bir yudum uzakta."
+    juice5:
+      title: "Uprooted"
+      description: "Dün gece eminim çok eğlendin fakat şişede durduğu gibi durmadığı da bir gerçek. Şimdi yataktan kalkıp güne devam etme zamanı. Hiç merak etme, Uprooted o sonuncuyu içmemen gerektiğini anlıyor. O zaman karaciğerinin toksinlerden arınmasına, kanının temizlenmesine ve canlanmana… Şerefe!"
+    juice6:
+      title: "Down Easy"
+      description: "Hem akıl hem de güzellik bir arada olmaz diyenlerden misin? Peki ya sana Down Easy’nin hem beyin fonksiyonlarını güçlendirdiğini, hem de ince ve göz alıcı bir vücuda kavuşturduğunu söylesem? Belki bu fikrini değiştirir. Ayrıca miden, karnın ya da başın ağrıyorsa eczaneye uğramak yerine bir şişe Down Easy’yle hepsinden doğal yolla arınabilirsin."
+    juice7:
+      title: "Morning Glory"
+      description: "Sabah yataktan kalkıp hazırlanmanın ne kadar zor olduğunu bilirim. Yatak nasıl da çekici gelir… Ama önünde sonunda yatakla vedalaşman gerekecek. Morning Glory sayesinde güçlü bir bağışıklık, temiz bir cilt, parlayan gözler ve hızlı bir metabolizmayla güne güzel başlamak ve yataktan kalkmak artık çok kolay."
+    juice8:
+      title: "Glow Getter"
+      description: "Yanından ayırmak istemeyeceğin bir içeceğe hazır mısın? Glow Better kilo almanı ve karnındaki şişmeleri önler; kan dolaşımını hızlandırır ve gençleştirir. Ayrıca soğuk algınlığına, gribe ve virüslere karşı ihtiyacın olan korumayı sağlar."
+    juice9:
+      title: "Limonata"
+      description: "Limonataya dair bildiklerini unutmanın zamanı geldi. Yeşil limon eklenmiş ve tatlandırıcı olarak şeker yerine stevya kullanılarak kan şekeri dostu, sıfır kalorili ve tamamen doğal Limonata’yı gururla sunuyoruz. Faydalı olduğu kadar da ekşi olan Limonata, vücuduna ihtiyacı olan enerjiyi anında verir ve kanını alkalileştirir. Vücudunun pH değerini dengelerken sindirim sistemini de düzenler. "
+    juice10:
+      title: "Hazelnut Mylk"
+      description: "Sıradan inek sütüne elveda! Hazelnut Mylk kalp sağlığına iyi gelmesinin yanı sıra vücudun tanıdığı – bel bölgesine, kalçalara ve karın bölgesine göndermediği – iyi yağları içermektedir. Vanilla çekirdeklerinin ve doğal tatlı hurmaların Hazelnut Mylk’e kattığı yumuşak içim keyfine hayır demek çok zor. Mısır gevreğinize ya da kahvenize koyabilir, yulaf ezmesine koyup ısıtabilir ya da direk şişeden içebilirsin. "
+
+  ingredients:
+    apple: "elma"
+    cucumber: "salatalık"
+    parsley: "maydanoz"
+    rocket: "roka"
+    spinach: "ıspanak"
+    romaine: "marul"  
+    lemon: "limon"
+    ginger: "zencefil"
+    carrot: "havuç"
+    spirulina: "spirulina"
+    pineapple: "ananas"
+    mint: "nane"
+    pear: "armut"
+    cardamom: "kakule"
+    cinnamon: "tarçın"
+    beet: "pancar"
+    grape: "üzüm"
+    cabbage: "lahana"
+    orange: "portakal"
+    grapefruit: "greyfurt"
+    turmeric: "zerdeçal"
+    cayenne: "arnavut biberi"
+    redpepper: "kırmızı biber"
+    water: "water"
+    lime: "misket limon"
+    stevia: "stevya"
+    hazelnut: "hazelnut"
+    dates: "hurma"
+    vanillabean: "vanilya cekirdegi"
+
+  cleanses:
+    title: "Detokslar"
+    description: "Detoks siparişi vermek için lütfen bizimle irtibata geçin: "
+    link-text: "info@jusistanbul.com."
+    cleanse1:
+     title: "Fresh Start "
+     price: "- 92₺"
+     description: "İster detoksa yeni başlayanlardan olun, ister kötü beslenme alışkanlıklarıyla dolu bir dönemi arkada bırakıp yeni bir sayfa açanlardan, Fresh Start  detoksu sağlığınıza ve eski vücudunuza geri kavuşmanız için ihtiyacınız olan tek şey."
+    cleanse2:
+     title: "Standard "
+     price: "- 92₺"
+     description: "Standard detoksu arada sırada sağlıksız beslenen fakat sağlıksız besinlerden kaçınmak için de elinden geleni yapıp ölçülü bir hayat sürdürenler için biçilmiş kaftan. Basit ama Fresh Start’tan daha iddialı bir detoks arıyorsanız, Standard bu arayışınıza son verebilir. Standard sayesinde hayatın ve yemeğin temel prensipleriyle vücudunuza ihtiyacı olan bakımı sunabilirsiniz. Standard detoksu, kolay sindirilebilen ve besin zengini içeceklerimizi günlük hayatınızın bir parçası haline getirmenize yardım edecektir. Standard detoksu aynı zamanda ilk defa detoks yapacak vejetaryenler, veganlar, sigara içmeyenler ve aktif bir yaşam sürdürenler için de harika bir başlangıç olacaktır. "
+    cleanse3:
+     title: "Dig Deep "
+     price: "- 92₺"
+     description: "Dig Deep detoksu aramızdaki deneyimli meyve/sebze suyu sevenler için özel olarak hazırlanmış saf bir enerji deposudur. Dig Deep detoksu, dünyanın bize sunduğu sağlıklı yiyeceklerin iyileştirici özelliklerinden faydalanmak için en iyi yoldur."
+    cleanse4:
+     title: "Custom "
+     price: "- Fiyatlarımız sipariş adetine göre değişiklik gösterecektir."
+     description1: "İçeceklerimizden size 3 gün yetecek kadarını seçerek Custom detoksunuzu yaratın. Custom detoks ile ilgili sorularınız için 0.536.775.2674 numaralı telefondan ya da "   
+     link-text: "info@jusistanbul.com "
+     description2: "e-posta adresimizden bize ulaşabilirsiniz. "
+
+
+  faq:
+    section1:
+      title: "Juice'lar"
+      question1: "Hala “soğuk presleme” işlemiyle sıradan sıkma işlemi arasındaki kıyaslamayı pek anlayabilmiş değilim. Fark nedir?"
+      answer1-section1: "Sıradan (santrifüjlü) sıkma işlemi çok fazla sürtünmeye ve ısı oluşmasına sebep olur. Çıkan bu ısıdan dolayı sebze ve meyvelerdeki enzimler ve besleyici ögeler yok olur. "
+      answer1-section2: "Sebze ve meyvelerin besinsel içeriklerin korumak adına JÜS olarak içeceklerimizi her zaman soğuk presleme işlemiyle hazırlıyoruz. Norwalk Juice Press’le (piyasadaki en üst sınıf presli sıkacakla) sebze ve meyveleri yavaşça parçalayıp sonrasında presleyerek sebze ve meyvelerin ısıya maruz kalmalarını tamamen önlüyoruz. Bu sebeplerden dolayı, soğuk preslenmiş sebze/meyve suları, sıradan sıkacaklara kıyasla, daha sağlıklıdır ve daha uzun raf ömrüne sahiptir. "
+      question2: "Soğuk preslenmiş sebze/meyve suları lif içermiyor. Fakat lifler sağlığım ve toksinlerden arınmam için önemli değil mi?"
+      answer2-section1: "İlk olarak sebze/meyve suyuyla smoothie (sebze ve meyve püresinden yapılan sıvı içecek) arasındaki farkı anlamalıyız."
+      answer2-section2: "Smoothie’ler püre haline getirilip karıştırılmış sebze ve meyvelerdir – lifler bozulmadan kalır. Smoothie’ler içerdikleri lifler sayesinde sindirimi kolaylaştırır ve vücudunuzu toksinlerden arındırmada – çok etkili olmasa da – yardımcıdır. Sebze/meyve sularıysa meyve ve sebzelerin posasından (liflerinden) ayrılmış nektardır. Sebze/meyve suları vücudu toksinlerden arındırmada yüksek ölçüde etkilidir ve sorunsuz bir şekilde sindirilir – içerdiği besinler kan dolaşımına hızlıca karışarak vücudunuza anında etki eder."
+      answer2-section3: "Sebze/meyve sularıyla smoothie’ler arasındaki en belirgin fark: Sebze/meyve suları sindirim sisteminizi dinlendirir. Böylece vücudunuz kendini onarır ve yeniler – cildi parlatır, karın bölgesindeki şişkinliği azaltır, saçınızı ve tırnaklarınızı güçlendirirken aynı zamanda isteyip de veremediğiniz kilolardan daha fazlasını kaybetmenizde yardımcı olur."
+      answer2-section4: "Fiber is important, but juices are not meant to be the source – you can get plenty of fiber from a healthy diet full of fresh greens, vegetables, fruits, nuts, seeds and legumes. Cold­-pressed juices are invaluable tools that are highly medicinal and cleansing. Without a doubt, we could all use cold-­pressed juices in our lives. "
+      question3: "JÜS organik ürün kullanıyor mu?"
+      answer3: "İstanbul’da yaşayarak tecrübe ettiğimiz bir şey varsa o da çoğu markanın ürünlerinde kullandığı “organik” etiketlerinin aldatıcı pazarlama tekniklerinden biri olduğudur. Bizim için 1 tane organik elma ve 8 adet organik olmayan ürün içeren soğuk preslenmiş bir meyve/sebze suyu “organik” değildir. JÜS olarak organik olmak için elimizden gelen her şeyi yapıyoruz ve sorumluluğumuzu asla hafife almıyoruz. Ne yazık ki İstanbul’da organik ürün bulma sıkıntısı, uçuk fiyatlar ve mevsimsel engellerden dolayı, yıl boyunca tamamen organik içecek üretmek o kadar da kolay olmuyor. Yine de sizlere en organik içecekleri sunmak için organik çiftçilerle çalışmaktan çok memnunuz. Organik ürünlerimizle ilgili sorularınızı lütfen bize iletin: "
+      question4: "JÜS tatlandırıcı kullanıyor mu?"
+      answer4-section1: "JÜS ekibi, mucize tatlandırıcı adıyla piyasaya sürülen ürünler olduğunun farkında. Bu şarlatanlığın bir parçası olmamak için ekibimizde bize olayın aslını astarını gösteren bir de sertifikalı besin uzmanımız var."
+      answer4-section2: "İçeceklerimizi tatlandırmak için çiğ meyvelerin ve nişastalı sebzelerin kattığı doğal tada güveniyoruz. Sadece “mylk”lerimize ve Limonatamıza tatlandırıcı koyuyoruz. Bu konudaki tercihimizi de stevia’dan [şekerotu] yana yaptık. Stevia yaprağından elde edilen stevia, yüzyıllardan beri tatlandırıcı ve tedavi edici özelliği için kullanılmakta. Normal şekerden 300 kat daha tatlı olduğu için bir tutamı bile yetiyor da artıyor. İçeceklerimizin o ağız sulandıran lezzeti, stevia’nın acılık katmayan berrak bir türü olan sıvı stevia’dan gelmekte."
+      answer4-section3: "Yapılan araştırmalarda elde edilen verilere göre stevia’nın kan basıncının yükselmesini, alevlenmeyi, ishali ve tümör oluşumunu önleyen, idrar söktüren ve bağışıklık sistemini düzenleyici bir tatlandırıcı olduğu kanıtlanmıştır."
+      answer4-section4: "Agave gibi sözde “sağlıklı” tatlandırıcılar genellikle şirketlerin pazarlama taktiklerinin bir parçasıdır. Tamamıyla “çiğ” olduğu iddialarının aksine, agave fazlaca işlenmiş bir şuruptur. Hatta bir süre boyunca müşteri çekmek için insanlara düşük glisemikli (kan şekerini normal şeker gibi yükseltmeyen) bir tatlandırıcı olarak pazarlanmıştır. Glisemik indeksinden daha önemli olansa agavenin içindeki fruktoz miktarıdır. Bilinen bütün tatlandırıcılardan daha fazla fruktoz içeren agavenin içinde yüksek fruktozlu mısır şurubundan daha fazla fruktoz vardır. Fruktoz glikozdan daha çabuk yağa dönüştüğü için kalp ve dolaşım sisteminiz için ciddi bir risk oluşturmaktadır. Bunları da göz önünde bulundurarak şunu diyebiliriz ki agaveyi sofranızdan uzak tutun."
+      answer4-section5: "Fakat fruktoz sizin gözünüzü korkutup meyve sularından vazgeçmenize sebep olmasın. Çünkü unutmayın ki meyveler Doğa Ana’nın bizlere sunduğu işlenmemiş birer hediyedir. Zaten biz meyve sularımızı sebze sularıyla da dengelediğimiz için endişelenmeniz için hiçbir sebep yok."
+      answer4-section6: "Çiğ haldeki bal, başlı başına bir süper gıdadır ve sağlınız açısından inanılmaz faydaları vardır. Fakat glisemik indeksi yüksek olduğu için kan şekerinizin fırlamasına sebep olabilir. Ayrıca, hayvan dostu bir gıda da değildir."
+      question5: "Yeşil meyve/sebze suyunun tadını sevmiyorsam ne olacak?"
+      answer5: "Seviyormuş gibi yapın, ta ki sevene kadar! Şaka değil. Tabi ki de tadı meyve kokteyli gibi olmayacak – acılığını almak için biraz limon ve elmayla sadece yeşilliklerin ve sebzenin tadını alabilirsiniz. İlk başlarda yeşil meyve/sebze suyunun tadını beğenmemeniz çok normal. Fakat bize güvenin, bir kere alıştıktan sonra bağımlı olacaksınız. Soğuk preslenmiş yeşil meyve/sebze sularıyla ilgili araştırmamızı dünyanın dört bir yanından topladığımız verilerle gerçekleştirdik ve edindiğimiz bilgileri JÜS’ün masasına yatırdık. Uzun bir çalışmanın ardından lezzetle yeşilliği buluşturduğumuz içeceklerimizi üretmeye başladık. Vücudunuzun birçok fonksiyonuna yardımcı olacak olan içeceklerimizin içine sevgimizi katmayı da unutmadık. Lütfen bizimle içeceklerimiz hakkında ne düşüğünüzü paylaşmaktan çekinmeyin: "
+      question6: "Neden JÜS ürünlerinin bir kalori listesi yok?"
+      answer6-section1: "Kullandığımız ürünlerin taze, çiğ ve çoğunlukla organik olmasına dikkat ederek sağlığınıza katkıda bulunmaya çalışıyor; vücudunuza canlı enzimler ve benzersiz bir enerji aşılıyoruz. Bu sebeple, hiçbir kalori sistemi, içinde Doğa Ana’nın bize sunduğu harikaları barındıran içeceklerimizin hakkını yiyemez."
+      answer6-section2: "Kalori sistemleri çağdışı, kısıtlayıcı ve aldatıcıdır. Kalorileri, sağlıklı olmanın ya da doğru ve kalıcı kilo vermenin ölçütü olarak kullanmak hayatımızdaki çeşitliliği hala tam olarak kavrayamadığımızın göstergesidir. Kaloriler birbirinden farklıdır; bazıları vücutta diğerlerinden daha kolayca işlenebilir. İster büyük olsun ister küçük, kaloriler bir yiyeceğin ya da içeceğin beslenmemiz için sağlıklı olup olmadığını göstermezler."
+      answer6-section3: "Fakat içeceklerimizin kalori içeriğini öğrenmek istiyorsanız, bu konuyu daha derinlemesine konuşmak ve talep ettiğiniz bilgiyi edinmek için lütfen bizimle irtibata geçin: "
+      question7: "İçecekleri kaç gün içinde tüketmeliyim?"
+      answer7: "İçeceklerinizi teslimatından sonraki 3 gün içinde tüketmelisiniz. Bu süre boyunca da ürünlerimizi buzdolabınızda saklayın."
+    section2:
+      title: "Detokslar"
+      question1: "Neden detoks yapmalıyım? Çok zorlayıcı değil mi?"
+      answer1-section1: "Hayır, değil. Detoks, çeşitli kültürler ve dinler tarafından binlerce yıldır kullanılan eski bir yöntem. “Detoks” kavramının özellikle son yıllarda popülerlik kazanmış olması sizi bunun sadece bir kerelik denenecek akımlardan biri olduğunu düşünmeye itmesin. Evet, bazıları vücutlarını dikkate almadan detokslarını çok uzun tutarak aşırıya kaçıyor olabilir. Fakat bizim JÜS olarak tavsiye ettiğimiz detoks yöntemi kesinlikle bu değil. Doğru şekilde yapılan bir detoksla vücudunuzun ihtiyacı olan sağlığı geri kazanabilirsiniz. Günlük olarak yapacağınız düzenli detoks sizin yaşam tarzınız olabilir – aşırıya kaçmadan tabi ki de. Soğuk preslenmiş sebze/meyve sularını – özellikle yeşil olanları – sabah rutininizin bir parçası haline getirerek enerjinizi gün boyu kaybetmez ve hafif bir detoksla hücrelerinizi canlandırırsınız."
+      answer1-section2: "Genellikle farkında olduğumuzdan veya ihtiyacımız olduğundan daha fazla yiyoruz. Bu yediklerimizin içindeyse bol miktarda nişasta, beyaz şeker, beyaz un, işlenmiş yiyecekler, katkı maddeleri, düzenleyiciler, koruyucu maddeler, hidrojenize edilmiş yağlar, trans yağlar, buğday, glüten, hayvansal proteinler ve diğer hayvansal yan ürünler bulunmakta. Beslenme alışkanlığınızdan ara sıra uzaklaşarak vücudunuzun en iyi yaptığı şeye yardımcı olursunuz: Vücudunuz kendini onarır."
+      answer1-section3: "Sebze/meyve sularıyla detoks yapmak demek, belirli bir süre boyunca tamamen çiğ sebze ve meyveyle beslenmek demektir. Böylece sindirim sisteminizi rahatlatırsınız; vücudunuzun cildi yenilemek, organlarınızı iyileştirmek ve dokularınızı onarmak gibi işlevlere odaklanmasında yardımcı olursunuz. Her yaşam tarzına uyacak detokslarımızdan kendinize uygun olanı seçerek sağlıklı bir yaşama merhaba deyin."
+      question2: "How long should I cleanse for?"
+      answer2: "We suggest taking part in a 1­-day cleanse each month for consistent benefits. If you would like to cleanse less often, but still see results, we suggest a 3­-day long cleanse each turn of the season. For more intense cleansing, please consult our resident nutritional expert for a consultation: "
+      question3: "Kendimi detoksa nasıl hazırlarım?"
+      answer3-section1:
+        bullet1: "Detoks Öncesinde (12 gün önce):"
+        bullet2: "∙ Bol bol çiğ meyve ve sebze tüketin"
+        bullet3: "∙ Hayvansal proteinleri tüketmeyin"
+        bullet4: "∙ Lokmalarınızı iyice çiğneyin"
+        bullet5: "∙ Nişastadan uzak durun (ekmek, pirinç ve patates)"
+        bullet6: "∙ Bol su için"
+        bullet7: "∙ Kafein ve/veya alkol almayın"
+        bullet8: "∙ Uyumadan önceki 3 saat içinde sadece su tüketin"
+      answer3-section2: 
+        bullet1: "Detoks Sırasında:"
+        bullet2: "∙ Detoksunuza yardımcı olmak için 1’den 6’ya kadar numaralandırdığımız şişe kapaklarının sırasını takip edin."
+        bullet3: "∙ İlk içeceğinizi açlık hissetmeye başladığınızda için. Vücudunuzun ne zaman açlık sinyalleri gönderdiğini kaydedin."
+        bullet4: "∙ İçeceklere ek olarak sadece su ya da bitki çayları tüketin."
+        bullet5: "∙ Aşırı olmamak şartıyla egzersiz yapabilirsiniz. Fakat egzersizlerini sabah yapmaya çalışın."
+        bullet6: "∙ Gün boyunca her zamanki işlerinizle meşgul olmaya çalışın ki tek düşündüğünüz şey detoks olmasın. İçeceklerin tadını çıkarın ve hep olumlu düşünün. Unutmayın ki vücudunuza yapabileceğiniz en büyük iyiliği yapıyorsunuz!"
+      answer3-section3: 
+        bullet1: "Sonrasında (12 gün sonra):"
+        bullet2: "∙ Yaşam tarzınızın bir parçası haline gelmiş olan içeceklerimizin tadını sabah aç karnına içerek çıkarın."
+        bullet3: "∙ Hafif yiyecekler yiyin – özellikle taze meyve, sebze, fındık, çekirdek ve baklagiller."
+        bullet4: "∙ Haddinden fazla yağ, hayvansal protein, pirinç, ekmek ve patates tüketmekten kaçının."
+        bullet5: "∙ Tatlı yemek isterseniz seçiminizi siyah çikolatadan yana kullanın."
+      answer3-section4: "Dikkat: Detoks yapmanın riskleriyle ilgili kendi araştırmanızı yapmanız ve bir doktora danışmanız büyük önem taşımaktadır. Amacımız uzman bir doktor tavsiyesinin yerini almak değil. Sadece başkalarının tecrübelerine ve kendi tecrübelerimize dayanarak konuşuyoruz. Detoks öncesinde, sırasında veya sonrasında hissettiğiniz belirtiler için lütfen bir doktora danışın."
+    section3:
+      title: "Teslimat"
+      question1: "Neden JÜS cam şişe kullanıyor?"
+      answer1-section1: "JÜS olarak cam şişe kullanmamızın sebebi, ürünümüzü güvenilir bir şekilde ve lezzeti bozulmadan size ulaştırmaktır."
+      answer1-section2: "Cam kullanıyoruz çünkü cam, içeceklerimizdeki yaşam enerjisini diğer materyallere kıyasla çok daha güvenilir bir şekilde muhafaza edebilen tek materyaldir. Soğuk preslenmiş meyve/sebze suyu üretimi dikkat ve emek isteyen bir süreçtir. Her damlası ayrı bir özen ister. Biz de cam kullanmayı tercih ederken böylesine kaliteli bir ürünü sizlere sunmak için harcanan emeğin çöpe gitmesini önlemeye çalıştık. Yalnızca cam yüksek kalitedeki içeceklerimizin besinsel bütünlüğünü bozmadan muhafaza edebildiğinden, sağlığınıza ve beslenmenize en iyi şekilde katkıda bulunabilmek için kararımızı camdan yana kullandık."
+      answer1-section3: "Bu seçimi yaparken de İstanbul’un plastik atık yönetimini göz önünde bulundurduk. Petrol yan ürünlerinden üretilen plastiğin hem bilinen hem de bilinmeyen zararlarının ne sizin sağlığınızı ne de çevre sağlığını etkilemesine izin vermek istemedik."
+      answer1-section4: "%100 geri dönüştürülebilir cam şişelerimizle gurur duyuyoruz. Hatta bazen müşterilerimiz içeceklerimizin cam şişede daha da lezzetli olduğunu söylüyor! Üstüne üstlük cam şişelerini getirenleri ödüllendiriyoruz. Bize getireceğiniz her 12 şişe için istediğiniz bir 500ml’lik içeceği size hediye ediyoruz. Kullanılmış şişeleri temizleyip sterilize ettikten sonra içlerini leziz içeceklerimizle dolduruyoruz! Bu uygulamayla cam şişe üretimini dengeleyerek yeniden kullanımın önemini vurgulamaya çalışıyoruz."
+      question2: "Nereye ve ne zaman teslimat yapıyorsunuz?"
+      answer2: "Teslimatla ilgili sorularınız izin lütfen bizimle irtibata geçin: "
+
+
+
+
+
+
+
+
 
