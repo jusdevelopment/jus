@@ -33,7 +33,9 @@ en:
     faqdelivery: "Delivery"
 
   homepage:
-    slogan: "Get back to your roots."
+    slogan1: "JÜS. İstanbul's cold-pressed juice."
+    slogan2: "Fit. Beautiful. Healthy."
+    slogan3: "Get back to your roots."
     section1:
       title: "The JÜS Promise"
       bullet1:
@@ -107,7 +109,7 @@ en:
       description: "Need some help getting out of bed and being ready to conquer the day with a smile? All you need is a whiplash of sunshine. I’ll start your morning off right with increased immunity, clear skin and eyes and a metabolism on high-gear."
     juice8:
       title: "Glow Getter"
-      description: "I’m smooth and sexy, so don’t be surprised if we’re soon attached the hip. I prevent weight gain and bloating, increase circulation, keep you looking and feeling young and fight colds, flus and viruses."
+      description: "I’m smooth and sexy, so don’t be surprised if we’re soon attached to the hip. I prevent weight gain and bloating, increase circulation, keep you looking and feeling young and fight colds, flus and viruses."
     juice9:
       title: "Limonata"
       description: "I tread lightly but carry a tangy punch, boosting your energy instantly and alkalizing your blood. Balancing the body’s pH and jumpstarting digestive processes with the tartness of lemon and lime, my flavors are piqued with just a touch of all­-natural, blood­ sugar­ friendly, zero­ calorie stevia leaf sweetener.  "
@@ -152,15 +154,15 @@ en:
     link-text: "info@jusistanbul.com."
     cleanse1:
      title: "Fresh Start "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "Whether you are a first-time juice cleanser or fresh off a time period of indulgence or debauchery, our Fresh Start cleanse is the perfect juice protocol for you to get your body back on a healthier track. "
     cleanse2:
      title: "Standard "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "The Standard cleanse is fit for those who try their best to avoid unhealthy foods, but still indulge on occasion and live a life of moderation. If you are looking for a straightforward juice detox that is simple but a bit more challenging than the Fresh Start cleanse, our Standard cleanse is the way to bring yourself back to the basics of life and to the basics of food – incorporating easily-digested, nutrient-dense juices into your daily routine in the most convenient way possible. The Standard cleanse also makes for a first-time cleanse for vegetarians, vegans, non-smokers or those with an already active lifestyle. "
     cleanse3:
      title: "Dig Deep "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "The Dig Deep cleanse is tailored to the seasoned juicers among us who are looking to re-energize their bodies in the purest way possible. Our Dig Deep cleanse is the perfect way to benefit from the world’s healthiest foods and actually experience their medicinal healing properties."
     cleanse4:
      title: "Custom "

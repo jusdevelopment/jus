@@ -33,7 +33,9 @@ tr:
     faqdelivery: "Teslimat"
 
   homepage:
-    slogan: "Get back to your roots."
+    slogan1: "JÜS. İstanbul'un en taze meyve suyu."
+    slogan2: "Formda. Güzel. Sağlıklı."
+    slogan3: "Köklerinize dönün."
     section1:
       title: "JÜS Felsefesi"
       bullet1:
@@ -152,15 +154,15 @@ tr:
     link-text: "info@jusistanbul.com."
     cleanse1:
      title: "Fresh Start "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "İster detoksa yeni başlayanlardan olun, ister kötü beslenme alışkanlıklarıyla dolu bir dönemi arkada bırakıp yeni bir sayfa açanlardan, Fresh Start  detoksu sağlığınıza ve eski vücudunuza geri kavuşmanız için ihtiyacınız olan tek şey."
     cleanse2:
      title: "Standard "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "Standard detoksu arada sırada sağlıksız beslenen fakat sağlıksız besinlerden kaçınmak için de elinden geleni yapıp ölçülü bir hayat sürdürenler için biçilmiş kaftan. Basit ama Fresh Start’tan daha iddialı bir detoks arıyorsanız, Standard bu arayışınıza son verebilir. Standard sayesinde hayatın ve yemeğin temel prensipleriyle vücudunuza ihtiyacı olan bakımı sunabilirsiniz. Standard detoksu, kolay sindirilebilen ve besin zengini içeceklerimizi günlük hayatınızın bir parçası haline getirmenize yardım edecektir. Standard detoksu aynı zamanda ilk defa detoks yapacak vejetaryenler, veganlar, sigara içmeyenler ve aktif bir yaşam sürdürenler için de harika bir başlangıç olacaktır. "
     cleanse3:
      title: "Dig Deep "
-     price: "- 92₺"
+     price: "- 92TL"
      description: "Dig Deep detoksu aramızdaki deneyimli meyve/sebze suyu sevenler için özel olarak hazırlanmış saf bir enerji deposudur. Dig Deep detoksu, dünyanın bize sunduğu sağlıklı yiyeceklerin iyileştirici özelliklerinden faydalanmak için en iyi yoldur."
     cleanse4:
      title: "Custom "
@@ -178,9 +180,9 @@ tr:
       answer1-section2: "Sebze ve meyvelerin besinsel içeriklerin korumak adına JÜS olarak içeceklerimizi her zaman soğuk presleme işlemiyle hazırlıyoruz. Norwalk Juice Press’le (piyasadaki en üst sınıf presli sıkacakla) sebze ve meyveleri yavaşça parçalayıp sonrasında presleyerek sebze ve meyvelerin ısıya maruz kalmalarını tamamen önlüyoruz. Bu sebeplerden dolayı, soğuk preslenmiş sebze/meyve suları, sıradan sıkacaklara kıyasla, daha sağlıklıdır ve daha uzun raf ömrüne sahiptir. "
       question2: "Soğuk preslenmiş sebze/meyve suları lif içermiyor. Fakat lifler sağlığım ve toksinlerden arınmam için önemli değil mi?"
       answer2-section1: "İlk olarak sebze/meyve suyuyla smoothie (sebze ve meyve püresinden yapılan sıvı içecek) arasındaki farkı anlamalıyız."
-      answer2-section2: "Smoothie’ler püre haline getirilip karıştırılmış sebze ve meyvelerdir – lifler bozulmadan kalır. Smoothie’ler içerdikleri lifler sayesinde sindirimi kolaylaştırır ve vücudunuzu toksinlerden arındırmada – çok etkili olmasa da – yardımcıdır. Sebze/meyve sularıysa meyve ve sebzelerin posasından (liflerinden) ayrılmış nektardır. Sebze/meyve suları vücudu toksinlerden arındırmada yüksek ölçüde etkilidir ve sorunsuz bir şekilde sindirilir – içerdiği besinler kan dolaşımına hızlıca karışarak vücudunuza anında etki eder."
+      answer2-section2: "Smoothie’ler püre haline getirilip karıştırılmış sebze ve meyvelerdir – lifler bozulmadan kalır. Smoothie’ler içerdikleri lifler sayesinde sindirimi kolaylaştırır ve vücudunuzu toksinlerden arındırmada – çok etkili olmasa da – yardımcıdır. Sebze/meyve sularıysa meyve ve sebzelerin posasından (liflerinden) ayrılmış nektardır. Sebze/meyve suları vücudu toksinlerden arındırmada yüksek ölçüde etkilidir ve sorunsuz bir şekilde sindirilir, içerdiği besinler kan dolaşımına hızlıca karışarak vücudunuza anında etki eder."
       answer2-section3: "Sebze/meyve sularıyla smoothie’ler arasındaki en belirgin fark: Sebze/meyve suları sindirim sisteminizi dinlendirir. Böylece vücudunuz kendini onarır ve yeniler – cildi parlatır, karın bölgesindeki şişkinliği azaltır, saçınızı ve tırnaklarınızı güçlendirirken aynı zamanda isteyip de veremediğiniz kilolardan daha fazlasını kaybetmenizde yardımcı olur."
-      answer2-section4: "Fiber is important, but juices are not meant to be the source – you can get plenty of fiber from a healthy diet full of fresh greens, vegetables, fruits, nuts, seeds and legumes. Cold­-pressed juices are invaluable tools that are highly medicinal and cleansing. Without a doubt, we could all use cold-­pressed juices in our lives. "
+      answer2-section4: "Lifler sağlığınız için önemlidir fakat sebze ve meyve suları güçlü bir lif kaynağı olmaya aday değildirler – taze yeşilliklerle, sebzelerle, meyvelerle, sert kabuklu yemişlerle, çekirdekle ve baklagillerle desteklediğiniz sağlıklı bir beslenme düzeniyle ihtiyacınız olan lifleri alabilirsiniz. Paha biçilemez iyileştirici ve arındırıcı özellikleri olan sebze/meyve sularını hiç şüphesiz hayatınızın bir parçası haline getirebilirsiniz."
       question3: "JÜS organik ürün kullanıyor mu?"
       answer3: "İstanbul’da yaşayarak tecrübe ettiğimiz bir şey varsa o da çoğu markanın ürünlerinde kullandığı “organik” etiketlerinin aldatıcı pazarlama tekniklerinden biri olduğudur. Bizim için 1 tane organik elma ve 8 adet organik olmayan ürün içeren soğuk preslenmiş bir meyve/sebze suyu “organik” değildir. JÜS olarak organik olmak için elimizden gelen her şeyi yapıyoruz ve sorumluluğumuzu asla hafife almıyoruz. Ne yazık ki İstanbul’da organik ürün bulma sıkıntısı, uçuk fiyatlar ve mevsimsel engellerden dolayı, yıl boyunca tamamen organik içecek üretmek o kadar da kolay olmuyor. Yine de sizlere en organik içecekleri sunmak için organik çiftçilerle çalışmaktan çok memnunuz. Organik ürünlerimizle ilgili sorularınızı lütfen bize iletin: "
       question4: "JÜS tatlandırıcı kullanıyor mu?"
@@ -204,8 +206,8 @@ tr:
       answer1-section1: "Hayır, değil. Detoks, çeşitli kültürler ve dinler tarafından binlerce yıldır kullanılan eski bir yöntem. “Detoks” kavramının özellikle son yıllarda popülerlik kazanmış olması sizi bunun sadece bir kerelik denenecek akımlardan biri olduğunu düşünmeye itmesin. Evet, bazıları vücutlarını dikkate almadan detokslarını çok uzun tutarak aşırıya kaçıyor olabilir. Fakat bizim JÜS olarak tavsiye ettiğimiz detoks yöntemi kesinlikle bu değil. Doğru şekilde yapılan bir detoksla vücudunuzun ihtiyacı olan sağlığı geri kazanabilirsiniz. Günlük olarak yapacağınız düzenli detoks sizin yaşam tarzınız olabilir – aşırıya kaçmadan tabi ki de. Soğuk preslenmiş sebze/meyve sularını – özellikle yeşil olanları – sabah rutininizin bir parçası haline getirerek enerjinizi gün boyu kaybetmez ve hafif bir detoksla hücrelerinizi canlandırırsınız."
       answer1-section2: "Genellikle farkında olduğumuzdan veya ihtiyacımız olduğundan daha fazla yiyoruz. Bu yediklerimizin içindeyse bol miktarda nişasta, beyaz şeker, beyaz un, işlenmiş yiyecekler, katkı maddeleri, düzenleyiciler, koruyucu maddeler, hidrojenize edilmiş yağlar, trans yağlar, buğday, glüten, hayvansal proteinler ve diğer hayvansal yan ürünler bulunmakta. Beslenme alışkanlığınızdan ara sıra uzaklaşarak vücudunuzun en iyi yaptığı şeye yardımcı olursunuz: Vücudunuz kendini onarır."
       answer1-section3: "Sebze/meyve sularıyla detoks yapmak demek, belirli bir süre boyunca tamamen çiğ sebze ve meyveyle beslenmek demektir. Böylece sindirim sisteminizi rahatlatırsınız; vücudunuzun cildi yenilemek, organlarınızı iyileştirmek ve dokularınızı onarmak gibi işlevlere odaklanmasında yardımcı olursunuz. Her yaşam tarzına uyacak detokslarımızdan kendinize uygun olanı seçerek sağlıklı bir yaşama merhaba deyin."
-      question2: "How long should I cleanse for?"
-      answer2: "We suggest taking part in a 1­-day cleanse each month for consistent benefits. If you would like to cleanse less often, but still see results, we suggest a 3­-day long cleanse each turn of the season. For more intense cleansing, please consult our resident nutritional expert for a consultation: "
+      question2: "Detoksum ne kadar sürmeli?"
+      answer2: "Detoksun yararlarından en iyi şekilde faydalanabilmeniz için ayda bir 1 günlük detoks yapmanızı öneriyoruz. Daha az sıklıkta detoks yapmak ama aynı zamanda etkili sonuçlar da almak istiyorsanız, her mevsim başında 3 günlük detoks yapmanızı öneriyoruz. Daha kuvvetli detoks seçenekleri için lütfen beslenme alanında uzmanlaşmış asistan doktorumuza danışın: "
       question3: "Kendimi detoksa nasıl hazırlarım?"
       answer3-section1:
         bullet1: "Detoks Öncesinde (12 gün önce):"
@@ -218,7 +220,7 @@ tr:
         bullet8: "∙ Uyumadan önceki 3 saat içinde sadece su tüketin"
       answer3-section2: 
         bullet1: "Detoks Sırasında:"
-        bullet2: "∙ Detoksunuza yardımcı olmak için 1’den 6’ya kadar numaralandırdığımız şişe kapaklarının sırasını takip edin."
+        bullet2: "∙ Detoksunuza yardımcı olmak için numaralandırdığımız şişe kapaklarının sırasını takip edin."
         bullet3: "∙ İlk içeceğinizi açlık hissetmeye başladığınızda için. Vücudunuzun ne zaman açlık sinyalleri gönderdiğini kaydedin."
         bullet4: "∙ İçeceklere ek olarak sadece su ya da bitki çayları tüketin."
         bullet5: "∙ Aşırı olmamak şartıyla egzersiz yapabilirsiniz. Fakat egzersizlerini sabah yapmaya çalışın."
@@ -226,7 +228,7 @@ tr:
       answer3-section3: 
         bullet1: "Sonrasında (12 gün sonra):"
         bullet2: "∙ Yaşam tarzınızın bir parçası haline gelmiş olan içeceklerimizin tadını sabah aç karnına içerek çıkarın."
-        bullet3: "∙ Hafif yiyecekler yiyin – özellikle taze meyve, sebze, fındık, çekirdek ve baklagiller."
+        bullet3: "∙ Hafif yiyecekler yiyin – özellikle taze meyve, sebze, fındık, kabuklu yemişler, çekirdek ve baklagiller."
         bullet4: "∙ Haddinden fazla yağ, hayvansal protein, pirinç, ekmek ve patates tüketmekten kaçının."
         bullet5: "∙ Tatlı yemek isterseniz seçiminizi siyah çikolatadan yana kullanın."
       answer3-section4: "Dikkat: Detoks yapmanın riskleriyle ilgili kendi araştırmanızı yapmanız ve bir doktora danışmanız büyük önem taşımaktadır. Amacımız uzman bir doktor tavsiyesinin yerini almak değil. Sadece başkalarının tecrübelerine ve kendi tecrübelerimize dayanarak konuşuyoruz. Detoks öncesinde, sırasında veya sonrasında hissettiğiniz belirtiler için lütfen bir doktora danışın."
