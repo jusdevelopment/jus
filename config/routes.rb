@@ -14,6 +14,7 @@ Coz::Application.routes.draw do
     get '/cleanses', to: 'static_pages#cleanses'
     get '/blog', to: 'static_pages#blog'
     get '/faq', to: 'static_pages#faq'
+    get '/about', to: 'static_pages#about'
   end
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

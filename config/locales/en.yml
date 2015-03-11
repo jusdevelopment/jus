@@ -31,6 +31,7 @@ en:
     faqjuices: "Juices"
     faqcleanses: "Cleansing"
     faqdelivery: "Delivery"
+    about: "About"
 
   homepage:
     slogan1: "JÜS. İstanbul's cold-pressed juice."
@@ -240,6 +241,15 @@ en:
       answer1-section4: "We are proud of our 100% recyclable glass bottles. They are strong, bold and beautiful. Our customers often tell us that the glass bottles even make our cold­-pressed juice taste better! We have also set up a glass bottle return and rewards program. For every 12 bottles returned, clients are rewarded with a 500ml cold­-pressed juice of their choice. We take used bottles, clean and sanitize them and then fill them with more amazing juice. For us, this program offsets the resources used to create the glass bottles and helps instill a value of reusing. "
       question2: "What neighborhoods do you deliver to, and when?"
       answer2: "For delivery questions, please contact us: "
-
+  about:
+    title1: "The JÜS Team"
+    description1: "No one in this city understands the biology and creation of cold-pressed juice quite like we do. With JÜS, we promise to offer only the best cold-pressed juices and plant-based food options available in Istanbul. While similar options do exist in this city, we have yet to find the taste, quality and concept that we can truly stand behind. Our goal is to create the highest standard for cold-pressed juices. "
+    title2: "About Aylin Erman"
+    description2: "Hi, my name is Aylin and I am founder of JÜS Istanbul.  "
+    title3: "The Store"
+    description3: ""
+    address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
+    phone: "0.536.775.2674"
+    email: "info@jusistanbul.com"
 
 

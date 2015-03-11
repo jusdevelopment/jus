@@ -1,0 +1,43 @@
+<%= render "static_pages/header/about_header" %>
+
+<div class="parallax nopadding_parallax">
+    
+    <div class="RightColumn">
+
+	<div class="ColumnTitle anchorLink"><%= t 'about.title1' %></div>
+
+	<%= render "section_seperator" %>
+
+
+
+
+		<div id="" class="SubRow ">
+			<%= t 'about.description1' %></br></br>
+		</div>
+	
+	<div class="ColumnTitle anchorLink"><%= t 'about.title2' %></div>
+
+	<%= render "section_seperator" %>
+
+
+
+		<div id="" class="SubRow ">
+			<%= image_tag "cleanse-2.jpg", class: "cleanse-graphic" %>
+			</br>
+			<%= t 'about.description2' %>
+			</br></br>
+		</div>
+
+
+	<div class="ColumnTitle anchorLink"><%= t 'about.title3' %></div>
+
+		<%= render "section_seperator" %>
+		<div id="" class="SubRow ">
+			<%= t 'about.description3' %></br></br></br>
+		</div>
+
+	</div>
+
+</div>
+
+<%= render "footer" %>

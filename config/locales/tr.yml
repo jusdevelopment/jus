@@ -31,6 +31,7 @@ tr:
     faqjuices: "Juice'lar"
     faqcleanses: "Detokslar"
     faqdelivery: "Teslimat"
+    about: "Hakkımızda"
 
   homepage:
     slogan1: "JÜS. İstanbul'un en taze meyve suyu."
@@ -241,11 +242,16 @@ tr:
       answer1-section4: "%100 geri dönüştürülebilir cam şişelerimizle gurur duyuyoruz. Hatta bazen müşterilerimiz içeceklerimizin cam şişede daha da lezzetli olduğunu söylüyor! Üstüne üstlük cam şişelerini getirenleri ödüllendiriyoruz. Bize getireceğiniz her 12 şişe için istediğiniz bir 500ml’lik içeceği size hediye ediyoruz. Kullanılmış şişeleri temizleyip sterilize ettikten sonra içlerini leziz içeceklerimizle dolduruyoruz! Bu uygulamayla cam şişe üretimini dengeleyerek yeniden kullanımın önemini vurgulamaya çalışıyoruz."
       question2: "Nereye ve ne zaman teslimat yapıyorsunuz?"
       answer2: "Teslimatla ilgili sorularınız izin lütfen bizimle irtibata geçin: "
-
-
-
-
-
+  about:
+    title1: "The JÜS Team"
+    description1: "No one in this city understands the biology and creation of cold-pressed juice quite like we do. With JÜS, we promise to offer only the best cold-pressed juices and plant-based food options available in Istanbul. While similar options do exist in this city, we have yet to find the taste, quality and concept that we can truly stand behind. Our goal is to create the highest standard for cold-pressed juices. "
+    title2: "About Aylin Erman"
+    description2: "Hi, my name is Aylin and I am founder of JÜS Istanbul."
+    title3: "The Store"
+    description3: ""
+    address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
+    phone: "0.536.775.2674"
+    email: "info@jusistanbul.com"
 
 
 

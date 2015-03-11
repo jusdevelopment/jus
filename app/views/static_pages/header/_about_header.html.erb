@@ -5,14 +5,12 @@
 
 <div id="jus_header">
 
-
 	<div id="header_bg">
 		<div id="logo_ornament">
 			<%= image_tag "color-droplets.png", id: "droplets" %>
 			<%= image_tag "icpj.png", id: "slogan" %>
 		</div>
 	</div>
-
 
 
 
@@ -36,6 +34,7 @@
 			</div>
 		<% end %>
 
+
 		<%= link_to cleanses_path do %>
 			<div class="nav_link">
 				<div class="bullet_drop"></div>
@@ -51,11 +50,12 @@
 		<% end %>
 
 		<%= link_to about_path do %>
-			<div class="nav_link">
+			<div class="nav_link permanent_selected">
 				<div class="bullet_drop"></div>
 				<div class="nav_label"><%= t 'navigation.about' %></div>
 			</div>
 		<% end %>
+
 
 	</div>
 
