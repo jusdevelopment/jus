@@ -1,11 +1,26 @@
 
 <!--div id="CarouselSlogan"><%= t 'homepage.slogan1' %></div-->
-
-<div id="carousel_outer_frame" class="owl-carousel owl-theme">
-	<div class="carousel_frame" id="carousel_frame1"></div>
-	<div class="carousel_frame" id="carousel_frame2"></div>
-	<div class="carousel_frame" id="carousel_frame3"></div>
-</div>
+<% if params[:locale] == "tr" %>
+	<div id="carousel_outer_frame" class="owl-carousel owl-theme">
+		
+		<div class="carousel_frame" id="carousel_frame1"></div>
+		
+		<div class="carousel_frame" id="carousel_frame2"></div>
+		
+		<div class="carousel_frame" id="carousel_frame3"></div>
+	</div>
+<% elsif params[:locale] == "en" %>
+	<div id="carousel_outer_frame" class="owl-carousel owl-theme">
+		<%= link_to juices_path do %>
+			<div class="carousel_frame" id="carousel_frame1en"></div>
+		<% end %>
+		<%= link_to home_path(:anchor => 'section4') do %>
+			<div class="carousel_frame" id="carousel_frame2en"></div>
+		<% end %>
+		<%= link_to cleanses_path do %>
+			<div class="carousel_frame" id="carousel_frame3en"></div>
+		<% end %>	</div>
+<% end %>
 
 <script>
 	$(document).ready(function() {

@@ -17,16 +17,29 @@
 }
 
 #carousel_frame1 { 
-	 background-image: url('slide-1.jpg');
+	 background-image: url('slide-1x.jpg');
 }
 
 #carousel_frame2 { 
-	 background-image: url('slide-2.jpg');
+	 background-image: url('slide-2x.jpg');
 }
 
 #carousel_frame3 { 
+	 background-image: url('slide-3x.jpg');
+}
+
+#carousel_frame1en { 
+	 background-image: url('slide-1.jpg');
+}
+
+#carousel_frame2en { 
+	 background-image: url('slide-2.jpg');
+}
+
+#carousel_frame3en { 
 	 background-image: url('slide-3.jpg');
 }
+
 
 #products_frame { 
     background-image: url('juices-home.jpg');
