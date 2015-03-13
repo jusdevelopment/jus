@@ -25,11 +25,13 @@
 
 @media screen and (orientation:portrait) {
 	.philosophy_label {
-		font-size: 2.1vw !important;
+		/* font-size: 2.1vw !important; */
+		font-size: 0.55em !important;
 	}
 
 	.philosophy_desc, .philosophy_desc2, {
-		font-size: 2vw !important;	
+		/* font-size: 2vw !important;	*/
+		font-size: 0.5em !important;
 	}
 
 	#philosophy_area {
@@ -102,10 +104,7 @@
 		display: inline-block;
 	}
 
-	.SubColumn {
-		font-size: 0.8em;
-		margin-right: 8vw;
-	}
+
 	.ProfileColumn{
 		width: 19vw;
 		height: 20vw;
@@ -126,8 +125,8 @@
 		background-color: #FFFFFF;
 	}
 	.SubRow {
-		font-size: 2.75vw !important;
-		
+		/* font-size: 2.75vw !important; */
+		font-size: 0.65em;
 	}
 }
 
@@ -146,11 +145,23 @@
 		margin-bottom: 2.5vw !important;
 	}
 
+	.philosophy_label {
+		/* font-size: 2.1vw !important; */
+		font-size: 0.55em !important;
+	}
+
+	.philosophy_desc, .philosophy_desc2, {
+		/* font-size: 2vw !important;	*/
+		font-size: 0.45em !important;
+	}
+
+
 	#links {
 		background-color: rgba(255, 255, 255, 0.0);
 	}
 	.SubRow {
-		font-size: 1.55vw !important;
+		/* font-size: 1.55vw !important; */
+		font-size: 0.65em;
 	}
 	#portraitDummyFill{
 		margin-top: 0.2em;
@@ -170,10 +181,7 @@
 		width: 13vw;
 		height: 13vw;
 	}
-	.SubColumn {
-		font-size: 2.2vw;
-		margin-right: 4.1vw;
-	}
+
 
 	.LeftLabel {
 		

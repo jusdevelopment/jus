@@ -1,0 +1,1595 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+.spaced_text {
+  line-height: 1.45em; }
+  .spaced_text .LowerTitle {
+    margin-top: 0.1em;
+    line-height: 3.25vw; }
+
+.carousel_frame {
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 21em; }
+
+#carousel_frame1 {
+  background-image: url("slide-1x.jpg"); }
+
+#carousel_frame2 {
+  background-image: url("slide-2x.jpg"); }
+
+#carousel_frame3 {
+  background-image: url("slide-3x.jpg"); }
+
+#carousel_frame1en {
+  background-image: url("slide-1.jpg"); }
+
+#carousel_frame2en {
+  background-image: url("slide-2.jpg"); }
+
+#carousel_frame3en {
+  background-image: url("slide-3.jpg"); }
+
+#products_frame {
+  background-image: url("juices-home.jpg");
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  height: 33vw; }
+
+.ColumnTitle {
+  font-family: "Trade Bold";
+  font-size: 3.25vw !important; }
+
+.LowerTitle {
+  font-size: 2.75vw !important; }
+
+#HookSlogan {
+  font-family: "Trade Bold";
+  font-size: 4.25vw !important;
+  padding-bottom: 1em; }
+
+#CarouselSlogan {
+  font-family: "Trade Bold";
+  padding-bottom: 1em;
+  font-size: 1em;
+  position: absolute;
+  right: 1em;
+  top: 6em;
+  z-index: 100; }
+
+.slogan_parallax {
+  padding-top: 1em !important; }
+
+#whatIsJus {
+  clear: both; }
+
+body {
+  overflow-x: hidden; }
+
+.RightColumn {
+  overflow-x: hidden; }
+
+.section_seperator {
+  position: relative;
+  font-size: 0.4em;
+  margin-top: 1.5em;
+  color: #CCCCCC;
+  margin-bottom: 2em;
+  overflow: hidden;
+  width: 120%;
+  font-style: italic;
+  font-family: "Helvetica"; }
+@font-face {
+  font-family: 'Trade Bold';
+  src: url(/assets/trade_bold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Trade Regular';
+  src: url(/assets/trade_regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* GRID MEASUREMENTS */
+/* MAIN COLORS */
+/* MAIN MEASUREMENTS */
+/* EXTENDED COLOR THEME */
+.uniformSquare2 {
+  display: inline-block;
+  border: 2px solid red;
+  text-align: center;
+  background-color: transparent; }
+
+.uniformSquare {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  background-color: transparent; }
+
+@media screen and (orientation: portrait) {
+  .philosophy_label {
+    /* font-size: 2.1vw !important; */
+    font-size: 0.55em !important; }
+
+  .philosophy_desc, .philosophy_desc2 {
+    /* font-size: 2vw !important;	*/
+    font-size: 0.5em !important; }
+
+  #philosophy_area {
+    padding-left: 0% !important;
+    left: 37% !important; }
+
+  #philosophy_area2 {
+    padding-bottom: 0.5em !important; }
+
+  .philosophy_frame {
+    width: 47% !important; }
+
+  .left_p_frame {
+    margin-right: 1vw !important; }
+
+  #links:hover {
+    background-color: rgba(255, 255, 255, 0.9); }
+    #links:hover .nav_label {
+      display: block; }
+  #links .nav_link .nav_label {
+    color: #141414; }
+  #links .nav_link:hover .nav_label {
+    color: #C60F47 !important; }
+
+  .nav_label {
+    display: none; }
+
+  .RightColumn {
+    padding-left: 17%;
+    width: 78%;
+    padding-right: 5%; }
+
+  #services .RightColumn {
+    width: 90%; }
+
+  .LeftColumn {
+    padding-left: 25%;
+    width: 50%;
+    display: none !important; }
+
+  #coz_logo {
+    padding-left: 10%;
+    padding-top: 0.2em; }
+
+  .LeftLabel {
+    font-size: 2em;
+    display: inline-block; }
+
+  .ProfileColumn {
+    width: 19vw;
+    height: 20vw; }
+
+  #contact {
+    height: 32em; }
+
+  #contact_bg {
+    height: 35em; }
+
+  #contact_centered_frame {
+    top: 0; }
+
+  #portraitDummyFill {
+    margin-top: 0.2em;
+    height: 3em;
+    background-color: #FFFFFF; }
+
+  .SubRow {
+    /* font-size: 2.75vw !important; */
+    font-size: 0.65em; } }
+@media screen and (orientation: landscape) {
+  .philosophy_symbol_frame {
+    margin-right: 0.75em !important; }
+
+  #philosophy_area2 {
+    padding-top: 1.5em !important;
+    padding-bottom: 1.5vw !important; }
+
+  .philosophy_frame2 {
+    margin-bottom: 2.5vw !important; }
+
+  .philosophy_label {
+    /* font-size: 2.1vw !important; */
+    font-size: 0.55em !important; }
+
+  .philosophy_desc, .philosophy_desc2 {
+    /* font-size: 2vw !important;	*/
+    font-size: 0.45em !important; }
+
+  #links {
+    background-color: rgba(255, 255, 255, 0); }
+
+  .SubRow {
+    /* font-size: 1.55vw !important; */
+    font-size: 0.65em; }
+
+  #portraitDummyFill {
+    margin-top: 0.2em;
+    height: 0em;
+    background-color: #FFFFFF; }
+
+  #contact_centered_frame {
+    top: 5em; }
+
+  #contact {
+    height: 43em; }
+
+  #contact_bg {
+    height: 50em; }
+
+  .ProfileColumn {
+    width: 13vw;
+    height: 13vw; }
+
+  .LeftLabel {
+    display: block;
+    padding-left: 21%;
+    font-size: 4.8vw; }
+
+  #coz_logo {
+    padding-top: 1.1em;
+    padding-left: 10%;
+    margin-left: 10%;
+    margin-top: -2vw; }
+
+  .RightColumn {
+    padding-left: 30%;
+    width: 60%;
+    padding-right: 10%; }
+
+  .parallax {
+    padding-left: 0; }
+
+  #services .RightColumn {
+    width: 60%; }
+
+  .LeftColumn {
+    padding-left: 0%;
+    width: 0;
+    padding: 0;
+    margin: 0; } }
+@media all and (min-width: 50px) and (min-height: 50px) {
+  html {
+    font-size: 2px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 50px;
+    width: 50px; } }
+@media all and (min-width: 75px) and (min-height: 75px) {
+  html {
+    font-size: 3px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 75px;
+    width: 75px; } }
+@media all and (min-width: 100px) and (min-height: 100px) {
+  html {
+    font-size: 4px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 100px;
+    width: 100px; } }
+@media all and (min-width: 125px) and (min-height: 125px) {
+  html {
+    font-size: 5px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 125px;
+    width: 125px; } }
+@media all and (min-width: 150px) and (min-height: 150px) {
+  html {
+    font-size: 6px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 150px;
+    width: 150px; } }
+@media all and (min-width: 175px) and (min-height: 175px) {
+  html {
+    font-size: 7px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 175px;
+    width: 175px; } }
+@media all and (min-width: 200px) and (min-height: 200px) {
+  html {
+    font-size: 8px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 200px;
+    width: 200px; } }
+@media all and (min-width: 225px) and (min-height: 225px) {
+  html {
+    font-size: 9px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 225px;
+    width: 225px; } }
+@media all and (min-width: 250px) and (min-height: 250px) {
+  html {
+    font-size: 10px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 250px;
+    width: 250px; } }
+@media all and (min-width: 275px) and (min-height: 275px) {
+  html {
+    font-size: 11px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 275px;
+    width: 275px; } }
+@media all and (min-width: 300px) and (min-height: 300px) {
+  html {
+    font-size: 12px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 300px;
+    width: 300px; } }
+@media all and (min-width: 325px) and (min-height: 325px) {
+  html {
+    font-size: 13px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 325px;
+    width: 325px; } }
+@media all and (min-width: 350px) and (min-height: 350px) {
+  html {
+    font-size: 14px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 350px;
+    width: 350px; } }
+@media all and (min-width: 375px) and (min-height: 375px) {
+  html {
+    font-size: 15px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 375px;
+    width: 375px; } }
+@media all and (min-width: 400px) and (min-height: 400px) {
+  html {
+    font-size: 16px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 400px;
+    width: 400px; } }
+@media all and (min-width: 425px) and (min-height: 425px) {
+  html {
+    font-size: 17px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 425px;
+    width: 425px; } }
+@media all and (min-width: 450px) and (min-height: 450px) {
+  html {
+    font-size: 18px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 450px;
+    width: 450px; } }
+@media all and (min-width: 475px) and (min-height: 475px) {
+  html {
+    font-size: 19px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 475px;
+    width: 475px; } }
+@media all and (min-width: 500px) and (min-height: 500px) {
+  html {
+    font-size: 20px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 500px;
+    width: 500px; } }
+@media all and (min-width: 525px) and (min-height: 525px) {
+  html {
+    font-size: 21px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 525px;
+    width: 525px; } }
+@media all and (min-width: 550px) and (min-height: 550px) {
+  html {
+    font-size: 22px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 550px;
+    width: 550px; } }
+@media all and (min-width: 575px) and (min-height: 575px) {
+  html {
+    font-size: 23px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 575px;
+    width: 575px; } }
+@media all and (min-width: 600px) and (min-height: 600px) {
+  html {
+    font-size: 24px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 600px;
+    width: 600px; } }
+@media all and (min-width: 625px) and (min-height: 625px) {
+  html {
+    font-size: 25px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 625px;
+    width: 625px; } }
+@media all and (min-width: 650px) and (min-height: 650px) {
+  html {
+    font-size: 26px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 650px;
+    width: 650px; } }
+@media all and (min-width: 675px) and (min-height: 675px) {
+  html {
+    font-size: 27px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 675px;
+    width: 675px; } }
+@media all and (min-width: 700px) and (min-height: 700px) {
+  html {
+    font-size: 28px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 700px;
+    width: 700px; } }
+@media all and (min-width: 725px) and (min-height: 725px) {
+  html {
+    font-size: 29px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 725px;
+    width: 725px; } }
+@media all and (min-width: 750px) and (min-height: 750px) {
+  html {
+    font-size: 30px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 750px;
+    width: 750px; } }
+@media all and (min-width: 775px) and (min-height: 775px) {
+  html {
+    font-size: 31px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 775px;
+    width: 775px; } }
+@media all and (min-width: 800px) and (min-height: 800px) {
+  html {
+    font-size: 32px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 800px;
+    width: 800px; } }
+@media all and (min-width: 825px) and (min-height: 825px) {
+  html {
+    font-size: 33px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 825px;
+    width: 825px; } }
+@media all and (min-width: 850px) and (min-height: 850px) {
+  html {
+    font-size: 34px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 850px;
+    width: 850px; } }
+@media all and (min-width: 875px) and (min-height: 875px) {
+  html {
+    font-size: 35px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 875px;
+    width: 875px; } }
+@media all and (min-width: 900px) and (min-height: 900px) {
+  html {
+    font-size: 36px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 900px;
+    width: 900px; } }
+@media all and (min-width: 925px) and (min-height: 925px) {
+  html {
+    font-size: 37px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 925px;
+    width: 925px; } }
+@media all and (min-width: 950px) and (min-height: 950px) {
+  html {
+    font-size: 38px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 950px;
+    width: 950px; } }
+@media all and (min-width: 975px) and (min-height: 975px) {
+  html {
+    font-size: 39px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 975px;
+    width: 975px; } }
+@media all and (min-width: 1000px) and (min-height: 1000px) {
+  html {
+    font-size: 40px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1000px;
+    width: 1000px; } }
+@media all and (min-width: 1025px) and (min-height: 1025px) {
+  html {
+    font-size: 41px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1025px;
+    width: 1025px; } }
+@media all and (min-width: 1050px) and (min-height: 1050px) {
+  html {
+    font-size: 42px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1050px;
+    width: 1050px; } }
+@media all and (min-width: 1075px) and (min-height: 1075px) {
+  html {
+    font-size: 43px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1075px;
+    width: 1075px; } }
+@media all and (min-width: 1100px) and (min-height: 1100px) {
+  html {
+    font-size: 44px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1100px;
+    width: 1100px; } }
+@media all and (min-width: 1125px) and (min-height: 1125px) {
+  html {
+    font-size: 45px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1125px;
+    width: 1125px; } }
+@media all and (min-width: 1150px) and (min-height: 1150px) {
+  html {
+    font-size: 46px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1150px;
+    width: 1150px; } }
+@media all and (min-width: 1175px) and (min-height: 1175px) {
+  html {
+    font-size: 47px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1175px;
+    width: 1175px; } }
+@media all and (min-width: 1200px) and (min-height: 1200px) {
+  html {
+    font-size: 48px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1200px;
+    width: 1200px; } }
+@media all and (min-width: 1225px) and (min-height: 1225px) {
+  html {
+    font-size: 49px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1225px;
+    width: 1225px; } }
+@media all and (min-width: 1250px) and (min-height: 1250px) {
+  html {
+    font-size: 50px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1250px;
+    width: 1250px; } }
+@media all and (min-width: 1275px) and (min-height: 1275px) {
+  html {
+    font-size: 51px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1275px;
+    width: 1275px; } }
+@media all and (min-width: 1300px) and (min-height: 1300px) {
+  html {
+    font-size: 52px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1300px;
+    width: 1300px; } }
+@media all and (min-width: 1325px) and (min-height: 1325px) {
+  html {
+    font-size: 55px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1325px;
+    width: 1325px; } }
+@media all and (min-width: 1350px) and (min-height: 1350px) {
+  html {
+    font-size: 54px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1350px;
+    width: 1350px; } }
+@media all and (min-width: 1375px) and (min-height: 1375px) {
+  html {
+    font-size: 55px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1375px;
+    width: 1375px; } }
+@media all and (min-width: 1400px) and (min-height: 1400px) {
+  html {
+    font-size: 56px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1400px;
+    width: 1400px; } }
+@media all and (min-width: 1425px) and (min-height: 1425px) {
+  html {
+    font-size: 57px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1425px;
+    width: 1425px; } }
+@media all and (min-width: 1450px) and (min-height: 1450px) {
+  html {
+    font-size: 58px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1450px;
+    width: 1450px; } }
+@media all and (min-width: 1475px) and (min-height: 1475px) {
+  html {
+    font-size: 59px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1475px;
+    width: 1475px; } }
+@media all and (min-width: 1500px) and (min-height: 1500px) {
+  html {
+    font-size: 60px; }
+
+  .uniformSquare, .uniformSquare2 {
+    height: 1500px;
+    width: 1500px; } }
+/* GRID MEASUREMENTS */
+/* MAIN COLORS */
+/* MAIN MEASUREMENTS */
+/* EXTENDED COLOR THEME */
+#jus_header {
+  position: relative;
+  width: 100%;
+  height: 5em;
+  background-color: #FFFFFF;
+  z-index: 10;
+  font-family: "Trade Gothic Condensed Bold"; }
+
+#jus_logo {
+  height: 3.5em;
+  padding: 0.625em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
+  width: auto;
+  float: left;
+  clear: both; }
+
+#ruler {
+  position: fixed;
+  top: 0em;
+  left: 0;
+  width: 10.975em;
+  height: 13.75em;
+  background-color: transparent;
+  opacity: 0.5;
+  z-index: 10000;
+  display: none; }
+
+#droplets {
+  position: absolute;
+  left: 4em;
+  top: 3em;
+  height: 0.45em;
+  width: auto;
+  z-index: 20; }
+
+#slogan {
+  position: absolute;
+  left: 4em;
+  top: 2.1em;
+  height: 0.605em;
+  width: auto;
+  z-index: 20; }
+
+#links {
+  position: fixed;
+  padding-bottom: 0.5em;
+  padding-right: 0.25em;
+  top: 0;
+  bottom: 0; }
+
+.hidden {
+  height: 0;
+  width: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 0; }
+
+.nav_link {
+  margin-top: 0.05em;
+  margin-bottom: 0.05em;
+  padding-top: 0.125em;
+  padding-bottom: 0.125em;
+  padding-right: 0.25em;
+  font-size: 1.35em;
+  top: 0.2em;
+  position: relative;
+  float: left;
+  clear: both;
+  background-color: transparent;
+  font-family: "Trade Bold"; }
+  .nav_link .nav_label {
+    float: left;
+    position: relative;
+    top: 0.28em;
+    font-size: 0.45em;
+    padding-right: 0.75em;
+    cursor: pointer;
+    color: #AAAAAA; }
+  .nav_link:hover {
+    background-color: rgba(150, 150, 150, 0.25); }
+    .nav_link:hover .bullet_dot {
+      background-image: url("bullet-dot-hover.png"); }
+    .nav_link:hover .bullet_drop {
+      background-image: url("bullet-drop-hover.png"); }
+    .nav_link:hover .nav_label {
+      color: #C60F47; }
+
+.selected, .permanent_selected {
+  cursor: normal !important;
+  background-color: rgba(100, 100, 100, 0.75) !important; }
+  .selected .bullet_dot, .permanent_selected .bullet_dot {
+    background-image: url("bullet-dot-selected.png"); }
+  .selected .bullet_drop, .permanent_selected .bullet_drop {
+    background-image: url("bullet-drop-selected.png"); }
+  .selected .nav_label, .permanent_selected .nav_label {
+    color: #FFFFFF !important; }
+
+.nav_sublink {
+  margin-top: 0.07em;
+  font-size: 1.25em;
+  top: 0.18em;
+  padding-top: 0.0125em;
+  padding-bottom: 0.0125em;
+  padding-right: 0.25em;
+  background-color: transparent;
+  position: relative;
+  float: left;
+  clear: both;
+  font-family: "Trade Regular"; }
+  .nav_sublink .nav_label {
+    float: left;
+    position: relative;
+    top: 0.25em;
+    font-size: 0.45em;
+    padding-right: 0.75em;
+    cursor: pointer;
+    color: #AAAAAA; }
+  .nav_sublink:hover {
+    background-color: rgba(150, 150, 150, 0.25); }
+    .nav_sublink:hover .bullet_dot {
+      background-image: url("bullet-dot-hover.png"); }
+    .nav_sublink:hover .bullet_drop {
+      background-image: url("bullet-drop-hover.png"); }
+    .nav_sublink:hover .nav_label {
+      color: #C60F47; }
+
+.bullet_drop {
+  float: left;
+  margin: 0.25em;
+  margin-top: 0.16em;
+  margin-bottom: 0.22em;
+  margin-left: 1.3em;
+  margin-right: 0.74em;
+  background-image: url("bullet-drop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 0.325em;
+  height: 0.45em; }
+  .bullet_drop:hover {
+    background-image: url("bullet-drop-hover.png"); }
+
+.bullet_dot {
+  float: left;
+  margin: 0.25em;
+  margin-right: 0.9em;
+  margin-left: 1.47em;
+  background-image: url("bullet-dot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: relative;
+  width: 0.2em;
+  height: 0.2em; }
+  .bullet_dot:hover {
+    background-image: url("bullet-dot-hover.png"); }
+
+#social {
+  position: absolute;
+  right: 1em;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 1em; }
+
+.social_icon {
+  height: 0.88em;
+  margin-right: 0.1em; }
+  .social_icon:hover {
+    filter: invert(25%);
+    -webkit-filter: invert(25%);
+    -moz-filter: invert(25%);
+    -ms-filter: invert(25%);
+    -o-filter: invert(25%); }
+
+#header_mail {
+  position: absolute;
+  top: 2.75em;
+  right: 0.22em;
+  font-size: 0.475em;
+  font-family: "Trade Regular";
+  color: #141414; }
+  #header_mail:hover {
+    color: #666666; }
+
+#footer_mail {
+  position: absolute;
+  color: #888888;
+  filter: invert(25%);
+  -webkit-filter: invert(25%);
+  -moz-filter: invert(25%);
+  -ms-filter: invert(25%);
+  -o-filter: invert(25%); }
+  #footer_mail:hover {
+    color: #B3B3B3; }
+
+/* FOOTER */
+#footer_logo {
+  height: 2em;
+  padding: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+  width: auto;
+  float: left;
+  clear: both;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -ms-filter: invert(100%);
+  -o-filter: invert(100%); }
+
+.footer_icon {
+  opacity: 0.5;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+  -moz-filter: invert(100%);
+  -ms-filter: invert(100%);
+  -o-filter: invert(100%); }
+
+#jus_footer {
+  position: relative;
+  width: 100%;
+  height: 4em;
+  background-color: #282828;
+  color: #666666;
+  z-index: 10; }
+
+#company_contact {
+  position: absolute;
+  font-size: 0.5em;
+  left: 25.5em;
+  top: 2.75em;
+  line-height: 1.5em;
+  color: #888888; }
+
+#company_info {
+  position: absolute;
+  font-size: 0.5em;
+  left: 7.5em;
+  top: 2.75em;
+  line-height: 1.5em;
+  color: #888888; }
+
+#language {
+  position: absolute;
+  right: 1.15em;
+  top: 1em;
+  height: 1em;
+  width: 4em;
+  text-align: right; }
+
+.language_selection {
+  float: right;
+  margin-left: 0.75em;
+  cursor: pointer; }
+  .language_selection:hover .language_bullet {
+    background-color: #C60F47; }
+
+.language_name {
+  font-size: 0.55em;
+  font-family: "Trade Regular";
+  float: left;
+  color: #1d1d1b;
+  position: relative; }
+
+.language_bullet {
+  position: absolute;
+  top: -0.2em;
+  bottom: 0;
+  left: -0.7em;
+  height: 0.4em;
+  width: 0.4em;
+  margin-top: auto;
+  margin-bottom: auto;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  background-color: #d1d1d1; }
+
+.active_language {
+  cursor: normal; }
+  .active_language .language_bullet {
+    background-color: #1d1d1b !important; }
+/* GRID MEASUREMENTS */
+/* MAIN COLORS */
+/* MAIN MEASUREMENTS */
+/* EXTENDED COLOR THEME */
+/* General */
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black; }
+
+html, body, .philosophy_desc, .philosophy_desc2, .philosophy_label, .SubRow
+SubRow {
+  -webkit-text-size-adjust: none !important; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: white;
+  font-family: "Trade Regular";
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.owl-wrapper-outer, .owl-item, .owl-wrapper .carousel_frame {
+  background-color: #FFFFFF !important;
+  color: #FFFFFF !important;
+  border: 0 solid #FFFFFF;
+  border-image-width: 0 0 0 0 !important;
+  margin-top: -3px; }
+
+.parallax {
+  position: relative;
+  text-align: left;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: 0.0em; }
+
+#description {
+  background-color: black;
+  color: white; }
+
+/* Sections */
+.LeftColumn {
+  position: relative;
+  baseline: top;
+  line-height: 100%;
+  vertical-align: top;
+  text-align: center;
+  display: inline-block;
+  padding-bottom: 1.75em; }
+
+.RightColumn {
+  position: relative;
+  display: inline-block;
+  text-shadow: 1px 1px 0px white, -1px -1px 0px white; }
+
+.LeftLabel {
+  text-align: left;
+  line-height: 1em;
+  font-family: "Raleway Bold"; }
+
+#information {
+  border-bottom: 5px dashed white; }
+
+.fifty {
+  width: 50%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute; }
+
+.SubRow {
+  clear: both;
+  margin-bottom: 0em; }
+  .SubRow a {
+    color: black;
+    font-family: "Trade Bold"; }
+
+.LastRow {
+  margin-bottom: 0; }
+
+.SubColumn {
+  display: inline-block;
+  vertical-align: top; }
+
+.LastColumn {
+  margin-right: 0em; }
+
+#services {
+  border-bottom: 5px dashed #ffffff; }
+
+#contact {
+  position: relative;
+  line-height: 0;
+  background-color: #FFFFFF;
+  padding-bottom: 0;
+  padding-top: 0;
+  overflow-y: hidden;
+  overflow-x: hidden; }
+
+#contact_bg {
+  position: absolute;
+  min-width: 100%;
+  left: -100%;
+  right: -100%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0.8em; }
+
+#contact_centered_frame {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 20em;
+  height: 11em;
+  margin: auto; }
+
+#contact_info {
+  color: #505050;
+  position: absolute;
+  height: 1em;
+  left: 0.7em;
+  right: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  top: 9.5em; }
+
+#home_bottle {
+  position: relative;
+  float: left;
+  left: -0.75em;
+  top: 0;
+  height: auto;
+  width: 25%;
+  padding-bottom: 2.5em; }
+
+#last_philosophy {
+  margin-bottom: 1.75em; }
+
+#philosophy_area {
+  margin-top: 2vw;
+  position: absolute;
+  right: 0;
+  padding-left: 0;
+  left: 46%; }
+
+#philosophy_area2 {
+  padding-top: 1em;
+  display: inline-block;
+  position: relative;
+  margin-top: 1em;
+  color: #3a3a3a;
+  text-shadow: none;
+  padding-bottom: 0em; }
+
+#coldPressed {
+  padding-top: 1.5em; }
+
+#philosophy_background {
+  background-color: #EFF1EC;
+  position: absolute;
+  top: 0;
+  bottom: 5%;
+  right: -1000px;
+  left: -1000px;
+  z-index: 0; }
+
+.philosophy_frame {
+  float: left;
+  width: 48%;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  z-index: 10; }
+
+.philosophy_frame2 {
+  float: left;
+  width: 44%;
+  text-align: left;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  z-index: 10; }
+
+.left_p_frame {
+  margin-right: 2vw; }
+
+.left_p_frame2 {
+  margin-right: 1.75em; }
+
+.philosophy_label {
+  position: relative;
+  float: left;
+  height: 1em;
+  width: 59%;
+  font-family: "Trade Bold";
+  margin-bottom: 0.7em;
+  z-index: 10; }
+
+#pastorize {
+  width: 65% !important; }
+
+.philosophy_desc {
+  position: relative;
+  float: left;
+  width: 75%;
+  height: 4em;
+  z-index: 10; }
+
+.philosophy_desc2 {
+  position: relative;
+  float: left;
+  font-size: 1.4vw;
+  width: 55%;
+  height: 4em;
+  z-index: 10; }
+
+.philosophy_symbol {
+  position: relative;
+  width: 18%;
+  height: auto;
+  top: -0.3em;
+  padding-bottom: 1em;
+  float: left;
+  margin-right: 1vw;
+  z-index: 10; }
+
+.philosophy_symbol_frame {
+  position: relative;
+  height: 2em;
+  width: 2em;
+  padding-right: auto;
+  margin-bottom: 2em;
+  float: left;
+  margin-right: 2vw;
+  z-index: 10; }
+
+.philosophy_symbol2 {
+  position: absolute;
+  height: 2em;
+  width: auto;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; }
+
+#coldpressed_chart {
+  text-align: left;
+  width: 80%;
+  padding-right: 20%;
+  height: auto;
+  padding-top: 1em;
+  padding-bottom: 0.75em;
+  margin-bottom: 1em; }
+
+#juices_graphic {
+  text-align: left;
+  width: 105%;
+  margin-left: -1.5em;
+  padding-right: 20%;
+  height: auto;
+  margin-top: -1em;
+  padding-top: 0em;
+  padding-bottom: 0.75em;
+  margin-bottom: 0.5em; }
+
+#norwalk-graphic {
+  padding-top: 0.75em;
+  height: 15em;
+  width: auto; }
+
+.first_parallax {
+  padding-top: 2em; }
+
+.nopadding_parallax {
+  padding-top: 0.35em; }
+
+#juices2 {
+  padding-top: 0em; }
+
+.LowerTitle {
+  font-family: "Trade Bold"; }
+
+.cleanse-glyph {
+  position: relative;
+  margin-right: 0.4em;
+  height: 1.25em;
+  width: 1.25em;
+  float: left; }
+
+.cleanse-graphic {
+  height: 9em;
+  width: auto; }
+
+.home-cleanse-graphic {
+  margin-left: -1.25em;
+  height: 9em;
+  width: auto; }
+
+.GlyphTitle {
+  position: relative;
+  float: left;
+  top: 0.0em;
+  font-family: "Trade Bold"; }
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+
+.JuiceFrame {
+  position: relative; }
+
+.JuiceHeader {
+  float: left;
+  clear: both;
+  position: relative;
+  font-family: "Trade Bold";
+  margin-bottom: 0.75em; }
+
+.JuiceGlyph {
+  margin-left: 0.5em;
+  padding-top: 0.6em;
+  position: relative;
+  font-size: 0.65em;
+  float: left;
+  width: 2.75em;
+  height: auto; }
+
+.cleansePrice {
+  font-family: "Trade Regular";
+  color: #777777; }
+
+.JuiceTitle {
+  margin-top: 0.25em;
+  margin-left: 1.75em;
+  position: relative;
+  float: left; }
+
+.JuiceContent {
+  position: relative;
+  clear: left; }
+
+.JuiceBottle {
+  position: relative;
+  float: left;
+  height: auto;
+  width: 2.7em;
+  margin-left: -0.35em;
+  margin-top: -0.3em;
+  padding-bottom: 3em;
+  margin-right: 0.75em; }
+
+.JuiceIngredients {
+  position: relative;
+  float: left;
+  padding-bottom: 5em;
+  margin-left: 0.5em;
+  width: 5em;
+  height: 100%; }
+
+.Ingredient {
+  position: relative;
+  clear: both; }
+
+.IngredientMargin {
+  padding-top: 0.5em; }
+
+.IngredientIconFrame {
+  position: relative;
+  width: 100%;
+  top: 0.1em;
+  float: left;
+  height: 1em;
+  width: 1em;
+  margin: 0.25em;
+  margin-bottom: 0.25em;
+  margin-top: 0em;
+  text-align: center; }
+
+.IngredientIcon {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 100%;
+  max-height: 100%; }
+
+.IngredientLabel {
+  float: left;
+  font-size: 0.65em;
+  padding-top: 0.3em;
+  padding-left: 0.2em; }
+
+.JuiceDescription {
+  position: relative;
+  left: 0em;
+  font-size: 0.8em;
+  padding-top: 0.28em;
+  padding-bottom: 4.3em;
+  color: #777777;
+  margin-left: 18em; }
+#splash_frame {
+  background-image: url("jus-splash-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%; }
+
+#splash_logo {
+  float: left;
+  padding: 1em;
+  height: 10em;
+  min-height: 100px;
+  max-height: 294px;
+  width: auto; }
+
+#social_links {
+  float: right;
+  padding: 1em; }
+
+.social_link {
+  text-align: right;
+  vertical-align: middle;
+  font-family: "Simplifica Regular";
+  color: #666666;
+  position: relative;
+  margin-top: -0.5em;
+  padding-top: 1em; }
+
+.splash_social_icon {
+  height: 2em;
+  min-height: 25px;
+  max-height: 38px;
+  padding-top: 0.5em;
+  margin-bottom: -0.5em; }
+
+a {
+  text-decoration: none !important; }
+
+#facebook_link {
+  white-space: nowrap; }
+
+#mail_link_caption {
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  font-size: 100%;
+  min-height: 14px; }
+
+#mail_icon {
+  padding-top: 2em;
+  margin-bottom: -0.5em;
+  padding-left: 0.25em; }
+/* GRID MEASUREMENTS */
+/* MAIN COLORS */
+/* MAIN MEASUREMENTS */
+/* EXTENDED COLOR THEME */

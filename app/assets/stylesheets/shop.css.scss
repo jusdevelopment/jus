@@ -40,7 +40,6 @@
 .JuiceContent {
 	position: relative;
 	clear: left;
-	
 }
 
 .JuiceBottle {
@@ -59,13 +58,17 @@
 	
 	position: relative;
 	float: left;
-	padding-bottom: 3em;
+
+	padding-bottom: 5em;
 	margin-left: 0.5em;
+	width: 5em;
+	height: 100%;
 }
 
 .Ingredient{
 	position: relative;
 	clear: both;
+
 }
 
 .IngredientMargin {
@@ -105,12 +108,11 @@
 
 .JuiceDescription {
 	
-	position: absolute;
-	left: 18em;
-	right: 0;
-	top: 0em;
+	position: relative;
+	left: 0em;
 	font-size: 0.8em; 
 	padding-top: 0.28em;
 	padding-bottom: 4.3em;
 	color: #777777;
+	margin-left: 18em;
 }
