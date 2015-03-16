@@ -23,10 +23,28 @@ $(function() {
   });
 });
 
+$.fn.scrollStopped = function(callback) {
+    var $this = $(this), self = this;
+    $this.scroll(function(){
+        if ($this.data('scrollTimeout')) {
+          clearTimeout($this.data('scrollTimeout'));
+        }
+        $this.data('scrollTimeout', setTimeout(callback,200,self));
+    });
+};
+
+$(window).scrollStopped(function(){
+    $("#links").animate({ top: $(document).scrollTop() });
+});
+
+
+
+
+
 function getPosition() {
 
 	var position = $(document).scrollTop();
-	console.log("position: " + position );
+	//console.log("position: " + position );
 	return position;
 };
 
@@ -36,13 +54,13 @@ function reportPosition() {
 
 	var anchors = $(".anchorLink");
 	var link_position = 0;
-	console.log(anchors.length);
-	
+	//console.log(anchors.length);
+
 	for (i = 0; i < anchors.length; i++) { 
     	anchor = anchors[i];
     	anchorPosition = $( anchor ).offset().top;
 
-    	console.log(i + " " + anchorPosition);
+    	//console.log(i + " " + anchorPosition);
 
     	if (anchorPosition < getPosition() + 220)
     	{
@@ -58,18 +76,18 @@ function reportPosition() {
 	{
 		
 
-			console.log("currently " + anchors[link_position -1].innerHTML);
+			//console.log("currently " + anchors[link_position -1].innerHTML);
 
 			var navLinks = $(".nav_link, .nav_sublink");
 
 			var link_text = anchors[link_position -1 ].innerHTML;
 
-			console.log("link text " + link_text);
+			//console.log("link text " + link_text);
 			
 			var label_selected = $('.nav_label:contains('+ link_text +')')[0];
 			var main_link = $('.nav_label:contains('+ link_text +')').closest(".nav_sublink");
 
-			console.log("link selected " + label_selected.innerHTML);
+			//console.log("link selected " + label_selected.innerHTML);
 
 			var link_selected = $('.nav_sublink .nav_label:contains('+ link_text +')')[0].parentNode;
 
@@ -79,6 +97,8 @@ function reportPosition() {
 
 
 	}
+
+
 
 }
 

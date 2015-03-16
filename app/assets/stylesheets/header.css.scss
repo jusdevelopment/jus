@@ -38,8 +38,8 @@
 #droplets {
 	position: absolute;
 	left: 4em;
-	top: 3em;
-	height: 0.45em;
+	top: 3.15em;
+	height: 0.42em;
 	width: auto;
 	z-index: 20;
 }
@@ -47,14 +47,14 @@
 #slogan {
 	position: absolute;
 	left: 4em;
-	top: 2.1em;
-	height: 0.605em;
+	top: 2.15em;
+	height: 0.81em;
 	width: auto;
 	z-index: 20;
 }
 
 #links {
-	position: fixed;
+	position: absolute;
 	
 	padding-bottom: 0.5em;
 	padding-right: 0.25em;
@@ -217,14 +217,14 @@
 	float: left;
 	margin: 0.25em;
 	margin-right: 0.9em;
-	margin-left: 1.47em;
+	margin-left: 1.45em;
 	background-image: url('bullet-dot.png');
     background-repeat: no-repeat;
     background-position: center; 
  	background-size: contain;
  	position: relative;
- 	width: 0.2em;
- 	height: 0.2em;
+ 	width: 0.24em;
+ 	height: 0.24em;
 
 	&:hover {
 		
@@ -284,11 +284,6 @@
 		color: #B3B3B3;
 	}
 
-	filter:  invert(25%);
-     -webkit-filter:  invert(25%);
-     -moz-filter: invert(25%);
-     -ms-filter: invert(25%);
-     -o-filter: invert(25%);
 }
 
 
@@ -303,20 +298,11 @@
 	float: left;
 	clear: both;
 
-	filter:  invert(100%);
-     -webkit-filter:  invert(100%);
-     -moz-filter: invert(100%);
-     -ms-filter: invert(100%);
-     -o-filter: invert(100%);
 }
 
 .footer_icon {
-	opacity: 0.5;
-	filter:  invert(100%);
-     -webkit-filter:  invert(100%);
-     -moz-filter: invert(100%);
-     -ms-filter: invert(100%);
-     -o-filter: invert(100%);
+	opacity: 1;
+
 }
 
 #jus_footer {

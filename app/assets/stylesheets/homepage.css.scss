@@ -187,27 +187,37 @@ html, body {
 	position: relative;
 	float: left;
 	left: -0.75em;
-	top: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 	height: auto;
+	margin-right: -2%;
+	width: 22%;
 	
-	width: 25%;
-	padding-bottom: 2.5em;
+	
 }
 
 #last_philosophy
 {
-	margin-bottom: 1.75em;
+	margin-bottom: 0.5em;
 }
 
 #philosophy_area {
-	margin-top:2vw; 
-	position: absolute;
 	
-	right: 0;
+	
+	position: relative;
+	
 	padding-left: 0;
-	left: 46%; 
 	
 	
+	
+}
+
+#philosophy_area_inner_frame {
+	margin-top: 1em;
+	width: 77%;
+	
+	position: relative;
+	float: left;
 }
 
 #philosophy_area2{
@@ -239,23 +249,24 @@ html, body {
 
 .philosophy_frame {
 
-	
-	float: left;
-	width: 48%;
+	position: relative;
+	float: right;
+	width: 49%;
 	text-align: left;
-	margin-top: 0.5em;
+	margin-top: 0em;
 	margin-bottom: 1em;
 	z-index: 10;
-
+	
+	clear: right;
 }
 
 
 
 .philosophy_frame2 {
 
-	
-	float: left;
-	width: 44%;
+	position: relative;
+	float: right;
+	width: 47%;
 	text-align: left;
 	margin-top: 0.5em;
 	margin-bottom: 0em;
@@ -264,11 +275,13 @@ html, body {
 }
 
 .left_p_frame {
-	margin-right: 2vw;
+	float: left;
+	clear: left !important;
 }
 
 .left_p_frame2 {
-	margin-right: 1.75em;
+	float: left;
+	clear: left !important;
 }
 
 .philosophy_label {
@@ -283,23 +296,28 @@ html, body {
 }
 
 #pastorize {
-	width: 65% !important;
+	width: 70% !important;
+}
+
+.philosophy_couple_wrapper{
+	position: relative;
+	
+	float: left;
 }
 
 .philosophy_desc {
 	position: relative;
 	float: left;
 	
-	width: 75%;
-	height: 4em;
+	width: 70%;
+	
 	z-index: 10;
 }
 
 .philosophy_desc2 {
 	position: relative;
 	float: left;
-	font-size: 1.4vw;
-	width: 55%;
+	width: 65%;
 	height: 4em;
 	z-index: 10;
 }
@@ -324,7 +342,7 @@ html, body {
 	padding-right: auto;
 	margin-bottom: 2em;
 	float: left;
-	margin-right: 2vw;
+	margin-right: 0.25em;
 	z-index: 10;
 
 }

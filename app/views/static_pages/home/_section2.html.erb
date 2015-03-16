@@ -10,52 +10,61 @@
 
     	<%= render "section_seperator" %>
         
-        <%= image_tag "thesource-promise.png", id: "home_bottle" %>
+        
 
         <div id="philosophy_area">
 
+            <%= image_tag "thesource-promise.png", id: "home_bottle" %>
 
+            <div id="philosophy_area_inner_frame">
 
-            <div class="philosophy_frame left_p_frame">
-            	<%= image_tag "philosophy-icon-1.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label"><%= t 'homepage.section1.bullet1.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet1.description' %></div>
+                <div class="philosophy_couple_wrapper">
+                    <div class="philosophy_frame left_p_frame">
+                    	<%= image_tag "philosophy-icon-1.jpg", class: "philosophy_symbol" %>
+                        <div class="philosophy_label"><%= t 'homepage.section1.bullet1.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet1.description' %></div>
+                    </div>
+
+                    <div class="philosophy_frame">
+                		<%= image_tag "philosophy-icon-2.jpg", class: "philosophy_symbol" %>
+                        <div class="philosophy_label"><%= t 'homepage.section1.bullet2.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet2.description' %></div>
+                	</div>
+                </div>
+
+                <div class="philosophy_couple_wrapper">
+                	<div class="philosophy_frame left_p_frame">
+                		<%= image_tag "philosophy-icon-3.jpg", class: " philosophy_symbol" %>
+                        <div class="philosophy_label" id="pastorize"><%= t 'homepage.section1.bullet3.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet3.description' %></div>
+                	</div>
+
+                	<div class="philosophy_frame">
+                    	<%= image_tag "philosophy-icon-4.jpg", class: "philosophy_symbol" %>
+                        <div class="philosophy_label"><%= t 'homepage.section1.bullet4.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet4.description' %></div>
+                    </div>
+                </div>
+
+                <div class="philosophy_couple_wrapper">
+                    <div class="philosophy_frame left_p_frame" id="last_philosophy">	
+                		<%= image_tag "philosophy-icon-5.jpg", class: "philosophy_symbol" %>
+                        <div class="philosophy_label"><%= t 'homepage.section1.bullet5.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet5.description' %></div>
+                	</div>
+
+                	<div class="philosophy_frame">	
+                		<%= image_tag "philosophy-icon-6.jpg", class: "philosophy_symbol" %>
+                        <div class="philosophy_label"><%= t 'homepage.section1.bullet6.label' %></div>
+                        <div class="philosophy_desc"><%= t 'homepage.section1.bullet6.description' %></div>
+                	</div>
+                </div>
+
             </div>
-
-            <div class="philosophy_frame">
-        		<%= image_tag "philosophy-icon-2.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label"><%= t 'homepage.section1.bullet2.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet2.description' %></div>
-        	</div>
-
-        	<div class="philosophy_frame left_p_frame">
-        		<%= image_tag "philosophy-icon-3.jpg", class: " philosophy_symbol" %>
-                <div class="philosophy_label" id="pastorize"><%= t 'homepage.section1.bullet3.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet3.description' %></div>
-        	</div>
-
-        	<div class="philosophy_frame">
-            	<%= image_tag "philosophy-icon-4.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label"><%= t 'homepage.section1.bullet4.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet4.description' %></div>
-            </div>
-
-            <div class="philosophy_frame left_p_frame" id="last_philosophy">	
-        		<%= image_tag "philosophy-icon-5.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label"><%= t 'homepage.section1.bullet5.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet5.description' %></div>
-        	</div>
-
-        	<div class="philosophy_frame">	
-        		<%= image_tag "philosophy-icon-6.jpg", class: "philosophy_symbol" %>
-                <div class="philosophy_label"><%= t 'homepage.section1.bullet6.label' %></div>
-                <div class="philosophy_desc"><%= t 'homepage.section1.bullet6.description' %></div>
-        	</div>
 
         </div>
 
         <div id="whatIsJus" class="SubRow">
-        </br>
             <%= t 'homepage.section1.description' %>
         </div>
 
