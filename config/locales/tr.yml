@@ -151,8 +151,9 @@ tr:
 
   cleanses:
     title: "Detokslar"
-    description: "Detoks siparişi vermek için lütfen bizimle irtibata geçin: "
-    link-text: "info@jusistanbul.com."
+    old-description: "Detoks siparişi vermek için lütfen bizimle irtibata geçin: "
+    description: "Sipariş vermek için lütfen iletişime geçin: "
+    link-text: "info@jusistanbul.com / 0.212.243.4545."
     cleanse1:
      title: "Fresh Start "
      price: "- 92TL"
