@@ -145,7 +145,7 @@ en:
     water: "water"
     lime: "lime"
     stevia: "stevia"
-    hazelnut: "hazelnut"
+    hazelnut: "hazelnuts"
     dates: "dates"
     vanillabean: "vanilla bean"
 
@@ -168,7 +168,7 @@ en:
     cleanse4:
      title: "Custom "
      price: "- Price depends on the quantity ordered."
-     description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0.536.775.2674 or e-mail us at "   
+     description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0.212.243.4545 or e-mail us at "   
      link-text: "info@jusistanbul.com "
      description2: "for more information about Custom cleanse options. "
 
@@ -252,7 +252,7 @@ en:
     title3: "The Store"
     description3: ""
     address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
-    phone: "0.536.775.2674"
+    phone: "0.212.243.4545"
     email: "info@jusistanbul.com"
 
 
