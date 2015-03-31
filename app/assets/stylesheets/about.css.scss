@@ -1,0 +1,82 @@
+.extraText {
+
+}
+
+.openText {
+	height: auto !important;
+}
+
+.readMoreLink {
+
+	padding-top: 1em;
+	color: #444444 !important;
+	font-size: 0.7em;
+}
+
+triangle {
+	font-size: 0.7em;
+	padding-left: 0.1em;
+}
+
+#gmap {
+	position: relative;
+	width: 50% !important;
+	height: 20em;
+	top: -1.65em;
+	float: right;
+	margin-bottom: 2em;
+}
+
+#gmapLayover {
+	z-index: 100;
+	position: relative;
+	float: right;
+	top: 0;
+	background-color: #FFFFFF;
+	width: 50% !important;
+	padding-left: 2px;
+	padding-right: 2px;
+	height: 2em;
+	border-bottom: 2px solid #AAAAAA;
+}
+
+#mapWidget {
+	position: relative;
+}
+
+#locations {
+	position: relative;
+	background-color: blue;
+	float: left;
+	width: 48%;
+	top: 2em;
+}
+
+.location {
+	position: relative;
+	background-color: blue;
+	float: left;
+}
+
+.partnerLogo {
+	position: relative;
+	float: left;
+}
+
+.partnerName {
+	position: relative;
+	background-color: red;
+
+}
+
+.partnerAddress {
+	position: relative;
+}
+
+.partnerWebsite {
+	position: relative;
+}
+
+.partnerPhone {
+	position: relative;
+}

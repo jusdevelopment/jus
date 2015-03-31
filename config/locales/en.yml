@@ -241,18 +241,31 @@ en:
       answer1-section4: "We are proud of our 100% recyclable glass bottles. They are strong, bold and beautiful. Our customers often tell us that the glass bottles even make our cold­-pressed juice taste better! We have also set up a glass bottle return and rewards program. For every 12 bottles returned, clients are rewarded with a 500ml cold­-pressed juice of their choice. We take used bottles, clean and sanitize them and then fill them with more amazing juice. For us, this program offsets the resources used to create the glass bottles and helps instill a value of reusing. "
       question2: "What neighborhoods do you deliver to, and when?"
       answer2: "For delivery questions, please contact us: "
+  
   about:
-    title1: "The JÜS Team"
+    title1: "Who We Are"
     description1: "No one in this city understands the biology and creation of cold-pressed juice quite like we do. With JÜS, we promise to offer only the best cold-pressed juices and plant-based food options available in Istanbul. While similar options do exist in this city, we have yet to find the taste, quality and concept that we can truly stand behind. Our goal is to create the highest standard for cold-pressed juices. "
     title2: "About Aylin Erman"
-    description2-1: "Hi, my name is Aylin and I am founder of JÜS Istanbul."
-    description2-2: "My personal experience with cold-pressed juice began nearly 10 years ago. At the time, I was studying at Harvard University and had reached a point where my dietary lifestyle no longer served me, both physically and emotionally. Conventional mass-marketed dietary recommendations simply didn’t help. It was then when I discovered the benefits of raw foods and was led to celebrity nutritionist and NY Times best-selling author Natalia Rose. Her books and friendship inspired me to lead a more conscious lifestyle full of raw foods and cold-pressed green juice. I quickly witnessed incredible results in just about every aspect of my life – health, beauty and overall energy. I went on to receive advanced raw foods and detox training and interned for a detox foods home delivery and catering service, led by cold-pressed juice industry consultant Doris Choi, who is author of the Fresh Energy Cookbook."
-    description2-3: "When I graduated Harvard, I expanded my knowledge base by working for NYC’s organic, raw and vegan cold-pressed juice chain Organic Avenue. I also became a certified clinical nutritionist. Meanwhile, I jumpstarted my own plant-based food blog, GlowKitchen.com and began to write and film about food and health for EcoSalon, Organic Authority and VegNews."
-    description2-4: "After a year in NYC, I moved to Istanbul to connect with my father's side of the family, my childhood friends and the Turkish language, as well as explore new opportunities in health and wellness. Four years later, JÜS was born. "
+    description2-1: "Hi, my name is Aylin and I am the founder of JÜS Istanbul."
+    description2-2: "My personal experience with cold-pressed juice began nearly 10 years ago. At the time, I was studying at Harvard University and had reached a point where my dietary lifestyle no longer served me, both physically and emotionally. Conventional mass-marketed dietary suggestions simply didn’t help. It was then when I discovered the benefits of raw foods and was led to celebrity nutritionist and NY Times best-selling author Natalia Rose. Her books and friendship inspired me to lead a more conscious lifestyle full of raw foods and cold-pressed green juice. "
+    description2-3: "I quickly witnessed incredible results in just about every aspect of my life – health, beauty and overall energy. I went on to receive advanced raw foods and detox training and interned for a detox foods home delivery and catering service, led by cold-pressed juice industry consultant Doris Choi, who is author of the Fresh Energy Cookbook."
+    description2-4: "When I graduated Harvard, I expanded my knowledge base by working for NYC’s organic, raw and vegan cold-pressed juice chain Organic Avenue. I also became a certified clinical nutritionist. Meanwhile, I jumpstarted my own plant-based food blog, GlowKitchen.com and began to write and film about food and health for EcoSalon, Organic Authority and VegNews."
+    description2-5: "After a year in NYC, I moved to Istanbul to connect with my father's side of the family, my childhood friends and the Turkish language, as well as explore new opportunities in health and wellness. Four years later, JÜS was born. "
+    readmore: "Read more"
     title3: "The Store"
-    description3: ""
+    description3: "We are located behind the German Hospital, down a flight of steps leading to Başkurt Sokak. Follow the wall of graffitti to your left and when you reach Başkurt, we are directly on the corner. Come in for a drink or a bite!"
     address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
     phone: "0.212.243.4545"
     email: "info@jusistanbul.com"
+    partner1:
+      name: "Mahalo Coffee Shop" 
+      address: "Tünel Cd. Sögüt Sk. Eski Posta Han. No:1, Karaköy, İstanbul"
+      website: "mahaloistanbul.com"
+      phone: "0.212.243.4389"
+    partner2:
+      name: "40derece Bikram Yoga" 
+      address: "Tepecik Yolu Cd. Akgören Sk. No:3 D:1, Etiler, İstanbul"
+      website: "40derecebikramyoga.com"
+      phone: "0.531.705.7640"
 
 

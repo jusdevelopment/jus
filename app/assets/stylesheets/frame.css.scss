@@ -131,6 +131,11 @@
 }
 
 @media screen and (orientation:landscape) {
+	.store-graphic {
+		width: 110% !important;
+		height: auto !important;
+	}
+
 	.philosophy_symbol_frame{
 		margin-right: 0.25em !important;
 		

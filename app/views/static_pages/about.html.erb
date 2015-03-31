@@ -8,36 +8,94 @@
 
 	<%= render "section_seperator" %>
 
-
-
-
 		<div id="" class="SubRow ">
-			<%= t 'about.description1' %></br></br>
+			<%= t 'about.description1' %></br></br></br>
 		</div>
 	
 	<div class="ColumnTitle anchorLink"><%= t 'about.title2' %></div>
 
 	<%= render "section_seperator" %>
 
-
-
 		<div id="" class="SubRow ">
-			<%= image_tag "cleanse-2.jpg", class: "cleanse-graphic" %>
-			</br>
-			<%= t 'about.description2' %>
+			<%= image_tag "aylin.jpg", class: "store-graphic" %>
+			</br></br>
+			<%= t 'about.description2-1' %>
+			</br></br>
+			<%= t 'about.description2-2' %>
+			
+			<text class="extraText">
+				</br><%= t 'about.description2-3' %>
+				</br></br>
+				<%= t 'about.description2-4' %>
+				</br></br>
+				<%= t 'about.description2-5' %>
+			</text>
+		
 			</br></br>
 		</div>
-
 
 	<div class="ColumnTitle anchorLink"><%= t 'about.title3' %></div>
 
 		<%= render "section_seperator" %>
 		<div id="" class="SubRow ">
-			<%= t 'about.description3' %></br></br></br>
+			<%= image_tag "store.jpg", class: "store-graphic" %>
+			</br></br>
+			<%= t 'about.description3' %>
+		</div>
+
+		<div id="" class="SubRow ">
+
+			<div id="locations">
+				<div class="location>">
+					<div class="partnerLogo"></div>
+					<div class="partnerName"><%= t 'about.partner1.name' %></div>
+					<div class="partnerAddress"><%= t 'about.partner1.address' %></div>
+					<div class="partnerWebsite"><%= t 'about.partner1.website' %></div>
+					<div class="partnerPhone"><%= t 'about.partner1.phone' %></div>
+				</div>
+			</br>
+				<div class="location>">
+					<div class="partnerLogo"></div>
+					<div class="partnerName"><%= t 'about.partner2.name' %></div>
+					<div class="partnerAddress"><%= t 'about.partner2.address' %></div>
+					<div class="partnerWebsite"><%= t 'about.partner2.website' %></div>
+					<div class="partnerPhone"><%= t 'about.partner2.phone' %></div>
+				</div>
+			</div>
+
+			<div id="mapWidget">
+				<div id="gmapLayover"></div>
+				<iframe id="gmap" src="https://mapsengine.google.com/map/u/0/embed?mid=zWN4ZwEv6Cw4.kS9lDXArGQIk">
+				</iframe>
+			</div>
+			</br></br>
+
 		</div>
 
 	</div>
 
 </div>
+
+<script>
+	$('.extraText').readmore({
+		speed: 400,
+		moreLink: '<a class="readMoreLink" href="#">Read more <triangle>&#9654</triangle></a>',
+		lessLink: '<a class="readMoreLink" href="#">Minimize <triangle>&#9664</triangle></a>',
+		collapsedHeight: 0,
+		heightMargin: 0
+	});
+
+	
+        
+	$('.readMoreLink').click(function() {
+		if ($('.extraText').attr("aria-expanded")=="true") { 
+			$('.extraText' ).addClass("openText");	
+		}
+		else{ 
+			$('.extraText' ).removeClass("openText");	
+		}
+
+	});
+</script>
 
 <%= render "footer" %>
