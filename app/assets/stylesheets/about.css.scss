@@ -22,7 +22,7 @@ triangle {
 	position: relative;
 	width: 50% !important;
 	height: 20em;
-	top: -1.65em;
+	top: -49px;
 	float: right;
 	margin-bottom: 2em;
 }
@@ -36,7 +36,7 @@ triangle {
 	width: 50% !important;
 	padding-left: 2px;
 	padding-right: 2px;
-	height: 2em;
+	height: 51px;
 	border-bottom: 2px solid #AAAAAA;
 }
 
@@ -46,15 +46,15 @@ triangle {
 
 #locations {
 	position: relative;
-	background-color: blue;
+	background-color: transparent;
 	float: left;
 	width: 48%;
-	top: 2em;
+	top: 50px;
 }
 
 .location {
 	position: relative;
-	background-color: blue;
+	background-color: transparent;
 	float: left;
 }
 
@@ -65,7 +65,7 @@ triangle {
 
 .partnerName {
 	position: relative;
-	background-color: red;
+	background-color: transparent;
 
 }
 
