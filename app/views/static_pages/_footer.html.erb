@@ -1,4 +1,4 @@
-<div id="jus_footer">
+<!--div id="jus_footer">
 
 	<%= link_to home_path do %>
 		<%= image_tag "footer-jus-logo.png", id: "footer_logo" %>
@@ -36,4 +36,69 @@
 	<% end %>
 
 	</div>
+</div-->
+
+<div id="jus_footer2">
+
+	<%= link_to home_path do %>
+		<%= image_tag "footer-jus-logo.png", id: "footer_logo" %>
+	<% end %>
+
+	<div class="RightColumn">
+		<div id="" class="SubRow ">
+			<div id="footerLinks">
+				<div class="footerLinksColumn">
+					<div class="footerLink footerLinkHeader"><%= t 'footer.column1.header' %></div>
+					<div class="footerColumnSeparator fC1S">/////////////////////////////////////</div>
+					<div class="footerLink"><%= t 'footer.column1.link1' %></div>
+					<div class="footerLink"><%= t 'footer.column1.link2' %></div>
+					<div class="footerLink"><%= t 'footer.column1.link3' %></div>
+				</div>
+				<div class="footerLinksColumn">
+					<div class="footerLink footerLinkHeader"><%= t 'footer.column2.header' %></div>
+					<div class="footerColumnSeparator fC2S">/////////////////////////////////////</div>
+					<div class="footerLink "><%= t 'footer.column2.link1' %></div>
+					<div class="footerLink"><%= t 'footer.column2.link2' %></div>
+				</div>
+				<div class="footerLinksColumn">
+					<div class="footerLink footerLinkHeader"><%= t 'footer.column3.header' %></div>
+					<div class="footerColumnSeparator fC3S">/////////////////////////////////////</div>
+					<div class="footerLink"><%= t 'footer.column3.link1' %></div>
+					<div class="footerLink"><%= t 'footer.column3.link2' %></div>
+					<div class="footerLink"><%= t 'footer.column3.link3' %></div>
+				</div>
+				<div class="footerLinksColumn">
+					<div class="footerLink footerLinkHeader"><%= t 'footer.column4.header' %></div>
+					<div class="footerColumnSeparator fC4S">/////////////////////////////////////</div>
+					<div class="footerLink"><%= t 'footer.column4.link1' %></div>
+					<div class="footerLink"><%= t 'footer.column4.link2' %></div>
+					<div class="footerLink"><%= t 'footer.column4.link3' %></div>
+				</div>
+			</div>
+
+			
+		</div>
+		
+	</div>
+	<div id="footer_social">
+
+		<%= link_to("https://www.facebook.com/pages/J%C3%9CS/1533804996877958", target: "_blank") do %>
+			  <%= image_tag "footer-facebook-hover.png", class: "footer_icon social_icon" %>
+		<% end %>
+		
+		<%= link_to("http://instagram.com/jusistanbul", target: "_blank") do %>
+			  <%= image_tag "footer-instagram-hover.png", class: "footer_icon social_icon" %>
+		<% end %>
+
+		<%= link_to("https://twitter.com/JusIstanbul", target: "_blank") do %>
+			  <%= image_tag "footer-twitter-hover.png", class: "footer_icon social_icon" %>
+		<% end %>
+
+			<%= link_to("http://jusistanbul.tumblr.com/", target: "_blank") do %>
+			  <%= image_tag "footer-tumblr-hover.png", class: "footer_icon social_icon" %>
+		<% end %>
+
+	</div>
+
+	
 </div>

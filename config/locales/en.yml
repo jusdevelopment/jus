@@ -152,7 +152,7 @@ en:
   cleanses:
     title: "Cleanses"
     description: "To order a cleanse, please contact us: "
-    link-text: "info@jusistanbul.com / 0.212.243.4545."
+    link-text: "info@jusistanbul.com / 0212 243-4545."
     cleanse1:
      title: "Fresh Start "
      price: "- 92TL"
@@ -168,7 +168,7 @@ en:
     cleanse4:
      title: "Custom "
      price: "- Price depends on the quantity ordered."
-     description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0.212.243.4545 or e-mail us at "   
+     description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0212 243-4545 or e-mail us at "   
      link-text: "info@jusistanbul.com "
      description2: "for more information about Custom cleanse options. "
 
@@ -255,17 +255,35 @@ en:
     title3: "The Store"
     description3: "We are located behind the German Hospital, down a flight of steps leading to Başkurt Sokak. Follow the wall of graffitti to your left and when you reach Başkurt, we are directly on the corner. Come in for a drink or a bite!"
     address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
-    phone: "0.212.243.4545"
+    phone: "0212 243-4545"
     email: "info@jusistanbul.com"
     partner1:
       name: "Mahalo Coffee Shop" 
       address: "Tünel Cd. Sögüt Sk. Eski Posta Han. No:1, Karaköy, İstanbul"
       website: "mahaloistanbul.com"
-      phone: "0.212.243.4389"
+      phone: "0212 243-4389"
     partner2:
       name: "40derece Bikram Yoga" 
       address: "Tepecik Yolu Cd. Akgören Sk. No:3 D:1, Etiler, İstanbul"
       website: "40derecebikramyoga.com"
-      phone: "0.531.705.7640"
-
-
+      phone: "0531 705-7640"
+  footer:
+    column1:
+      header: "JÜS"
+      link1: "The JÜS promise"
+      link2: "Why JÜS?"
+      link3: "Get started"
+    column2: 
+      header: "Shop"
+      link1: "Juices"
+      link2: "Cleanses"
+    column3: 
+      header: "About Us"
+      link1: "Who we are"
+      link2: "About Aylin Erman"
+      link3: "The Store"
+    column4:
+      header: "FAQ"
+      link1: "Juices"
+      link2: "Cleansing"
+      link3: "Delivery"
