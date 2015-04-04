@@ -25,13 +25,18 @@ tr:
     promise: "JÜS Felsefesi"
     why: "Neden JÜS?"
     getstarted: "Başlangıç"
+    shop: "Menü"
     juices: "Juice'lar"
     cleanses: "Detokslar"
+    about: "About Us"
+    who: "Who we are"
+    aylin: "About Aylin Erman"
+    store: "Mağazamız"
     faq: "SSS"
     faqjuices: "Juice'lar"
     faqcleanses: "Detokslar"
     faqdelivery: "Teslimat"
-    about: "Hakkımızda"
+    about: "Hakkımızda" 
 
   homepage:
     slogan1: "JÜS. İstanbul'un en taze meyve suyu."
@@ -86,7 +91,7 @@ tr:
       link-text2: "Detokslar bölümünde bulabilirsiniz."
 
   juices:
-    title: "Juices"
+    title: "Juice'lar"
     juice1:
       title: "The Source"
       description: "Biliyorum, hayat bazen zordur ve her şey planladığın gibi gitmeyebilir. Bu zor zamanlarında seni anlayacak bir içecek arıyorsan, The Source hep yanında. The Source sindirim sistemini çalıştırır, bağışıklığını güçlendirir, kalbini sağlamlaştırır, karaciğerini toksinlerden arındırır ve güne yepyeni bir pencereden bakmanı sağlar. Artık güne bomba gibi başlamaya ne dersin? "
@@ -244,16 +249,47 @@ tr:
       question2: "Nereye ve ne zaman teslimat yapıyorsunuz?"
       answer2: "Teslimatla ilgili sorularınız izin lütfen bizimle irtibata geçin: "
   about:
-    title1: "The JÜS Team"
-    description1: "No one in this city understands the biology and creation of cold-pressed juice quite like we do. With JÜS, we promise to offer only the best cold-pressed juices and plant-based food options available in Istanbul. While similar options do exist in this city, we have yet to find the taste, quality and concept that we can truly stand behind. Our goal is to create the highest standard for cold-pressed juices. "
-    title2: "About Aylin Erman"
-    description2: "Hi, my name is Aylin and I am founder of JÜS Istanbul."
-    title3: "The Store"
-    description3: ""
+    title1: "Biz Kimiz"
+    description1: "Bu işin nasıl yapılacağı konusunda eğitim almış ve biyolojisini çalışmış biri olarak sizi temin ediyoruz, İstanbul’da bulabileceğiniz en iyi ve en lezzetli soğuk preslenmiş sebze/meyve suyu ve bitkisel bazlı yiyecekler sadece JÜS’te. İstanbul’da tek tük soğuk preslenmiş sebze/meyve suyu seçenekleri olsa da şimdiye kadar hem kalite, hem tat, hem de yaratıcılık açısından bizi tatmin edebilen bir yer bulabilmiş değiliz. Bizim hedefimiz, İstanbul’da bulunabilecek en yüksek standarttaki soğuk preslenmiş sebze/meyve suyunu üretmek."
+    title2: "Aylin Erman"
+    description2-1: "Merhaba, adım Aylin ve ben JÜS İstanbul’un kurucusuyum."
+    description2-2: "Benim soğuk preslenmiş sebze/meyve sularıyla tanışmam bundan 10 yıl önce oldu. O zamanlar Harvard Üniversitesinde okuyordum ve beslenmemin artık bana ne fiziksel ne de duygusal açıdan hiçbir yararı olmadığının farkına vardım. Kitlesel olarak pazarlanan klasik beslenme tavsiyelerini denedim, fakat onlar da hiçbir işe yaramadı. Tam da o sıralarda ünlü beslenme uzmanı ve NY Times’ın çok satan yazarı Natalia Rose’u keşfettim. Yayınlamış olduğu kitaplar sayesinde bitkisel bazlı yemekler ve soğuk preslenmiş yeşil sebze/meyve suyu dolu daha bilinçli bir hayata adım attım."
+    description2-3: "Çok kısa sürede hayatımın her alanında inanılmaz gelişmelere tanık oldum – sağlık, güzellik ve baştan aşağı bir canlanma. Bunun üzerine, çiğ yemek ve detoks üzerine ileri düzey eğitim aldım. Ardından, Fresh Energy Cookbook’un yazarı olan soğuk preslenmiş sebze/meyve suyu endüstrisi danışmanı Doris Choi’nin öncülük ettiği evlere servis yapan bir detoks yiyecek-içecek firmasında staj yaptım."
+    description2-4: "Harvard’dan mezun olduktan sonra konu hakkında daha fazla şey öğrenebilmek için New York’un çiğ, vegan ve organik soğuk preslenmiş sebze/meyve suyu zinciri olan Organic Avenue için çalıştım. Bu sırada klinik beslenme uzmanlığı sertifikası aldım. Hızlı bir başlangıç yaparak GlowKitchen.com adındaki bitkisel beslenme odaklı kendime ait bir blog açtım. Bu blog’da EcoSalon, Organic Authority ve VegNews için yemek ve sağlıkla ilgili yazılar yazıp videolar çektim."
+    description2-5: "New York şehrinde geçirdiğim bir yılın ardından baba tarafındaki akrabalarımdan, çocukluk arkadaşlarımdan ve Türkçeden daha fazla uzak kalmamak; sağlıklı olmaya dair yeni olanakları keşfedebilmek için İstanbul’a geldim. Dört yıl sonra JÜS hayat buldu."
+    readmore: "Read more"
+    title3: "Mağazamız"
+    description3: "Alman hastanesinin arkasında, Başkurt Sokağa inen merdivenlerin bitiminde sizi mağazamıza bekleriz. Merdivenlerden assağı graffitili duvarı takip edip Başkurt sokağa geldiğinizde hemen köşedeyiz. Gelin, sağlığın tadına bakın!"
     address: "Başkurt Sk. No:34, 34250 Cihangir, İstanbul"
     phone: "0212 243-4545"
     email: "info@jusistanbul.com"
-
-
-
-
+    partner1:
+      name: "Mahalo Coffee Shop" 
+      address: "Tünel Cd. Sögüt Sk. Eski Posta Han. No:1, Karaköy, İstanbul"
+      website: "mahaloistanbul.com"
+      phone: "0212 243-4389"
+    partner2:
+      name: "40derece Bikram Yoga" 
+      address: "Tepecik Yolu Cd. Akgören Sk. No:3 D:1, Etiler, İstanbul"
+      website: "40derecebikramyoga.com"
+      phone: "0531 705-7640"
+  footer:
+    column1:
+      header: "JÜS"
+      link1: "JÜS Felsefesi"
+      link2: "Neden JÜS?"
+      link3: "Başlangıç"
+    column2: 
+      header: "Shop"
+      link1: "Juice'lar"
+      link2: "Detokslar"
+    column3: 
+      header: "Hakkımızda"
+      link1: "Biz Kimiz"
+      link2: "Aylin Erman"
+      link3: "Mağazamız"
+    column4:
+      header: "SSS"
+      link1: "Juice'lar"
+      link2: "Detokslar"
+      link3: "Teslimat"
