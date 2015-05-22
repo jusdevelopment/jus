@@ -48,31 +48,61 @@
 		<div id="" class="SubRow ">
 			<div id="footerLinks">
 				<div class="footerLinksColumn">
+					<%= link_to home_path(:anchor => 'section1') do %>
 					<div class="footerLink footerLinkHeader"><%= t 'footer.column1.header' %></div>
+					<% end %>
 					<div class="footerColumnSeparator fC1S">/////////////////////////////////////</div>
+					<%= link_to home_path(:anchor => 'section2') do %>
 					<div class="footerLink"><%= t 'footer.column1.link1' %></div>
+					<% end %>
+					<%= link_to home_path(:anchor => 'section3') do %>
 					<div class="footerLink"><%= t 'footer.column1.link2' %></div>
+					<% end %>
+					<%= link_to home_path(:anchor => 'section4') do %>
 					<div class="footerLink"><%= t 'footer.column1.link3' %></div>
+					<% end %>
 				</div>
 				<div class="footerLinksColumn">
+					<%= link_to juices_path do %>
 					<div class="footerLink footerLinkHeader"><%= t 'footer.column2.header' %></div>
+					<% end %>
 					<div class="footerColumnSeparator fC2S">/////////////////////////////////////</div>
+					<%= link_to juices_path(:anchor => 'section1') do %>
 					<div class="footerLink "><%= t 'footer.column2.link1' %></div>
+					<% end %>
+					<%= link_to juices_path(:anchor => 'section2') do %>
 					<div class="footerLink"><%= t 'footer.column2.link2' %></div>
+					<% end %>
 				</div>
 				<div class="footerLinksColumn">
+					<%= link_to about_path do %>
 					<div class="footerLink footerLinkHeader"><%= t 'footer.column3.header' %></div>
+					<% end %>
 					<div class="footerColumnSeparator fC3S">/////////////////////////////////////</div>
+					<%= link_to about_path(:anchor => 'section1') do %>
 					<div class="footerLink"><%= t 'footer.column3.link1' %></div>
+					<% end %>
+					<%= link_to about_path(:anchor => 'section2') do %>
 					<div class="footerLink"><%= t 'footer.column3.link2' %></div>
+					<% end %>
+					<%= link_to about_path(:anchor => 'section3') do %>
 					<div class="footerLink"><%= t 'footer.column3.link3' %></div>
+					<% end %>
 				</div>
 				<div class="footerLinksColumn">
+					<%= link_to faq_path do %>
 					<div class="footerLink footerLinkHeader"><%= t 'footer.column4.header' %></div>
+					<% end %>
 					<div class="footerColumnSeparator fC4S">/////////////////////////////////////</div>
+					<%= link_to faq_path(:anchor => 'section1') do %>
 					<div class="footerLink"><%= t 'footer.column4.link1' %></div>
+					<% end %>
+					<%= link_to faq_path(:anchor => 'section2') do %>
 					<div class="footerLink"><%= t 'footer.column4.link2' %></div>
+					<% end %>
+					<%= link_to faq_path(:anchor => 'section3') do %>
 					<div class="footerLink"><%= t 'footer.column4.link3' %></div>
+					<% end %>
 				</div>
 			</div>
 

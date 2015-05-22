@@ -1,3 +1,33 @@
+.shopifyBuy {
+
+}
+
+.addButton {
+
+	position: absolute;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	-webkit-appearance:none;
+	border: none;
+	margin-left: 0em;
+	right: -8em;
+	height: 1.75em;
+	top: 0;
+	bottom:0;
+	margin-top: auto;
+	margin-bottom: auto;
+	cursor: pointer;
+	
+	&:hover{
+		color: #FFFFFF;
+		background-color: #555555
+	}
+	z-index: 1000;
+}
+
+
 .JuiceFrame {
 	
 	position: relative;

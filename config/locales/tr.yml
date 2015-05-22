@@ -91,6 +91,7 @@ tr:
       link-text2: "Detokslar bölümünde bulabilirsiniz."
 
   juices:
+    addtocart: "sepete ekle"
     title: "Juice'lar"
     juice1:
       title: "The Source"
@@ -280,7 +281,7 @@ tr:
       link2: "Neden JÜS?"
       link3: "Başlangıç"
     column2: 
-      header: "Shop"
+      header: "Menü"
       link1: "Juice'lar"
       link2: "Detokslar"
     column3: 

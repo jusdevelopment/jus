@@ -4,9 +4,20 @@
     <div class="JuiceHeader">
     	<div class="JuiceGlyph">500 ml</div>
     	<div class="JuiceTitle"><%= t 'juices.juice7.title' %></div>
+    	<div class="shopifyBuy">
+	   		<form action="https://jusistanbul.myshopify.com/cart/add" method="post">
+			  <input type="hidden" name="id" value="1171242709" />
+			  <input type="hidden" name="return_to" value="back" />
+			  <input type="submit" value="<%= t 'juices.addtocart' %>" class="addButton"/>
+			</form>
+	   	</div>
     </div>
 
+    	
+
+
     <div class="JuiceContent">
+
     	<%= image_tag "07-morningglory.png", class: "JuiceBottle" %>
 		<div class="JuiceIngredients">
 			<div class="Ingredient">

@@ -20,6 +20,26 @@
 	
 }
 
+a .footerLink {
+	color: #666666 !important;
+	font-family: "Trade Regular" !important;
+
+	&:hover {
+		color: #888888 !important;
+	}
+
+}
+
+a .footerLinkHeader {
+	color: #666666 !important;
+	font-family: "Trade Bold" !important;
+
+	&:hover {
+		color: #888888 !important;
+	}
+
+}
+
 #footer_logo {
 	height: $header-height - 3em;
 	padding: 1.2em;

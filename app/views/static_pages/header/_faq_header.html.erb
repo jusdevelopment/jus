@@ -46,6 +46,7 @@
 			<div class="bullet_drop"></div>
 			<div class="nav_label"><%= t 'navigation.about' %></div>
 		</div>
+		<% end %>	
 
 		<%= link_to faq_path do %>
 			<div class="nav_link permanent_selected">
@@ -68,15 +69,20 @@
 			</div>
 		<% end %>
 
-			<%= link_to faq_path(:anchor => 'section3') do %>
+		<%= link_to faq_path(:anchor => 'section3') do %>
 			<div class="nav_sublink">
 				<div class="bullet_dot"></div>
 				<div class="nav_label"><%= t 'navigation.faqdelivery' %></div>
 			</div>
 		<% end %>	
 
-
-		<% end %>	
+		<%= link_to("https://jusistanbul.myshopify.com/cart ", target: "_blank") do %>
+			<div id="carticon"> 
+				<%= image_tag "cart-icon.png", id: "hoveredCart", class: "cartimage"%>
+				<%= image_tag "cart-icon2.png", id: "unhoveredCart", class: "cartimage" %>
+			</div>
+			
+		<% end %>
 
 	</div>
 

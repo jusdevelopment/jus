@@ -1,5 +1,53 @@
 @import 'variables.css.scss';
 
+.cartimage {
+	height: 1em;
+	width: 1em;
+	position: absolute;
+}
+
+#carticon {
+	float: left;
+	position: relative;
+	
+	
+		height: 1em;
+	width: 1em;
+	margin-top: 0.05em;
+	padding-left: 1em;
+	padding-top: 0.125em;
+	padding-bottom: 0.125em;
+	padding-right: 0.5em;
+	
+	font-size: 1.35em;	
+	top:3.65em;
+	position: relative;
+	float: left;
+	clear: both;
+	background-color: transparent;
+	font-family: "Trade Bold" ;
+
+	#hoveredCart{
+		display: none;
+	}
+
+	#unhoveredCart{
+		display: block;
+	}
+
+	&:hover {
+		background-color: rgba(150, 150, 150, 0.25);
+
+		#hoveredCart{
+			display: block;
+		}
+
+		#unhoveredCart{
+			display: none;
+		}
+	}
+}
+
 #jus_header {
 	position: relative;
 	width: 100%;
