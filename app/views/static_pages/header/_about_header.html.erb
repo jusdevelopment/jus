@@ -74,6 +74,15 @@
 				<div class="nav_label"><%= t 'navigation.store' %></div>
 
 			</div>
+		<% end %>
+
+		
+		<%= link_to("https://jusistanbul.myshopify.com/cart ", target: "_blank") do %>
+			<div id="carticon"> 
+				<%= image_tag "cart-icon.png", id: "hoveredCart", class: "cartimage"%>
+				<%= image_tag "cart-icon2.png", id: "unhoveredCart", class: "cartimage" %>
+			</div>
+			
 		<% end %>	
 
 
