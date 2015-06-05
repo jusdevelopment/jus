@@ -91,7 +91,8 @@ en:
       link-text2: "our Cleanses page."
 
   juices:
-    addtocart: "add to cart"
+    addtocart: "Add to cart"
+    gotocart: "Go to cart"
     title: "Juices"
     juice1:
       title: "The Source"

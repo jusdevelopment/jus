@@ -6,6 +6,88 @@
 	position: absolute;
 }
 
+#gotoCart{
+	float: left;
+	position: relative;
+	
+	height: 1em;
+	width: 4em;
+	
+	left: -0.3em;
+	margin-top: 0.05em;
+
+	
+	font-size: 0.5em !important;	
+	top:14.6em;
+	position: relative;
+	
+	color: #474747;
+
+	
+	font-family: "Trade Regular" ;
+
+	&:hover{
+
+		color: #2e2e2e;
+		
+	}
+}
+
+a {
+	&:hover{
+		#gotoCart {
+			color: #2e2e2e;
+		
+		}
+
+		#carticon {
+			#hoveredCart{
+				display: block;
+			}
+
+			#unhoveredCart{
+				display: none;
+			}
+		}
+	}
+
+}
+
+
+#shopifyCartInfo{
+	float: left;
+	position: relative;
+	
+
+	height: 1em;
+	width: 1em;
+	
+	
+	margin-top: 0.05em;
+
+	
+	font-size: 1.35em;	
+	top: 4.15em;
+	left: -3.05em;
+	position: relative;
+	
+	
+	font-family: "Trade Bold" ;
+}
+
+
+#shopifyCartFrame{
+	position: absolute;
+	margin: auto;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 18px;
+	width: 10px;
+
+}
+
 #carticon {
 	float: left;
 	position: relative;
@@ -18,9 +100,9 @@
 	padding-top: 0.125em;
 	padding-bottom: 0.125em;
 	padding-right: 0.5em;
-	
+	left: -0.06em;
 	font-size: 1.35em;	
-	top:3.65em;
+	top:5em;
 	position: relative;
 	float: left;
 	clear: both;
@@ -36,7 +118,7 @@
 	}
 
 	&:hover {
-		background-color: rgba(150, 150, 150, 0.25);
+		
 
 		#hoveredCart{
 			display: block;
@@ -244,6 +326,10 @@
 
 		.nav_label {
 			color: #C60F47;
+		}
+
+		#gotoCart {
+			color: #2e2e2e;
 		}
 
 	}
