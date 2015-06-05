@@ -75,14 +75,20 @@
 				<div class="nav_label"><%= t 'navigation.faqdelivery' %></div>
 			</div>
 		<% end %>	
-
+		
 		<%= link_to("https://jusistanbul.myshopify.com/cart ", target: "_blank") do %>
 			<div id="carticon"> 
-				<%= image_tag "cart-icon.png", id: "hoveredCart", class: "cartimage"%>
-				<%= image_tag "cart-icon2.png", id: "unhoveredCart", class: "cartimage" %>
+				<%= image_tag "cart-hover.png", id: "hoveredCart", class: "cartimage"%>
+				<%= image_tag "cart.png", id: "unhoveredCart", class: "cartimage" %>
 			</div>
-			
+			<div id="gotoCart">
+				<%= t 'juices.gotocart' %>
+			</div>
+			<div id="shopifyCartInfo">
+				<iframe id="shopifyCartFrame" scrolling="no" frameborder="0" src="http://jusistanbul.myshopify.com/pages/external-cart" noresize="noresize"></iframe>
+			</div>
 		<% end %>
+
 
 	</div>
 
