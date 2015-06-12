@@ -56,6 +56,9 @@
 
 	#links {
 		
+		#gotoCart {
+			opacity: 0;
+		}
 
 		&:hover {
 
@@ -67,6 +70,13 @@
 			.nav_label{
 				display: block;
 			}
+
+			#gotoCart {
+				opacity: 1;
+			}
+
+
+
 		}
 
 		.nav_link{
