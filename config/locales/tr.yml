@@ -96,33 +96,43 @@ tr:
     title: "Juice'lar"
     juice1:
       title: "The Source"
+      price: "- 14TL"
       description: "Biliyorum, hayat bazen zordur ve her şey planladığın gibi gitmeyebilir. Bu zor zamanlarında seni anlayacak bir içecek arıyorsan, The Source hep yanında. The Source sindirim sistemini çalıştırır, bağışıklığını güçlendirir, kalbini sağlamlaştırır, karaciğerini toksinlerden arındırır ve güne yepyeni bir pencereden bakmanı sağlar. Artık güne bomba gibi başlamaya ne dersin? "
     juice2:
       title: "Lean Green"
+      price: "- 14TL"
       description: "Spor yapmayı seviyorsun fakat “tavuk, tavuk nereye kadar?” mı? Buraya kadar! Proteince zengin Lean Green’i vücut çalıştıktan sonra, gün ortasında ya da güne başlarken kullanabilirsin. Şişede durduğuna bakma, yapabildikleri yarım litrenin çok ötesinde. Cildini parlatır, açlığını bastırır, kanını temizler ve seni gün boyu canlı tutar."
     juice3:
       title: "Taste of Paradise"
+      price: "- 14TL"
       description: "Gözlerini kapat… Sıcacık bir kumsalda, denizden gelen hafif dalgalarla güneşin tadını çıkardığını hayal et. Biliyorum, sen yaza şimdiden hazırsın. Taste of Paradise’la vücudun da yaza hazır! Baştan aşağı cildini yenilemek, sindirim istemini geliştirerek dümdüz bir karna sahip olmak, eklemlerini ağrılardan kurtarıp esnek tutmak ve kötü ağız kokusundan kurtulmak Taste of Paradise’la artık mümkün!"
     juice4:
       title: "Perfect Pear"
+      price: "- 14TL"
       description: "Tatlıyı sevdiği kadar baharata da hayır diyemeyenlerden misin? O zaman bu mükemmel ikilinin buluştuğu Perfect Pear’i kesinlikle denemelisin! Perfect Pear hücreleri temizler, sivilce ve siyah noktaları yok ederek cildine parlak bir görünüm kazandırır. Cilt hastalıklarından arınmak, iltihaplanmalardan kurtulmak, midedeki zararlı bakterileri yok etmek, bağışıklık sistemini güçlendirmek ve cinsel dürtüyü arttırmak Perfect Pear’la sana sadece bir yudum uzakta."
     juice5:
       title: "Uprooted"
+      price: "- 14TL"
       description: "Dün gece eminim çok eğlendin fakat şişede durduğu gibi durmadığı da bir gerçek. Şimdi yataktan kalkıp güne devam etme zamanı. Hiç merak etme, Uprooted o sonuncuyu içmemen gerektiğini anlıyor. O zaman karaciğerinin toksinlerden arınmasına, kanının temizlenmesine ve canlanmana… Şerefe!"
     juice6:
       title: "Down Easy"
+      price: "- 14TL"
       description: "Hem akıl hem de güzellik bir arada olmaz diyenlerden misin? Peki ya sana Down Easy’nin hem beyin fonksiyonlarını güçlendirdiğini, hem de ince ve göz alıcı bir vücuda kavuşturduğunu söylesem? Belki bu fikrini değiştirir. Ayrıca miden, karnın ya da başın ağrıyorsa eczaneye uğramak yerine bir şişe Down Easy’yle hepsinden doğal yolla arınabilirsin."
     juice7:
       title: "Morning Glory"
+      price: "- 14TL"
       description: "Sabah yataktan kalkıp hazırlanmanın ne kadar zor olduğunu bilirim. Yatak nasıl da çekici gelir… Ama önünde sonunda yatakla vedalaşman gerekecek. Morning Glory sayesinde güçlü bir bağışıklık, temiz bir cilt, parlayan gözler ve hızlı bir metabolizmayla güne güzel başlamak ve yataktan kalkmak artık çok kolay."
     juice8:
       title: "Glow Getter"
+      price: "- 14TL"
       description: "Yanından ayırmak istemeyeceğin bir içeceğe hazır mısın? Glow Better kilo almanı ve karnındaki şişmeleri önler; kan dolaşımını hızlandırır ve gençleştirir. Ayrıca soğuk algınlığına, gribe ve virüslere karşı ihtiyacın olan korumayı sağlar."
     juice9:
       title: "Limonata"
+      price: "- 14TL"
       description: "Limonataya dair bildiklerini unutmanın zamanı geldi. Yeşil limon eklenmiş ve tatlandırıcı olarak şeker yerine stevya kullanılarak kan şekeri dostu, sıfır kalorili ve tamamen doğal Limonata’yı gururla sunuyoruz. Faydalı olduğu kadar da ekşi olan Limonata, vücuduna ihtiyacı olan enerjiyi anında verir ve kanını alkalileştirir. Vücudunun pH değerini dengelerken sindirim sistemini de düzenler. "
     juice10:
       title: "Hazelnut Mylk"
+      price: "- 12TL"
       description: "Sıradan inek sütüne elveda! Hazelnut Mylk kalp sağlığına iyi gelmesinin yanı sıra vücudun tanıdığı – bel bölgesine, kalçalara ve karın bölgesine göndermediği – iyi yağları içermektedir. Vanilla çekirdeklerinin ve doğal tatlı hurmaların Hazelnut Mylk’e kattığı yumuşak içim keyfine hayır demek çok zor. Mısır gevreğinize ya da kahvenize koyabilir, yulaf ezmesine koyup ısıtabilir ya da direk şişeden içebilirsin. "
 
   ingredients:
@@ -162,19 +172,22 @@ tr:
     link-text: "info@jusistanbul.com / 0212 243-4545."
     cleanse1:
      title: "Fresh Start "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "Morning Glory - The Source - Taste of Paradise - Uprooted - Perfect Pear - Hazelnut Mylk (200ml)"
      description: "İster detoksa yeni başlayanlardan olun, ister kötü beslenme alışkanlıklarıyla dolu bir dönemi arkada bırakıp yeni bir sayfa açanlardan, Fresh Start  detoksu sağlığınıza ve eski vücudunuza geri kavuşmanız için ihtiyacınız olan tek şey."
     cleanse2:
      title: "Standard "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "The Source - Glow Getter - Lean Green - Uprooted - Down Easy - Hazelnut Mylk (200ml)"
      description: "Standard detoksu arada sırada sağlıksız beslenen fakat sağlıksız besinlerden kaçınmak için de elinden geleni yapıp ölçülü bir hayat sürdürenler için biçilmiş kaftan. Basit ama Fresh Start’tan daha iddialı bir detoks arıyorsanız, Standard bu arayışınıza son verebilir. Standard sayesinde hayatın ve yemeğin temel prensipleriyle vücudunuza ihtiyacı olan bakımı sunabilirsiniz. Standard detoksu, kolay sindirilebilen ve besin zengini içeceklerimizi günlük hayatınızın bir parçası haline getirmenize yardım edecektir. Standard detoksu aynı zamanda ilk defa detoks yapacak vejetaryenler, veganlar, sigara içmeyenler ve aktif bir yaşam sürdürenler için de harika bir başlangıç olacaktır. "
     cleanse3:
      title: "Dig Deep "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "Limonata - The Source - Taste of Paradise - The Source - Glow Getter - Lean Green"
      description: "Dig Deep detoksu aramızdaki deneyimli meyve/sebze suyu sevenler için özel olarak hazırlanmış saf bir enerji deposudur. Dig Deep detoksu, dünyanın bize sunduğu sağlıklı yiyeceklerin iyileştirici özelliklerinden faydalanmak için en iyi yoldur."
     cleanse4:
      title: "Custom "
-     price: "- Fiyatlarımız sipariş adetine göre değişiklik gösterecektir."
+     price: "- Minimum sipariş miktarı 6 şişedir."
      description1: "İçeceklerimizden size 3 gün yetecek kadarını seçerek Custom detoksunuzu yaratın. Custom detoks ile ilgili sorularınız için 0212 243-4545 numaralı telefondan ya da "   
      link-text: "info@jusistanbul.com "
      description2: "e-posta adresimizden bize ulaşabilirsiniz. "
@@ -218,7 +231,7 @@ tr:
       answer2: "Detoksun yararlarından en iyi şekilde faydalanabilmeniz için ayda bir 1 günlük detoks yapmanızı öneriyoruz. Daha az sıklıkta detoks yapmak ama aynı zamanda etkili sonuçlar da almak istiyorsanız, her mevsim başında 3 günlük detoks yapmanızı öneriyoruz. Daha kuvvetli detoks seçenekleri için lütfen beslenme alanında uzmanlaşmış asistan doktorumuza danışın: "
       question3: "Kendimi detoksa nasıl hazırlarım?"
       answer3-section1:
-        bullet1: "Detoks Öncesinde (12 gün önce):"
+        bullet1: "Detoks Öncesinde (1-2 gün önce):"
         bullet2: "∙ Bol bol çiğ meyve ve sebze tüketin"
         bullet3: "∙ Hayvansal proteinleri tüketmeyin"
         bullet4: "∙ Lokmalarınızı iyice çiğneyin"
@@ -234,7 +247,7 @@ tr:
         bullet5: "∙ Aşırı olmamak şartıyla egzersiz yapabilirsiniz. Fakat egzersizlerini sabah yapmaya çalışın."
         bullet6: "∙ Gün boyunca her zamanki işlerinizle meşgul olmaya çalışın ki tek düşündüğünüz şey detoks olmasın. İçeceklerin tadını çıkarın ve hep olumlu düşünün. Unutmayın ki vücudunuza yapabileceğiniz en büyük iyiliği yapıyorsunuz!"
       answer3-section3: 
-        bullet1: "Sonrasında (12 gün sonra):"
+        bullet1: "Sonrasında (1-2 gün sonra):"
         bullet2: "∙ Yaşam tarzınızın bir parçası haline gelmiş olan içeceklerimizin tadını sabah aç karnına içerek çıkarın."
         bullet3: "∙ Hafif yiyecekler yiyin – özellikle taze meyve, sebze, fındık, kabuklu yemişler, çekirdek ve baklagiller."
         bullet4: "∙ Haddinden fazla yağ, hayvansal protein, pirinç, ekmek ve patates tüketmekten kaçının."

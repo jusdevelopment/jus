@@ -5,14 +5,14 @@
 		
 		<div class="carousel_frame" id="carousel_frame1"></div>
 		
-		<%= link_to juices_path do %>
+		<%= link_to juices_path(:anchor => 'section2') do %>
 			<div class="carousel_frame" id="carousel_frame2"></div>
 		<% end %>
 		<%= link_to home_path(:anchor => 'section4') do %>
 			<div class="carousel_frame" id="carousel_frame3"></div>
 		<% end %>
 
-		<%= link_to cleanses_path do %>
+		<%= link_to juices_path(:anchor => 'section1') do %>
 			<div class="carousel_frame" id="carousel_frame4"></div>
 		<% end %>	
 	</div>
@@ -21,14 +21,14 @@
 		
 		<div class="carousel_frame" id="carousel_frame1en"></div>
 		
-		<%= link_to juices_path do %>
+		<%= link_to juices_path(:anchor => 'section2') do %>
 			<div class="carousel_frame" id="carousel_frame2en"></div>
 		<% end %>
 		<%= link_to home_path(:anchor => 'section4') do %>
 			<div class="carousel_frame" id="carousel_frame3en"></div>
 		<% end %>
 
-		<%= link_to cleanses_path do %>
+		<%= link_to juices_path(:anchor => 'section1') do %>
 			<div class="carousel_frame" id="carousel_frame4en"></div>
 		<% end %>	
 	</div>

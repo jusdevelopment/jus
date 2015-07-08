@@ -1,10 +1,12 @@
-<div id="section2"></div>
+
 
 <div class="parallax nopadding_parallax">
     
     <div class="RightColumn">
 
-	<div class="ColumnTitle anchorLink"><%= t 'cleanses.title' %></div>
+	<div class="ColumnTitle anchorLink">
+		<%= t 'cleanses.title' %>
+	</div>
 
 	<%= render "section_seperator" %>
 
@@ -15,6 +17,7 @@
 			<%= t 'cleanses.description' %>
 			<b><%= link_to (t 'cleanses.link-text') , "mailto:info@jusistanbul.com", target: "_blank" %></b></br>
 			</br>
+
 			<%= image_tag "cleanses-1.png", class: "cleanse-glyph" %><div class="GlyphTitle"><%= t 'cleanses.cleanse1.title' %><font class="cleansePrice"><%= t 'cleanses.cleanse1.price' %></font>
 				<div class="shopifyBuy">
 			   		<form action="https://jusistanbul.myshopify.com/cart/add" method="post">
@@ -27,6 +30,8 @@
 			</br>
 			<%= image_tag "cleanse-1.jpg", class: "cleanse-graphic" %>
 			</br>
+			<font class="cleanse_bottles"><%= t 'cleanses.cleanse1.bottles' %></font>
+			</br></br>
 			<%= t 'cleanses.cleanse1.description' %>
 			</br></br></br>
 		</div>
@@ -44,6 +49,8 @@
 			</br>
 			<%= image_tag "cleanse-2.jpg", class: "cleanse-graphic" %>
 			</br>
+			<font class="cleanse_bottles"><%= t 'cleanses.cleanse2.bottles' %></font>
+			</br></br>
 			<%= t 'cleanses.cleanse2.description' %>
 			</br></br></br>
 		</div>
@@ -61,6 +68,9 @@
 			</br>
 			<%= image_tag "cleanse-3.jpg", class: "cleanse-graphic" %>
 			</br>
+
+			<font class="cleanse_bottles"><%= t 'cleanses.cleanse3.bottles' %></font>
+			</br></br>
 			<%= t 'cleanses.cleanse3.description' %>
 			</br></br></br>
 		</div>

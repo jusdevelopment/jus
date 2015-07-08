@@ -25,7 +25,7 @@ en:
     promise: "The JÜS Promise"
     why: "Why JÜS?"
     getstarted: "Get Started"
-    shop: "Shop"
+    shop: "Menu"
     juices: "Juices"
     cleanses: "Cleanses"
     about: "About Us"
@@ -96,33 +96,43 @@ en:
     title: "Juices"
     juice1:
       title: "The Source"
+      price: "- 14TL"
       description: "Life is tough and things don’t always go as planned, but I’m here for you. Each and every morning, I am your constant, filling your empty tummy up with joy. I jumpstart digestive processes, boost immunity, promote a robust heart, detoxify the liver and remind you that today may be the best day ever."
     juice2:
       title: "Lean Green"
+      price: "- 14TL"
       description: "You stay active and I’m protein-rich - how about we go out sometime? Drink me after a tough workout, for a midday pick-me-up or first thing in the morning. I’m grounded but still a showoff and I’ll give you glowing skin, suppress your hunger, cleanse your blood and give you that twinkle in the eyes you’ve always wanted."
     juice3:
       title: "Taste of Paradise"
+      price: "- 14TL"
       description: "Close your eyes. Guess where we are. Or rather, where we could be. You’ll be body ready for the Summer with me by your side. I’ll nourish your skin, from head to toe, improve your digestion to keep your tummy flat, keep your joints lithe and painless and get rid of bad breathe, so you can lean in as close to paradise as possible."
     juice4:
       title: "Perfect Pear"
+      price: "- 14TL"
       description: "You’re sweet and spicy, just like me. But that’s because you want it all - clean cells, radiant skin and a body free of aches, pains and illness. I fight inflammation, increase your sex drive, take down harmful bacteria in your gut and boost your immunity. "
     juice5:
       title: "Uprooted"
+      price: "- 14TL"
       description: "Yesterday evening was fun, but now it’s time to take out the trash. I’m always ready to do some damage control. I’ll detox your liver, purify your blood and get your stamina up in no time. "
     juice6:
       title: "Down Easy"
+      price: "- 14TL"
       description: "Brains and beauty do co-exist! I’m testament to that. I boost brain function and help you to stay slim and radiant. I’m also quite the handyman - if you feel pain in the stomach, gut or head, I’m your one-stop-shop for a natural remedy. "
     juice7:
       title: "Morning Glory"
+      price: "- 14TL"
       description: "Need some help getting out of bed and being ready to conquer the day with a smile? All you need is a whiplash of sunshine. I’ll start your morning off right with increased immunity, clear skin and eyes and a metabolism on high-gear."
     juice8:
       title: "Glow Getter"
+      price: "- 14TL"
       description: "I’m smooth and sexy, so don’t be surprised if we’re soon attached to the hip. I prevent weight gain and bloating, increase circulation, keep you looking and feeling young and fight colds, flus and viruses."
     juice9:
       title: "Limonata"
+      price: "- 14TL"
       description: "I tread lightly but carry a tangy punch, boosting your energy instantly and alkalizing your blood. Balancing the body’s pH and jumpstarting digestive processes with the tartness of lemon and lime, my flavors are piqued with just a touch of all­-natural, blood­ sugar­ friendly, zero­ calorie stevia leaf sweetener.  "
     juice10:
       title: "Hazelnut Mylk"
+      price: "- 12TL"
       description: "It’s time to say moo’ve over to regular cow’s milk, because I’m in town to pick up the pieces where dairy left them. I boost your heart health and provide you with good fats that the body recognizes and doesn’t send straight to your love handles, thighs or tummy. I go down easy with a touch of vanilla bean and naturally sweet dates. Pour me into cereal or coffee, warm me up in your morning oats or drink me straight, sending you to decadent hazelnut mylk heaven."
 
   ingredients:
@@ -162,19 +172,22 @@ en:
     link-text: "info@jusistanbul.com / 0212 243-4545."
     cleanse1:
      title: "Fresh Start "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "Morning Glory - The Source - Taste of Paradise - Uprooted - Perfect Pear - Hazelnut Mylk (200ml)"
      description: "Whether you are a first-time juice cleanser or fresh off a time period of indulgence or debauchery, our Fresh Start cleanse is the perfect juice protocol for you to get your body back on a healthier track. "
     cleanse2:
      title: "Standard "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "The Source - Glow Getter - Lean Green - Uprooted - Down Easy - Hazelnut Mylk (200ml)"
      description: "The Standard cleanse is fit for those who try their best to avoid unhealthy foods, but still indulge on occasion and live a life of moderation. If you are looking for a straightforward juice detox that is simple but a bit more challenging than the Fresh Start cleanse, our Standard cleanse is the way to bring yourself back to the basics of life and to the basics of food – incorporating easily-digested, nutrient-dense juices into your daily routine in the most convenient way possible. The Standard cleanse also makes for a first-time cleanse for vegetarians, vegans, non-smokers or those with an already active lifestyle. "
     cleanse3:
      title: "Dig Deep "
-     price: "- 92TL"
+     price: "- 84TL"
+     bottles: "Limonata - The Source - Taste of Paradise - The Source - Glow Getter - Lean Green"
      description: "The Dig Deep cleanse is tailored to the seasoned juicers among us who are looking to re-energize their bodies in the purest way possible. Our Dig Deep cleanse is the perfect way to benefit from the world’s healthiest foods and actually experience their medicinal healing properties."
     cleanse4:
      title: "Custom "
-     price: "- Price depends on the quantity ordered."
+     price: "- Minimum order quantity is 6 bottles."
      description1: "Create your own cleanse, choosing as many juices as you like to last you as long as 3 days. Call us for a consultation at 0212 243-4545 or e-mail us at "   
      link-text: "info@jusistanbul.com "
      description2: "for more information about Custom cleanse options. "
@@ -233,7 +246,7 @@ en:
         bullet5: "∙ It is okay to exercise moderately, but try to do so in the morning."
         bullet6: "∙ Occupy your day with your usual matters so that the cleanse is not the center of your focus. Enjoy the juices and stay positive. You are doing your body the greatest of favors!"
       answer3-section3: 
-        bullet1: "After (1­2 days)"
+        bullet1: "After (1­-2 days)"
         bullet2: "∙ Continue to enjoy cold­-pressed juices as part of your new lifestyle, drinking them on an empty stomach in the morning."
         bullet3: "∙ Eat lightly – focus on fresh fruits, vegetables, nuts, seed and legumes."
         bullet4: "∙ Avoid excessive oils, animal protein, rice, bread and potatoes."

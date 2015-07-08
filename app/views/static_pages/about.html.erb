@@ -35,8 +35,10 @@
 			</br></br>
 		</div>
 
+
+	<div id="section3"></div>
 	<div class="ColumnTitle anchorLink"><%= t 'about.title3' %></div>
-		<div id="section3"></div>
+		
 		<%= render "section_seperator" %>
 		<div id="" class="SubRow ">
 			<%= image_tag "store1.jpg", class: "store-graphic" %>
@@ -58,26 +60,22 @@
 					</div>
 					<div class="partnerPhone">0212 243-4545</div>
 				</div>
-				<div class="location">
+				<div class="location invis">
 					<div class="partnerLogo"><%= image_tag "Mahalo.jpg", class: "partnerLogoImage" %></div>
 					<div class="partnerName"><%= t 'about.partner1.name' %></div>
 					<div class="partnerAddress"><%= t 'about.partner1.address' %></div>
 					<div class="partnerWebsite">
-						<%= link_to("http://mahaloistanbul.com/", target: "_blank") do %>
-							<%= t 'about.partner1.website' %>	
-						<% end %>
+						
 					</div>
 					<div class="partnerPhone"><%= t 'about.partner1.phone' %></div>
 				</div>
 				</br>
-				<div class="location">
+				<div class="location invis">
 					<div class="partnerLogo"><%= image_tag "Bikram.jpg", class: "partnerLogoImage",  id: "bikramLogo" %></div>
 					<div class="partnerName"><%= t 'about.partner2.name' %></div>
 					<div class="partnerAddress"><%= t 'about.partner2.address' %></div>
 					<div class="partnerWebsite">
-						<%= link_to("http://www.40derecebikramyoga.com", target: "_blank") do %>
-							<%= t 'about.partner2.website' %>	
-						<% end %>
+						
 					</div>
 					<div class="partnerPhone"><%= t 'about.partner2.phone' %></div>
 				</div>
@@ -85,7 +83,7 @@
 
 			<div id="mapWidget">
 				<div id="gmapLayover"></div>
-				<iframe id="gmap" src="https://mapsengine.google.com/map/u/0/embed?mid=zWN4ZwEv6Cw4.kS9lDXArGQIk">
+				<iframe id="gmap" src="https://mapsengine.google.com/maps/d/embed?mid=z2dqSS3rMnuc.k372BE0TCP3I">
 				</iframe>
 				<div id="gmapRightBorder"></div>
 			</div>
